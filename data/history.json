@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-02-18T00:53:18.143168+09:00",
+      "week_label": "2026年2月18日（水）",
+      "restaurants": [
+        {
+          "place_id": "ChIJB5xlixyNGGAR4EMQdYnRHHE",
+          "name": "Takahashi",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJWwt7jcOIGGARRbVZpSOY0QU",
+          "name": "DECARY",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJZZZGFyuJGGARz7M7rC3BSpQ",
+          "name": "Kitchen Nakamura",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJTZH_vyeJGGARKGDiUDQTWr0",
+          "name": "呑み処(和助)",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJ3S5-AymJGGARwMNXpQHKJMA",
+          "name": "Skytree® View Restaurant Ren",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJXai7S9uIGGARzwQCdTsaFVQ",
+          "name": "Kihara",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJ_RJLGRmJGGARjO4kVSS48_Q",
+          "name": "Fukagawa-tei",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJ17oj3dmNGGAR-_WJI8cFj1Y",
+          "name": "TOMBOY INDIAN LOUNGE DINING",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJ3WQh0QWJGGARzTBlCa5-hV8",
+          "name": "Bistro de Lyon",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJidqKI9KHGGARyMuJLHWuJC0",
+          "name": "オハナキッチンOHANA KITCHEN",
+          "rating": 4.3
+        }
+      ]
+    },
+    {
       "generated_at": "2026-02-18T00:12:02.186047+09:00",
       "week_label": "2026年2月18日（水）",
       "restaurants": [

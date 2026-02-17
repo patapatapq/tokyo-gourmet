@@ -1,6 +1,512 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-02-18T00:53:18.143168+09:00",
+      "week_label": "2026年2月18日（水）",
+      "restaurants": [
+        {
+          "place_id": "ChIJB5xlixyNGGAR4EMQdYnRHHE",
+          "name": "Takahashi",
+          "rating": 4.4,
+          "user_rating_count": 97,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "Japan, 〒169-0051 Tokyo, Shinjuku City, Nishiwaseda, 1-chōme−1−５ 滝口ビル Ｂ１Ｆ",
+          "travel_time_minutes": 43,
+          "travel_cost_yen": 380,
+          "travel_summary": "公共交通機関 約43分（15km）",
+          "reservable": null,
+          "opening_hours": [
+            "Monday: 11:30 AM – 2:00 PM",
+            "Tuesday: 11:30 AM – 2:00 PM",
+            "Wednesday: 11:30 AM – 2:00 PM",
+            "Thursday: 11:30 AM – 2:00 PM",
+            "Friday: 11:30 AM – 2:00 PM",
+            "Saturday: 11:30 AM – 2:00 PM",
+            "Sunday: Closed"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJB5xlixyNGGAR4EMQdYnRHHE_0.jpg",
+              "attribution": "Manabu Kano"
+            },
+            {
+              "filename": "ChIJB5xlixyNGGAR4EMQdYnRHHE_1.jpg",
+              "attribution": "Ekg Noza"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=8150619813938480096&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "https://twitter.com/wsdtakahashi?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "phone": "03-3202-9161",
+          "primary_type": "japanese_restaurant",
+          "recommended_menu": "Goat 🔥"
+        },
+        {
+          "place_id": "ChIJWwt7jcOIGGARRbVZpSOY0QU",
+          "name": "DECARY",
+          "rating": 4.1,
+          "user_rating_count": 254,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "6-chōme-29-7 Kameido, Koto City, Tokyo 136-0071, Japan",
+          "travel_time_minutes": 14,
+          "travel_cost_yen": 0,
+          "travel_summary": "徒歩 14分",
+          "reservable": true,
+          "opening_hours": [
+            "Monday: Closed",
+            "Tuesday: 11:30 AM – 2:00 PM, 5:30 – 9:00 PM",
+            "Wednesday: 11:30 AM – 2:00 PM, 5:30 – 9:00 PM",
+            "Thursday: 11:30 AM – 2:00 PM, 5:30 – 9:00 PM",
+            "Friday: 11:30 AM – 2:00 PM, 5:30 – 9:00 PM",
+            "Saturday: 11:30 AM – 2:00 PM, 5:30 – 9:00 PM",
+            "Sunday: 11:30 AM – 2:00 PM, 5:30 – 9:00 PM"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJWwt7jcOIGGARRbVZpSOY0QU_0.jpg",
+              "attribution": "J. W."
+            },
+            {
+              "filename": "ChIJWwt7jcOIGGARRbVZpSOY0QU_1.jpg",
+              "attribution": "mayorin"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=419283519187563845&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "http://www.decary.jp/",
+          "phone": "03-3685-8080",
+          "primary_type": "french_restaurant",
+          "recommended_menu": "Good food. Delicious. Good and quick and friendly service. Reasonably priced. The chicken was very g..."
+        },
+        {
+          "place_id": "ChIJZZZGFyuJGGARz7M7rC3BSpQ",
+          "name": "Kitchen Nakamura",
+          "rating": 4.3,
+          "user_rating_count": 59,
+          "budget_tier": "kosupa",
+          "budget_label": "コスパ重視",
+          "budget_icon": "💰",
+          "budget_morning_lunch": {
+            "tier": "kosupa",
+            "label": "コスパ重視",
+            "icon": "💰"
+          },
+          "budget_dinner": {
+            "tier": "kosupa",
+            "label": "コスパ重視",
+            "icon": "💰"
+          },
+          "price_range": "¥0〜¥1,500",
+          "price_range_dinner": "¥0〜¥3,000",
+          "address": "Japan, 〒130-0012 Tokyo, Sumida City, Taihei, 1-chōme−30−１０ 中村ビル",
+          "travel_time_minutes": 24,
+          "travel_cost_yen": 180,
+          "travel_summary": "公共交通機関 約24分（4km）",
+          "reservable": true,
+          "opening_hours": [
+            "Monday: 11:00 AM – 1:30 PM, 5:00 – 8:00 PM",
+            "Tuesday: 11:00 AM – 1:30 PM, 5:00 – 8:00 PM",
+            "Wednesday: Closed",
+            "Thursday: 11:00 AM – 1:30 PM, 5:00 – 8:00 PM",
+            "Friday: 11:00 AM – 1:30 PM, 5:00 – 8:00 PM",
+            "Saturday: 5:00 – 9:00 PM",
+            "Sunday: Closed"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJZZZGFyuJGGARz7M7rC3BSpQ_0.jpg",
+              "attribution": "あおパパ"
+            },
+            {
+              "filename": "ChIJZZZGFyuJGGARz7M7rC3BSpQ_1.jpg",
+              "attribution": "イッコーインバーター"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=10685565467797205967&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "https://x.com/kitchennakamura",
+          "phone": "03-6240-4424",
+          "primary_type": "restaurant",
+          "recommended_menu": "I went there before 12 o'clock on a weekday.\nThis set meal restaurant is a short walk from Kinshicho..."
+        },
+        {
+          "place_id": "ChIJTZH_vyeJGGARKGDiUDQTWr0",
+          "name": "呑み処(和助)",
+          "rating": 4.3,
+          "user_rating_count": 80,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "Japan, 〒130-0022 Tokyo, Sumida City, Kōtōbashi, 2-chōme−7−７ 和助ビル",
+          "travel_time_minutes": 19,
+          "travel_cost_yen": 180,
+          "travel_summary": "公共交通機関 約19分（4km）",
+          "reservable": true,
+          "opening_hours": [
+            "Monday: 11:30 AM – 1:30 PM, 6:00 – 11:00 PM",
+            "Tuesday: 11:30 AM – 1:30 PM, 6:00 – 11:00 PM",
+            "Wednesday: 11:30 AM – 1:30 PM, 6:00 – 11:00 PM",
+            "Thursday: 11:30 AM – 1:30 PM, 6:00 – 11:00 PM",
+            "Friday: 11:30 AM – 1:30 PM, 6:00 – 11:00 PM",
+            "Saturday: 6:00 – 11:00 PM",
+            "Sunday: Closed"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJTZH_vyeJGGARKGDiUDQTWr0_0.jpg",
+              "attribution": "Y Y"
+            },
+            {
+              "filename": "ChIJTZH_vyeJGGARKGDiUDQTWr0_1.jpg",
+              "attribution": "t93"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=13644239136488579112&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "",
+          "phone": "03-3631-7214",
+          "primary_type": "japanese_izakaya_restaurant",
+          "recommended_menu": "One of the best Japanese Izakaya restaurant near Kinshicho station. It is located around 5 mins walk..."
+        },
+        {
+          "place_id": "ChIJ3S5-AymJGGARwMNXpQHKJMA",
+          "name": "Skytree® View Restaurant Ren",
+          "rating": 4.2,
+          "user_rating_count": 403,
+          "budget_tier": "premium",
+          "budget_label": "高級",
+          "budget_icon": "💰💰💰",
+          "budget_morning_lunch": {
+            "tier": "premium",
+            "label": "高級",
+            "icon": "💰💰💰"
+          },
+          "budget_dinner": {
+            "tier": "premium",
+            "label": "高級",
+            "icon": "💰💰💰"
+          },
+          "price_range": "¥3,000〜",
+          "price_range_dinner": "¥6,000〜",
+          "address": "Japan, 〒130-0013 Tokyo, Sumida City, Kinshi, 1-chōme−2−２ 東武ホテルレバント東京 24F",
+          "travel_time_minutes": 20,
+          "travel_cost_yen": 180,
+          "travel_summary": "公共交通機関 約20分（4km）",
+          "reservable": true,
+          "opening_hours": [
+            "Monday: 11:30 AM – 3:00 PM, 5:30 – 10:00 PM",
+            "Tuesday: 11:30 AM – 3:00 PM, 5:30 – 10:00 PM",
+            "Wednesday: 11:30 AM – 3:00 PM, 5:30 – 10:00 PM",
+            "Thursday: 11:30 AM – 3:00 PM, 5:30 – 10:00 PM",
+            "Friday: 11:30 AM – 3:00 PM, 5:30 – 10:00 PM",
+            "Saturday: 11:30 AM – 3:00 PM, 5:30 – 10:00 PM",
+            "Sunday: 11:30 AM – 3:00 PM, 5:30 – 10:00 PM"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJ3S5-AymJGGARwMNXpQHKJMA_0.jpg",
+              "attribution": "簾"
+            },
+            {
+              "filename": "ChIJ3S5-AymJGGARwMNXpQHKJMA_1.jpg",
+              "attribution": "簾"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=13845413262861517760&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "https://www.tobuhotel.co.jp/levant-restaurant-bar/ren/",
+          "phone": "03-5611-5591",
+          "primary_type": "restaurant",
+          "recommended_menu": "A very pleasant experience.  We ordered a traditional japanese lunch set.  You could tell the chef h..."
+        },
+        {
+          "place_id": "ChIJXai7S9uIGGARzwQCdTsaFVQ",
+          "name": "Kihara",
+          "rating": 4,
+          "user_rating_count": 239,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "1-chōme-21-4 Kameido, Koto City, Tokyo 136-0071, Japan",
+          "travel_time_minutes": 17,
+          "travel_cost_yen": 0,
+          "travel_summary": "徒歩 17分",
+          "reservable": true,
+          "opening_hours": [
+            "Monday: 11:00 AM – 2:00 PM",
+            "Tuesday: 11:00 AM – 2:00 PM",
+            "Wednesday: 11:00 AM – 2:00 PM",
+            "Thursday: 11:00 AM – 2:00 PM, 4:30 – 8:00 PM",
+            "Friday: 11:00 AM – 2:00 PM, 4:30 – 8:00 PM",
+            "Saturday: 11:00 AM – 2:00 PM, 4:30 – 8:00 PM",
+            "Sunday: Closed"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJXai7S9uIGGARzwQCdTsaFVQ_0.jpg",
+              "attribution": "Hisashi Torii"
+            },
+            {
+              "filename": "ChIJXai7S9uIGGARzwQCdTsaFVQ_1.jpg",
+              "attribution": "Y Y"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=6058777716365329615&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "",
+          "phone": "03-3684-0666",
+          "primary_type": "japanese_restaurant",
+          "recommended_menu": "Before visiting this restaurant, I wasn't an eel fan, but this place changed my mind.\n\nThis fairly l..."
+        },
+        {
+          "place_id": "ChIJ_RJLGRmJGGARjO4kVSS48_Q",
+          "name": "Fukagawa-tei",
+          "rating": 4,
+          "user_rating_count": 105,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "4 Chome-8 Miyoshi, Koto City, Tokyo 135-0021, Japan",
+          "travel_time_minutes": 23,
+          "travel_cost_yen": 180,
+          "travel_summary": "公共交通機関 約23分（4km）",
+          "reservable": true,
+          "opening_hours": [
+            "Monday: Closed",
+            "Tuesday: 11:30 AM – 2:00 PM, 5:30 – 9:00 PM",
+            "Wednesday: 11:30 AM – 2:00 PM, 5:30 – 9:00 PM",
+            "Thursday: 11:30 AM – 2:00 PM, 5:30 – 9:00 PM",
+            "Friday: 11:30 AM – 2:00 PM, 5:30 – 9:00 PM",
+            "Saturday: 11:30 AM – 2:00 PM, 5:30 – 9:00 PM",
+            "Sunday: 11:30 AM – 2:00 PM, 5:30 – 9:00 PM"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJ_RJLGRmJGGARjO4kVSS48_Q_0.jpg",
+              "attribution": "奈塚Q弥"
+            },
+            {
+              "filename": "ChIJ_RJLGRmJGGARjO4kVSS48_Q_1.jpg",
+              "attribution": "深川亭"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=17650653830781922956&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "https://fukagawatei-hp.com/",
+          "phone": "03-3642-4939",
+          "primary_type": "japanese_restaurant",
+          "recommended_menu": "Lovely and flavorful Ginger Pork. The subtle sweetness of ginger sauce and negi blends well with the..."
+        },
+        {
+          "place_id": "ChIJ17oj3dmNGGAR-_WJI8cFj1Y",
+          "name": "TOMBOY INDIAN LOUNGE DINING",
+          "rating": 4.7,
+          "user_rating_count": 2395,
+          "budget_tier": "kosupa",
+          "budget_label": "コスパ重視",
+          "budget_icon": "💰",
+          "budget_morning_lunch": {
+            "tier": "kosupa",
+            "label": "コスパ重視",
+            "icon": "💰"
+          },
+          "budget_dinner": {
+            "tier": "kosupa",
+            "label": "コスパ重視",
+            "icon": "💰"
+          },
+          "price_range": "¥0〜¥1,500",
+          "price_range_dinner": "¥0〜¥3,000",
+          "address": "Japan, 〒150-0043 Tokyo, Shibuya, Dōgenzaka, 2-chōme−6−１７ 渋東シネタワ B2",
+          "travel_time_minutes": 50,
+          "travel_cost_yen": 430,
+          "travel_summary": "公共交通機関 約50分（19km）",
+          "reservable": true,
+          "opening_hours": [
+            "Monday: 11:00 AM – 11:00 PM",
+            "Tuesday: 11:00 AM – 11:00 PM",
+            "Wednesday: 11:00 AM – 11:00 PM",
+            "Thursday: 11:00 AM – 11:00 PM",
+            "Friday: 11:00 AM – 11:00 PM",
+            "Saturday: 11:00 AM – 11:00 PM",
+            "Sunday: 11:00 AM – 11:00 PM"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJ17oj3dmNGGAR-_WJI8cFj1Y_0.jpg",
+              "attribution": "NORIDAH Y."
+            },
+            {
+              "filename": "ChIJ17oj3dmNGGAR-_WJI8cFj1Y_1.jpg",
+              "attribution": "TOMBOY 渋谷106道玄坂店"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=6237210361784301051&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "http://www.tomboy106.com/",
+          "phone": "03-5489-3644",
+          "primary_type": "japanese_restaurant",
+          "recommended_menu": "The food was really good and our server Bimal was super funny. He made us laugh so much- I almost fe..."
+        },
+        {
+          "place_id": "ChIJ3WQh0QWJGGARzTBlCa5-hV8",
+          "name": "Bistro de Lyon",
+          "rating": 4.4,
+          "user_rating_count": 114,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "2-chōme-18-7 Kiba, Koto City, Tokyo 135-0042, Japan",
+          "travel_time_minutes": 27,
+          "travel_cost_yen": 230,
+          "travel_summary": "公共交通機関 約27分（6km）",
+          "reservable": true,
+          "opening_hours": [
+            "Monday: Closed",
+            "Tuesday: Closed",
+            "Wednesday: 12:00 – 3:00 PM, 6:00 – 9:30 PM",
+            "Thursday: 12:00 – 3:00 PM, 6:00 – 9:30 PM",
+            "Friday: 12:00 – 3:00 PM, 6:00 – 9:30 PM",
+            "Saturday: 12:00 – 3:00 PM, 6:00 – 9:30 PM",
+            "Sunday: 12:00 – 3:00 PM, 6:00 – 9:30 PM"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJ3WQh0QWJGGARzTBlCa5-hV8_0.jpg",
+              "attribution": "ビストロ・ド・リヨン"
+            },
+            {
+              "filename": "ChIJ3WQh0QWJGGARzTBlCa5-hV8_1.jpg",
+              "attribution": "ビストロ・ド・リヨン"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=6883046891452707021&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "https://www.bistrodelyon.com/",
+          "phone": "03-5245-0077",
+          "primary_type": "french_restaurant",
+          "recommended_menu": "the meal was nice.  I visited there with my girlfriend for a celebration.  and while she was gone to..."
+        },
+        {
+          "place_id": "ChIJidqKI9KHGGARyMuJLHWuJC0",
+          "name": "オハナキッチンOHANA KITCHEN",
+          "rating": 4.3,
+          "user_rating_count": 68,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "Japan, 〒134-0091 Tokyo, Edogawa City, Funabori, 1-chōme−8−１９ レインボー池田ビル １F",
+          "travel_time_minutes": 18,
+          "travel_cost_yen": 180,
+          "travel_summary": "公共交通機関 約18分（4km）",
+          "reservable": true,
+          "opening_hours": [
+            "Monday: 11:00 AM – 2:30 PM, 5:00 – 11:00 PM",
+            "Tuesday: 11:00 AM – 2:30 PM, 5:00 – 11:00 PM",
+            "Wednesday: 11:00 AM – 2:30 PM, 5:00 – 11:00 PM",
+            "Thursday: 11:00 AM – 2:30 PM, 5:00 – 11:00 PM",
+            "Friday: 11:00 AM – 2:30 PM, 5:00 – 11:00 PM",
+            "Saturday: 11:00 AM – 1:00 PM, 5:00 – 11:00 PM",
+            "Sunday: Closed"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJidqKI9KHGGARyMuJLHWuJC0_0.jpg",
+              "attribution": "オハナキッチンOHANA KITCHEN"
+            },
+            {
+              "filename": "ChIJidqKI9KHGGARyMuJLHWuJC0_1.jpg",
+              "attribution": "オハナキッチンOHANA KITCHEN"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=3252916649149975496&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "",
+          "phone": "03-6808-0366",
+          "primary_type": "japanese_izakaya_restaurant",
+          "recommended_menu": "Great local family-run restaurant in Funabori!  All the food I’ve tried from this place has been gre..."
+        }
+      ]
+    },
+    {
       "generated_at": "2026-02-18T00:12:02.186047+09:00",
       "week_label": "2026年2月18日（水）",
       "restaurants": [
