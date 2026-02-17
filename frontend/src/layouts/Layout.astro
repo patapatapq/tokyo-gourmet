@@ -1,0 +1,51 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+}
+
+const { title = 'Tokyo Gourmet Recommender' } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="毎週厳選された東京のグルメ情報" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+    <title>{title}</title>
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-primary to-primary-dark text-white shadow-lg">
+      <div class="max-w-5xl mx-auto px-4 py-5">
+        <a href={`${base}`} class="no-underline text-white">
+          <h1 class="text-2xl md:text-3xl font-bold">🍽️ Tokyo Gourmet</h1>
+          <p class="text-primary-light text-sm mt-1">毎週厳選のグルメ情報</p>
+        </a>
+        <nav class="mt-3 flex gap-4 text-sm">
+          <a href={`${base}`} class="text-primary-light hover:text-white transition-colors">今週のおすすめ</a>
+          <a href={`${base}archive`} class="text-primary-light hover:text-white transition-colors">アーカイブ</a>
+          <a href={`${base}manage`} class="text-primary-light hover:text-white transition-colors">管理</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main class="flex-1 max-w-5xl mx-auto px-4 py-8 w-full">
+      <slot />
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 border-t border-border">
+      <div class="max-w-5xl mx-auto px-4 py-4 text-center text-text-light text-xs">
+        Tokyo Gourmet Recommender &mdash; Powered by Google Places API
+      </div>
+    </footer>
+  </body>
+</html>

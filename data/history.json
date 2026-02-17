@@ -1,0 +1,116 @@
+{
+  "weeks": [
+    {
+      "generated_at": "2026-02-18T00:12:02.186047+09:00",
+      "week_label": "2026年2月18日（水）",
+      "restaurants": [
+        {
+          "place_id": "ChIJVVWRJ7aYImARTRfuBlfkowo",
+          "name": "ふさのえき食堂",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJBQkIx9ONGGARUR_W5TmYYlU",
+          "name": "お食事処 谷中 大使館",
+          "rating": 4.6
+        },
+        {
+          "place_id": "ChIJpS3jZJuJGGARvmVBzzr6Zfs",
+          "name": "Seiryūen",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJ58XNh-qJGGARD_XpsPvumJw",
+          "name": "Akagame Serious Eats Bar",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJKcCksE-FImARNvt161R7taE",
+          "name": "Musashino Mori Coffee Chiba Station Branch",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJLcqIWoWHGGARdEYcuxqxlio",
+          "name": "Marina Restaurant TRIM",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJDUz3p_6LGGAR1Vvgz2soy2E",
+          "name": "Sanchoku Gourmet Kaitenzushi Kantaro Tokyo",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJuYdLFeyHGGARSbyxqWmW1WQ",
+          "name": "Kadosuzu",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJt4XRuJ2JGGARi4YYQ5wHwVs",
+          "name": "Delhi Spices",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJ7-vHVwCNGGARe7ig5wdWH1k",
+          "name": "Shibuya Gourmet Ai",
+          "rating": 4.6
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-02-18T00:04:50.023368+09:00",
+      "week_label": "2026年2月18日（水）",
+      "restaurants": [
+        {
+          "place_id": "ChIJA7oH4N6HGGARDeJlZCqKaxM",
+          "name": "Cuore",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJ9Q3qRACHGGAR9HWIJkP7cbY",
+          "name": "LUCKNOWI FAMILY RESTAURANT",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJPeHC0vaIGGARNAaEEgp0mFU",
+          "name": "Eiraku",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJb-BYzd-IGGARAgIhWQSeT4M",
+          "name": "Motomiya",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJOxKpSK6NGGARR3OKePtBUVU",
+          "name": "酒と食事処そしてカレー CACA",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJhVkqEPqLGGARq60XVzZ5fc4",
+          "name": "Tokyo Restaurant Bus",
+          "rating": 4.8
+        },
+        {
+          "place_id": "ChIJtYE3FeWJGGAR3bJ_pxjyDJ8",
+          "name": "島の食事処ココワオキナワ",
+          "rating": 4.6
+        },
+        {
+          "place_id": "ChIJw-VxF8iJGGARkEvVTSRDkxQ",
+          "name": "La Ohana",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJg3F0FZiJGGARbTRFMeX1U6M",
+          "name": "Farside",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJBws-dEqJGGAR1bRziw4hV6I",
+          "name": "Ōuchi",
+          "rating": 4.3
+        }
+      ]
+    }
+  ]
+}

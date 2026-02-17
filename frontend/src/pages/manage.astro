@@ -1,0 +1,162 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { readFileSync } from 'fs';
+import { join } from 'path';
+
+let archive: any = { weeks: [] };
+try {
+  const raw = readFileSync(join(process.cwd(), 'public/data/archive.json'), 'utf-8');
+  archive = JSON.parse(raw);
+} catch {}
+
+let visited: any = { visited: [] };
+try {
+  const raw = readFileSync(join(process.cwd(), 'public/data/visited.json'), 'utf-8');
+  visited = JSON.parse(raw);
+} catch {}
+
+const visitedIds = new Set(visited.visited.map((v: any) => v.place_id));
+
+// 全推薦レストランをフラット化（重複除去）
+const allRestaurants: any[] = [];
+const seenIds = new Set();
+for (const week of archive.weeks) {
+  for (const r of week.restaurants) {
+    if (!seenIds.has(r.place_id)) {
+      seenIds.add(r.place_id);
+      allRestaurants.push({
+        ...r,
+        first_recommended: week.week_label,
+        is_visited: visitedIds.has(r.place_id),
+      });
+    }
+  }
+}
+---
+
+<Layout title="管理 | Tokyo Gourmet">
+  <div class="text-center mb-8">
+    <h2 class="text-2xl md:text-3xl font-bold text-text">訪問管理</h2>
+    <p class="text-text-muted mt-1">訪問済みのお店にチェックを入れると、今後の推薦から除外されます</p>
+    <p class="text-text-light text-xs mt-2">
+      Google Sheets でも直接管理できます
+    </p>
+  </div>
+
+  {allRestaurants.length > 0 ? (
+    <div class="bg-surface rounded-xl shadow-md overflow-hidden">
+      <!-- Stats -->
+      <div class="px-4 py-3 bg-gray-50 border-b border-border flex justify-between items-center text-sm">
+        <span class="text-text-muted">
+          合計 <span class="font-bold text-text">{allRestaurants.length}</span> 軒
+        </span>
+        <span class="text-text-muted">
+          訪問済み <span class="font-bold text-green-600" id="visited-count">
+            {allRestaurants.filter((r: any) => r.is_visited).length}
+          </span> 軒
+        </span>
+      </div>
+
+      <!-- Table -->
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead class="bg-gray-50 text-text-muted text-xs uppercase">
+            <tr>
+              <th class="px-4 py-3 text-left w-12">訪問</th>
+              <th class="px-4 py-3 text-left">店名</th>
+              <th class="px-4 py-3 text-left hidden md:table-cell">評価</th>
+              <th class="px-4 py-3 text-left hidden md:table-cell">予算</th>
+              <th class="px-4 py-3 text-left hidden lg:table-cell">初回推薦</th>
+              <th class="px-4 py-3 text-left w-24">Maps</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-border">
+            {allRestaurants.map((r: any) => (
+              <tr class={`hover:bg-gray-50 transition-colors ${r.is_visited ? 'bg-green-50/50' : ''}`}
+                  data-place-id={r.place_id}>
+                <td class="px-4 py-3">
+                  <input
+                    type="checkbox"
+                    checked={r.is_visited}
+                    class="w-5 h-5 rounded border-gray-300 text-primary focus:ring-primary cursor-pointer visited-checkbox"
+                    data-place-id={r.place_id}
+                    data-name={r.name}
+                  />
+                </td>
+                <td class="px-4 py-3">
+                  <div class="font-medium text-text">{r.name}</div>
+                  <div class="text-xs text-text-light md:hidden">
+                    ★{r.rating} | {r.budget_icon} {r.budget_label}
+                  </div>
+                </td>
+                <td class="px-4 py-3 hidden md:table-cell">
+                  <span class="text-star">★</span> {r.rating}
+                  <span class="text-text-light text-xs">({r.user_rating_count})</span>
+                </td>
+                <td class="px-4 py-3 hidden md:table-cell">
+                  <span class="text-xs">{r.budget_icon} {r.budget_label}</span>
+                </td>
+                <td class="px-4 py-3 hidden lg:table-cell text-text-light text-xs">
+                  {r.first_recommended}
+                </td>
+                <td class="px-4 py-3">
+                  <a href={r.google_maps_url} target="_blank" rel="noopener noreferrer"
+                     class="text-primary hover:text-primary-dark text-xs no-underline">
+                    開く →
+                  </a>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  ) : (
+    <div class="text-center py-20">
+      <div class="text-6xl mb-4">📋</div>
+      <h2 class="text-xl font-bold text-text mb-2">まだデータがありません</h2>
+      <p class="text-text-muted">推薦が生成されるとここに表示されます。</p>
+    </div>
+  )}
+
+  <!-- Apps Script連携用スクリプト -->
+  <script is:inline>
+    // Google Apps Script Web App のURL（セットアップ後に設定）
+    const APPS_SCRIPT_URL = '';
+
+    document.querySelectorAll('.visited-checkbox').forEach(checkbox => {
+      checkbox.addEventListener('change', async (e) => {
+        const cb = e.target;
+        const placeId = cb.dataset.placeId;
+        const name = cb.dataset.name;
+        const visited = cb.checked;
+        const row = cb.closest('tr');
+
+        // UI更新
+        if (visited) {
+          row.classList.add('bg-green-50/50');
+        } else {
+          row.classList.remove('bg-green-50/50');
+        }
+
+        // 訪問済みカウント更新
+        const count = document.querySelectorAll('.visited-checkbox:checked').length;
+        document.getElementById('visited-count').textContent = count;
+
+        // Apps Script に送信
+        if (APPS_SCRIPT_URL) {
+          try {
+            await fetch(APPS_SCRIPT_URL, {
+              method: 'POST',
+              mode: 'no-cors',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ place_id: placeId, name: name, visited: visited }),
+            });
+          } catch (err) {
+            console.warn('Sheets 同期失敗:', err);
+          }
+        }
+      });
+    });
+  </script>
+</Layout>

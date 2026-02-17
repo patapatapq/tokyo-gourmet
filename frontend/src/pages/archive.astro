@@ -1,0 +1,46 @@
+---
+import Layout from '../layouts/Layout.astro';
+import RestaurantCard from '../components/RestaurantCard.astro';
+import { readFileSync } from 'fs';
+import { join } from 'path';
+
+let archive: any = { weeks: [] };
+try {
+  const raw = readFileSync(join(process.cwd(), 'public/data/archive.json'), 'utf-8');
+  archive = JSON.parse(raw);
+} catch {
+  // データがまだない場合
+}
+
+const hasData = archive.weeks && archive.weeks.length > 0;
+---
+
+<Layout title="アーカイブ | Tokyo Gourmet">
+  <div class="text-center mb-8">
+    <h2 class="text-2xl md:text-3xl font-bold text-text">過去のおすすめ</h2>
+    <p class="text-text-muted mt-1">これまでにピックアップしたレストラン</p>
+  </div>
+
+  {hasData ? (
+    <div class="space-y-12">
+      {archive.weeks.map((week: any) => (
+        <section>
+          <h3 class="text-xl font-bold text-text mb-4 border-b border-border pb-2">
+            📅 {week.week_label}
+          </h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {week.restaurants.map((r: any, i: number) => (
+              <RestaurantCard restaurant={r} index={i + 1} />
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+  ) : (
+    <div class="text-center py-20">
+      <div class="text-6xl mb-4">📚</div>
+      <h2 class="text-xl font-bold text-text mb-2">まだアーカイブがありません</h2>
+      <p class="text-text-muted">初回の推薦が生成されるとここに表示されます。</p>
+    </div>
+  )}
+</Layout>

@@ -1,0 +1,172 @@
+---
+import BudgetBadge from './BudgetBadge.astro';
+import TravelInfo from './TravelInfo.astro';
+
+interface Props {
+  restaurant: {
+    place_id: string;
+    name: string;
+    rating: number | null;
+    user_rating_count: number;
+    budget_tier: string;
+    budget_label: string;
+    budget_icon: string;
+    budget_morning_lunch: { tier: string; label: string; icon: string };
+    budget_dinner: { tier: string; label: string; icon: string };
+    price_range: string;
+    price_range_dinner: string;
+    address: string;
+    travel_time_minutes: number | null;
+    travel_cost_yen: number | null;
+    travel_summary: string;
+    reservable: boolean | null;
+    opening_hours: string[];
+    photos: { filename: string; attribution: string }[];
+    google_maps_url: string;
+    website: string;
+    phone: string;
+    primary_type: string;
+    recommended_menu: string | null;
+  };
+  index: number;
+}
+
+const { restaurant: r, index } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+
+<article class="bg-surface rounded-xl shadow-md hover:shadow-lg transition-shadow overflow-hidden">
+  <!-- Photos -->
+  {r.photos.length > 0 && (
+    <div class="relative h-48 md:h-56 overflow-hidden">
+      <img
+        src={`${base}photos/${r.photos[0].filename}`}
+        alt={r.name}
+        class="w-full h-full object-cover"
+        loading="lazy"
+      />
+      {r.photos.length > 1 && (
+        <img
+          src={`${base}photos/${r.photos[1].filename}`}
+          alt={`${r.name} の料理`}
+          class="absolute top-2 right-2 w-20 h-20 md:w-24 md:h-24 rounded-lg object-cover border-2 border-white shadow-md"
+          loading="lazy"
+        />
+      )}
+      <div class="absolute top-2 left-2 bg-black/60 text-white text-xs px-2 py-1 rounded-full">
+        #{index}
+      </div>
+    </div>
+  )}
+
+  {r.photos.length === 0 && (
+    <div class="h-32 bg-gray-100 flex items-center justify-center text-text-light">
+      <div class="text-center">
+        <div class="text-3xl mb-1">📷</div>
+        <div class="text-xs">写真なし</div>
+      </div>
+    </div>
+  )}
+
+  <!-- Content -->
+  <div class="p-4">
+    <!-- Name & Rating -->
+    <div class="flex items-start justify-between gap-2 mb-2">
+      <h3 class="text-lg font-bold text-text leading-tight">{r.name}</h3>
+      {r.rating && (
+        <div class="flex items-center gap-1 shrink-0">
+          <span class="text-star text-sm">★</span>
+          <span class="font-bold text-sm">{r.rating}</span>
+          <span class="text-text-light text-xs">({r.user_rating_count})</span>
+        </div>
+      )}
+    </div>
+
+    <!-- Budget Badges -->
+    <div class="flex flex-wrap gap-1.5 mb-3">
+      <div class="flex items-center gap-1">
+        <span class="text-xs text-text-light">朝昼:</span>
+        <BudgetBadge
+          tier={r.budget_morning_lunch.tier}
+          label={r.budget_morning_lunch.label}
+          icon={r.budget_morning_lunch.icon}
+        />
+        <span class="text-xs text-text-muted">{r.price_range}</span>
+      </div>
+      <div class="flex items-center gap-1">
+        <span class="text-xs text-text-light">夜:</span>
+        <BudgetBadge
+          tier={r.budget_dinner.tier}
+          label={r.budget_dinner.label}
+          icon={r.budget_dinner.icon}
+        />
+        <span class="text-xs text-text-muted">{r.price_range_dinner}</span>
+      </div>
+    </div>
+
+    <!-- Travel Info -->
+    <TravelInfo
+      minutes={r.travel_time_minutes}
+      cost={r.travel_cost_yen}
+      summary={r.travel_summary}
+    />
+
+    <!-- Details -->
+    <div class="mt-3 space-y-1.5 text-sm">
+      <div class="flex items-center gap-2 text-text-muted">
+        <span>📍</span>
+        <span class="text-xs">{r.address}</span>
+      </div>
+
+      {r.reservable !== null && (
+        <div class="flex items-center gap-2 text-text-muted">
+          <span>{r.reservable ? '📞' : '🚶'}</span>
+          <span class="text-xs">{r.reservable ? '予約可' : '予約不要'}</span>
+        </div>
+      )}
+
+      {r.recommended_menu && (
+        <div class="mt-2 p-2 bg-amber-50 rounded-lg text-xs text-text-muted border border-amber-100">
+          <span class="font-medium text-amber-700">💬 レビューより:</span>
+          <p class="mt-0.5">{r.recommended_menu}</p>
+        </div>
+      )}
+    </div>
+
+    <!-- Opening Hours (collapsible) -->
+    {r.opening_hours.length > 0 && (
+      <details class="mt-3">
+        <summary class="text-xs text-text-light cursor-pointer hover:text-text-muted">
+          🕐 営業時間を確認
+        </summary>
+        <ul class="mt-1 text-xs text-text-muted space-y-0.5 pl-5">
+          {r.opening_hours.map((h: string) => (
+            <li>{h}</li>
+          ))}
+        </ul>
+      </details>
+    )}
+
+    <!-- Actions -->
+    <div class="mt-4 flex gap-2">
+      <a
+        href={r.google_maps_url}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="flex-1 text-center py-2 px-3 bg-primary text-white rounded-lg text-sm font-medium hover:bg-primary-dark transition-colors no-underline"
+      >
+        Google Maps
+      </a>
+      {r.website && (
+        <a
+          href={r.website}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="py-2 px-3 border border-border text-text-muted rounded-lg text-sm hover:bg-gray-50 transition-colors no-underline"
+        >
+          公式サイト
+        </a>
+      )}
+    </div>
+  </div>
+</article>

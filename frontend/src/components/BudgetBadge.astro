@@ -1,0 +1,21 @@
+---
+interface Props {
+  tier: string;
+  label: string;
+  icon: string;
+}
+
+const { tier, label, icon } = Astro.props;
+
+const colorMap: Record<string, string> = {
+  kosupa: 'bg-green-100 text-green-800 border-green-200',
+  average: 'bg-blue-100 text-blue-800 border-blue-200',
+  premium: 'bg-purple-100 text-purple-800 border-purple-200',
+};
+
+const classes = colorMap[tier] || colorMap.average;
+---
+
+<span class={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium border ${classes}`}>
+  {icon} {label}
+</span>

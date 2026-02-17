@@ -1,0 +1,79 @@
+# Tokyo Gourmet Recommender - 設定ファイル
+# 数値を変更するだけで閾値を調整できます
+
+# 出発地点
+origin:
+  name: "大島駅（都営新宿線）"
+  lat: 35.6869
+  lng: 139.8328
+
+# 検索パラメータ
+search:
+  max_travel_minutes: 90       # 最大移動時間（分）
+  min_rating: 4.0              # 最低Google評価（1.0〜5.0）
+  min_reviews: 50              # 最低レビュー数
+  pick_count: 10               # 毎回のピックアップ数
+  search_radius_meters: 30000  # 検索半径（メートル）
+  queries:                     # 検索クエリ（ローテーション）
+    - "レストラン"
+    - "食事処"
+    - "ランチ"
+    - "ディナー"
+    - "モーニング"
+    - "グルメ"
+
+# 予算分類（円）
+budget:
+  morning_lunch:  # 朝・昼
+    kosupa:
+      label: "コスパ重視"
+      icon: "💰"
+      max: 1500
+    average:
+      label: "平均的"
+      icon: "💰💰"
+      min: 1500
+      max: 3000
+    premium:
+      label: "高級"
+      icon: "💰💰💰"
+      min: 3000
+  dinner:  # 夜
+    kosupa:
+      label: "コスパ重視"
+      icon: "💰"
+      max: 3000
+    average:
+      label: "平均的"
+      icon: "💰💰"
+      min: 3000
+      max: 6000
+    premium:
+      label: "高級"
+      icon: "💰💰💰"
+      min: 6000
+
+# メール通知
+email:
+  recipient: "patashi1203@gmail.com"
+  sender: "patashi1203@gmail.com"
+  subject_template: "今週のグルメおすすめ 🍽️ {date}"
+
+# Google Sheets（訪問済み管理）
+sheets:
+  spreadsheet_id: "1PfNtU5p4IWD-3X-cDWsQs1qsZrM0dJE4VCDOhwGBBEI"
+  worksheet_name: "visited"
+
+# 写真設定
+photos:
+  max_per_restaurant: 2
+  max_width_px: 800
+
+# キャッシュ設定
+cache:
+  travel_time_expiry_days: 90
+
+# サイト設定
+site:
+  base_url: "https://patapatapq.github.io/tokyo-gourmet"
+  title: "Tokyo Gourmet Recommender"

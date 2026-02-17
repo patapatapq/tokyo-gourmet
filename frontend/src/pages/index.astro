@@ -1,0 +1,41 @@
+---
+import Layout from '../layouts/Layout.astro';
+import RestaurantCard from '../components/RestaurantCard.astro';
+import { readFileSync } from 'fs';
+import { join } from 'path';
+
+let data: any = { generated_at: null, week_label: '', restaurants: [] };
+try {
+  const raw = readFileSync(join(process.cwd(), 'public/data/current.json'), 'utf-8');
+  data = JSON.parse(raw);
+} catch {
+  // データがまだない場合
+}
+
+const hasData = data.restaurants && data.restaurants.length > 0;
+---
+
+<Layout title="今週のおすすめ | Tokyo Gourmet">
+  {hasData ? (
+    <>
+      <div class="text-center mb-8">
+        <h2 class="text-2xl md:text-3xl font-bold text-text">今週のおすすめ</h2>
+        <p class="text-text-muted mt-1">{data.week_label}</p>
+        <p class="text-text-light text-sm mt-1">{data.restaurants.length} 軒をピックアップ</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {data.restaurants.map((r: any, i: number) => (
+          <RestaurantCard restaurant={r} index={i + 1} />
+        ))}
+      </div>
+    </>
+  ) : (
+    <div class="text-center py-20">
+      <div class="text-6xl mb-4">🍽️</div>
+      <h2 class="text-2xl font-bold text-text mb-2">準備中</h2>
+      <p class="text-text-muted">今週のおすすめはまだ生成されていません。</p>
+      <p class="text-text-light text-sm mt-1">毎週金曜日のお昼頃に更新されます。</p>
+    </div>
+  )}
+</Layout>

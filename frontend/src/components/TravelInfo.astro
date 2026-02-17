@@ -1,0 +1,26 @@
+---
+interface Props {
+  minutes: number | null;
+  cost: number | null;
+  summary: string;
+}
+
+const { minutes, cost, summary } = Astro.props;
+---
+
+<div class="flex items-center gap-2 text-sm text-text-muted">
+  <span class="text-base">🚃</span>
+  <div>
+    {minutes !== null ? (
+      <span class="font-medium text-text">{minutes}分</span>
+    ) : (
+      <span class="text-text-light">—</span>
+    )}
+    {cost !== null && (
+      <span class="ml-1">/ ¥{cost.toLocaleString()}</span>
+    )}
+    {summary && (
+      <div class="text-xs text-text-light mt-0.5">{summary}</div>
+    )}
+  </div>
+</div>
