@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-02-20T13:29:57.602027+09:00",
+      "week_label": "2026年2月20日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJTVR0b5iOGGARAA_QTkW09c8",
+          "name": "Quietude",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJi0PSaDyHGGARH7J8i_fkV50",
+          "name": "お食事処 味館",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJWbIWGR6HImARDv9x2QbkjTs",
+          "name": "Kaigara-Tei",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJA5YI9r-IGGARZcaEdXlJJRI",
+          "name": "Koba Steakhouse",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJaxP9U8SIGGARF-JmLqjdMHk",
+          "name": "洋風居酒屋 民酒党",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJVzwNFMphGGARPaMBT_VjoKc",
+          "name": "Sansui",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJu4zxdh2PGGARqMhcH_5Kl10",
+          "name": "Bistrot Lyon",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJVbBJaxWJGGARoLqrsuNhoKE",
+          "name": "KOKUSHO - Italian Restaurant",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJXchZIQCJGGARNNW4Y-RiRdE",
+          "name": "ヒマラヤキッチン Himalaya Kitchen",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJi38phlmJGGARRMq1STbrlQ0",
+          "name": "中華そばと酒 彩華",
+          "rating": 4.2
+        }
+      ]
+    },
+    {
       "generated_at": "2026-02-18T00:53:18.143168+09:00",
       "week_label": "2026年2月18日（水）",
       "restaurants": [

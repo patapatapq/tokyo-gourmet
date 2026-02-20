@@ -1612,5 +1612,167 @@
     "travel_cost_yen": 500,
     "travel_summary": "公共交通機関 約44分（25km）",
     "cached_at": "2026-02-18T00:53:05.643211+09:00"
+  },
+  "ChIJD9Pd-daOGGARCYgMMXqki5E": {
+    "travel_time_minutes": 24,
+    "travel_cost_yen": 180,
+    "travel_summary": "公共交通機関 約24分（5km）",
+    "cached_at": "2026-02-20T13:29:38.770509+09:00"
+  },
+  "ChIJTVR0b5iOGGARAA_QTkW09c8": {
+    "travel_time_minutes": 38,
+    "travel_cost_yen": 260,
+    "travel_summary": "公共交通機関 約38分（8km）",
+    "cached_at": "2026-02-20T13:29:39.073949+09:00"
+  },
+  "ChIJ7WCrsPuLGGARgS1FStupdwc": {
+    "travel_time_minutes": 36,
+    "travel_cost_yen": 300,
+    "travel_summary": "公共交通機関 約36分（10km）",
+    "cached_at": "2026-02-20T13:29:39.369284+09:00"
+  },
+  "ChIJ0RAe3CSPGGARiZ17am8I_nQ": {
+    "travel_time_minutes": 25,
+    "travel_cost_yen": 230,
+    "travel_summary": "公共交通機関 約25分（5km）",
+    "cached_at": "2026-02-20T13:29:39.669007+09:00"
+  },
+  "ChIJ8fpIy4uJGGARqxcMvfcfSiY": {
+    "travel_time_minutes": 17,
+    "travel_cost_yen": 0,
+    "travel_summary": "徒歩 17分",
+    "cached_at": "2026-02-20T13:29:39.885272+09:00"
+  },
+  "ChIJvb6FfMCOGGARB3iKykNIrTA": {
+    "travel_time_minutes": 35,
+    "travel_cost_yen": 250,
+    "travel_summary": "公共交通機関 約35分（6km）",
+    "cached_at": "2026-02-20T13:29:40.176810+09:00"
+  },
+  "ChIJEZUQ3cmIGGARaEn9CKCFt0M": {
+    "travel_time_minutes": 15,
+    "travel_cost_yen": 180,
+    "travel_summary": "公共交通機関 約15分（3km）",
+    "cached_at": "2026-02-20T13:29:40.464160+09:00"
+  },
+  "ChIJgQRrXh6JGGARVoml4ZEQXuM": {
+    "travel_time_minutes": 20,
+    "travel_cost_yen": 180,
+    "travel_summary": "公共交通機関 約20分（4km）",
+    "cached_at": "2026-02-20T13:29:40.761002+09:00"
+  },
+  "ChIJMXdtzFeLGGART3Abey5b6sI": {
+    "travel_time_minutes": 52,
+    "travel_cost_yen": 420,
+    "travel_summary": "公共交通機関 約52分（18km）",
+    "cached_at": "2026-02-20T13:29:41.091789+09:00"
+  },
+  "ChIJGwkAkROxImARQXGID-qvAX8": {
+    "travel_time_minutes": 115,
+    "travel_cost_yen": 1090,
+    "travel_summary": "公共交通機関 約115分（84km）",
+    "cached_at": "2026-02-20T13:29:41.394250+09:00"
+  },
+  "ChIJ6ycZ8zqPGGARyVY-BeELShE": {
+    "travel_time_minutes": 22,
+    "travel_cost_yen": 180,
+    "travel_summary": "公共交通機関 約22分（5km）",
+    "cached_at": "2026-02-20T13:29:41.683459+09:00"
+  },
+  "ChIJaUEkdDyJGGARWXhr9s_SVTk": {
+    "travel_time_minutes": 22,
+    "travel_cost_yen": 180,
+    "travel_summary": "公共交通機関 約22分（4km）",
+    "cached_at": "2026-02-20T13:29:41.987956+09:00"
+  },
+  "ChIJ08rIZ_6IGGARCn4AL_JLuug": {
+    "travel_time_minutes": 23,
+    "travel_cost_yen": 180,
+    "travel_summary": "公共交通機関 約23分（4km）",
+    "cached_at": "2026-02-20T13:29:42.276707+09:00"
+  },
+  "ChIJs0VIIjuJGGARDD9Qu7Pf-fY": {
+    "travel_time_minutes": 15,
+    "travel_cost_yen": 180,
+    "travel_summary": "公共交通機関 約15分（3km）",
+    "cached_at": "2026-02-20T13:29:42.566509+09:00"
+  },
+  "ChIJuXFkGDeJGGARyk0BvJtFMic": {
+    "travel_time_minutes": 19,
+    "travel_cost_yen": 180,
+    "travel_summary": "公共交通機関 約19分（4km）",
+    "cached_at": "2026-02-20T13:29:42.856804+09:00"
+  },
+  "ChIJxx4qdCCJGGARDrdigZ-Rqi8": {
+    "travel_time_minutes": 17,
+    "travel_cost_yen": 180,
+    "travel_summary": "公共交通機関 約17分（3km）",
+    "cached_at": "2026-02-20T13:29:43.143481+09:00"
+  },
+  "ChIJ3aRWPn2JGGARombhqhjWN5A": {
+    "travel_time_minutes": 18,
+    "travel_cost_yen": 180,
+    "travel_summary": "公共交通機関 約18分（4km）",
+    "cached_at": "2026-02-20T13:29:43.427983+09:00"
+  },
+  "ChIJT8hfj9-IGGARbxuhm1nIbWs": {
+    "travel_time_minutes": 15,
+    "travel_cost_yen": 180,
+    "travel_summary": "公共交通機関 約15分（3km）",
+    "cached_at": "2026-02-20T13:29:43.713824+09:00"
+  },
+  "ChIJO3HhWk-JGGARohYZlek8wt4": {
+    "travel_time_minutes": 29,
+    "travel_cost_yen": 230,
+    "travel_summary": "公共交通機関 約29分（5km）",
+    "cached_at": "2026-02-20T13:29:44.009564+09:00"
+  },
+  "ChIJ80U-JOqJGGARH0QYmmQbGFM": {
+    "travel_time_minutes": 29,
+    "travel_cost_yen": 280,
+    "travel_summary": "公共交通機関 約29分（9km）",
+    "cached_at": "2026-02-20T13:29:44.298899+09:00"
+  },
+  "ChIJf0pZfqOIGGARa_IWG8YoRx0": {
+    "travel_time_minutes": 18,
+    "travel_cost_yen": 180,
+    "travel_summary": "公共交通機関 約18分（4km）",
+    "cached_at": "2026-02-20T13:29:44.584932+09:00"
+  },
+  "ChIJTfRrfMiLGGARbxA93sULxOA": {
+    "travel_time_minutes": 39,
+    "travel_cost_yen": 450,
+    "travel_summary": "公共交通機関 約39分（21km）",
+    "cached_at": "2026-02-20T13:29:44.880953+09:00"
+  },
+  "ChIJq6qqateIGGAROSEf7sxwhE4": {
+    "travel_time_minutes": 16,
+    "travel_cost_yen": 180,
+    "travel_summary": "公共交通機関 約16分（3km）",
+    "cached_at": "2026-02-20T13:29:45.167012+09:00"
+  },
+  "ChIJ8eYQAJWOGGARiCU8Kr9sG9s": {
+    "travel_time_minutes": 34,
+    "travel_cost_yen": 250,
+    "travel_summary": "公共交通機関 約34分（7km）",
+    "cached_at": "2026-02-20T13:29:45.454754+09:00"
+  },
+  "ChIJm0avYnyLGGAR_g58B17dNZM": {
+    "travel_time_minutes": 30,
+    "travel_cost_yen": 250,
+    "travel_summary": "公共交通機関 約30分（6km）",
+    "cached_at": "2026-02-20T13:29:45.750364+09:00"
+  },
+  "ChIJw_3cWRfnImARDK-YYrPQAQo": {
+    "travel_time_minutes": 118,
+    "travel_cost_yen": 1160,
+    "travel_summary": "公共交通機関 約118分（91km）",
+    "cached_at": "2026-02-20T13:29:46.073108+09:00"
+  },
+  "ChIJBdI35aiOGGAR04TZRy3eWOQ": {
+    "travel_time_minutes": 35,
+    "travel_cost_yen": 260,
+    "travel_summary": "公共交通機関 約35分（7km）",
+    "cached_at": "2026-02-20T13:29:46.364142+09:00"
   }
 }
