@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-02-27T13:29:47.554543+09:00",
+      "week_label": "2026年2月27日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJUaJR8NaOGGARbaGu0XYUkl4",
+          "name": "Musashi Sky Restaurant",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJM4TvscOIGGARzKnqhGZzPug",
+          "name": "Amico",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJt6GV7tiIGGARVS3sm1EIBQM",
+          "name": "Tonkatsu Sumida",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJ4Udu6E-JGGAR8fM0WcUZr3s",
+          "name": "Azuma-ken",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJx_vdcQKNGGAR2NlIvwnTTDY",
+          "name": "ホンデポチャ 池袋店",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJ2fSkUk6JGGARv4wJBoySvGs",
+          "name": "ふうれん",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJ6eI2twOJGGAR4sTC4-m5CDM",
+          "name": "Trattoria I'Bischero",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJTfRrfMiLGGARbxA93sULxOA",
+          "name": "Ristorante Casa Setouchi",
+          "rating": 4.6
+        },
+        {
+          "place_id": "ChIJ6fU4IxmLGGARbv649c3P4cA",
+          "name": "SHUNOUHANTAI",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJGSNTzDGJGGAR4fM1jEIiAHw",
+          "name": "Kappaken",
+          "rating": 4.1
+        }
+      ]
+    },
+    {
       "generated_at": "2026-02-20T13:29:57.602027+09:00",
       "week_label": "2026年2月20日（金）",
       "restaurants": [
