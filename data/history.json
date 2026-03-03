@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-03-03T22:21:37.484289+09:00",
+      "week_label": "2026年3月3日（火）",
+      "restaurants": [
+        {
+          "place_id": "ChIJ05HYsuqOGGARky_87UjNmqA",
+          "name": "タイレストラン イサーン",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJc6ebV_GIGGARNZwWNQNDGrc",
+          "name": "銀座ホール",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJo1r6iK6JGGAR6pWzDtwBmi0",
+          "name": "フルバリ FULBARI 亀戸店",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJo7DLaJGJGGARmOR5xWC84b4",
+          "name": "うず食堂",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJ3TlFNN-LGGARWjndeIeoJdA",
+          "name": "そば處 長生庵",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJqTKkIgCHGGARJexLnQ6-CGc",
+          "name": "Osman tadımトルコレストラン",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJIQyREZOIGGARm54gZXACPXM",
+          "name": "大城屋",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJL1VuAL-IGGAR4g5UscgQrzA",
+          "name": "極上酵素玄米の店 Cafe むすび",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJF-rgXKaJGGARzORMOWFKw3o",
+          "name": "タイレストランバンプー【BANG PU】",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJL-Rokr-OGGARMOtRXantd_0",
+          "name": "浅草うな鐵 国際通り店",
+          "rating": 4
+        }
+      ]
+    },
+    {
       "generated_at": "2026-03-03T21:56:54.534378+09:00",
       "week_label": "2026年3月3日（火）",
       "restaurants": [
