@@ -1,6 +1,532 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-03-03T22:36:57.750802+09:00",
+      "week_label": "2026年3月3日（火）",
+      "restaurants": [
+        {
+          "place_id": "ChIJpRzB_v6IGGARgpJ4J6AIJvQ",
+          "name": "大衆バルジカビヤ 東陽町店",
+          "rating": 4.3,
+          "user_rating_count": 604,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒135-0016 東京都江東区東陽４丁目１０−８ 杉船ビル ４Ｆ",
+          "travel_time_minutes": 21,
+          "travel_cost_yen": 180,
+          "travel_summary": "公共交通機関 約21分（4km）",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 11時00分～14時30分, 17時00分～23時00分",
+            "火曜日: 11時00分～14時30分, 17時00分～23時00分",
+            "水曜日: 11時00分～14時30分, 17時00分～23時00分",
+            "木曜日: 11時00分～14時30分, 17時00分～23時00分",
+            "金曜日: 11時00分～14時30分, 17時00分～0時00分",
+            "土曜日: 11時00分～23時00分",
+            "日曜日: 11時00分～23時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJpRzB_v6IGGARgpJ4J6AIJvQ_0.jpg",
+              "attribution": "大衆バルジカビヤ 東陽町店"
+            },
+            {
+              "filename": "ChIJpRzB_v6IGGARgpJ4J6AIJvQ_1.jpg",
+              "attribution": "大衆バルジカビヤ 東陽町店"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=17592758478319424130&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "https://r.gnavi.co.jp/fe17xd2m0000/",
+          "phone": "03-6458-7793",
+          "primary_type": "japanese_izakaya_restaurant",
+          "genre": "居酒屋",
+          "nearest_station": "東陽町駅",
+          "recommended_menu": "東陽町駅から徒歩5分。\n肉×ワインを中心に楽しめる居酒屋バル『ジカビヤ』へ。\n\n◇メニュー\n・牛カイノミステーキ　2,858円\n・4種のチーズピザ　600円\n- トッピング(Wチーズ)　200円\n・海..."
+        },
+        {
+          "place_id": "ChIJccAH1-OIGGARcB5n5YH7PRA",
+          "name": "味久",
+          "rating": 4.1,
+          "user_rating_count": 197,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒135-0011 東京都江東区扇橋２丁目２０−１ 味久ビル",
+          "travel_time_minutes": 19,
+          "travel_cost_yen": 0,
+          "travel_summary": "徒歩 19分",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 定休日",
+            "火曜日: 11時00分～13時30分, 17時00分～21時30分",
+            "水曜日: 11時00分～13時30分, 17時00分～21時30分",
+            "木曜日: 11時00分～13時30分, 17時00分～21時30分",
+            "金曜日: 11時00分～13時30分, 17時00分～21時30分",
+            "土曜日: 11時00分～13時30分, 17時00分～21時30分",
+            "日曜日: 11時00分～13時30分, 17時00分～21時30分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJccAH1-OIGGARcB5n5YH7PRA_0.jpg",
+              "attribution": "若林健太郎（マンセルわか）"
+            },
+            {
+              "filename": "ChIJccAH1-OIGGARcB5n5YH7PRA_1.jpg",
+              "attribution": "yuko k."
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=1170368013504290416&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "https://g341300.gorp.jp/",
+          "phone": "03-3645-3027",
+          "primary_type": "japanese_restaurant",
+          "genre": "和食店",
+          "nearest_station": "住吉駅",
+          "recommended_menu": "ここの食事は何を食べても本当に美味しい！\n特に私が好きなのが\nサザエのエスカルゴ風\n美味し過ぎて絶対に頼みます！\n\n接待や会食、お祝いなどにも使用できる素敵なお店です♪\n\n扇橋周辺で1番美味しい和食を..."
+        },
+        {
+          "place_id": "ChIJV4XLJemLGGARjVJDE4eqPGw",
+          "name": "銀座 やまの辺 江戸中華",
+          "rating": 4.2,
+          "user_rating_count": 78,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒104-0061 東京都中央区銀座６丁目７−６ ラペビル ９Ｆ",
+          "travel_time_minutes": 38,
+          "travel_cost_yen": 310,
+          "travel_summary": "公共交通機関 約38分（11km）",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 12時00分～15時30分, 16時30分～23時00分",
+            "火曜日: 12時00分～15時30分, 16時30分～23時00分",
+            "水曜日: 12時00分～15時30分, 16時30分～23時00分",
+            "木曜日: 12時00分～15時30分, 16時30分～23時00分",
+            "金曜日: 12時00分～15時30分, 16時30分～23時00分",
+            "土曜日: 12時00分～15時30分, 16時30分～23時00分",
+            "日曜日: 定休日"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJV4XLJemLGGARjVJDE4eqPGw_0.jpg",
+              "attribution": "里奈"
+            },
+            {
+              "filename": "ChIJV4XLJemLGGARjVJDE4eqPGw_1.jpg",
+              "attribution": "me"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=7799296151819342477&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "http://ginza-yamanobe.com/",
+          "phone": "03-3569-2520",
+          "primary_type": "chinese_restaurant",
+          "genre": "中華料理店",
+          "nearest_station": "銀座駅",
+          "recommended_menu": "高級食材がふんだんに使用されててお腹も十分に満たされて幸せでした！\n\n百名店受賞！\n銀座駅から近くカウンターと個室があります！\n\n胃がもたれず最後までが美味しく食べられる！\nとても美味しくいただきまし..."
+        },
+        {
+          "place_id": "ChIJMez2JlWPGGARd0QTrZfUZgI",
+          "name": "イタメシ 心技体",
+          "rating": 4.8,
+          "user_rating_count": 74,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒120-0026 東京都足立区千住旭町２４−１０",
+          "travel_time_minutes": 37,
+          "travel_cost_yen": 290,
+          "travel_summary": "公共交通機関 約37分（9km）",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 17時00分～2時00分",
+            "火曜日: 17時00分～2時00分",
+            "水曜日: 定休日",
+            "木曜日: 17時00分～2時00分",
+            "金曜日: 17時00分～2時00分",
+            "土曜日: 17時00分～2時00分",
+            "日曜日: 17時00分～2時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJMez2JlWPGGARd0QTrZfUZgI_0.jpg",
+              "attribution": "イタメシ 心技体"
+            },
+            {
+              "filename": "ChIJMez2JlWPGGARd0QTrZfUZgI_1.jpg",
+              "attribution": "イタメシ 心技体"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=173059383609214071&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "https://shop.jouren.jp/guest/media/itameshishingitai",
+          "phone": "080-4870-0877",
+          "primary_type": "japanese_izakaya_restaurant",
+          "genre": "居酒屋",
+          "nearest_station": "北千住駅",
+          "recommended_menu": "北千住でコスパ良く美味しいイタリアンを食べられる居酒屋\nお料理のみコースを予約しました。\nこのコースの良いところは、お酒を飲まない子も、お酒にこだわりたい子も、自分のペースで単品ドリンクを選べるところ..."
+        },
+        {
+          "place_id": "ChIJgcCtEY2IGGARqDfbJ0xvSCs",
+          "name": "ラ・フェーデ",
+          "rating": 4.3,
+          "user_rating_count": 168,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒136-0073 東京都江東区北砂７丁目５−１４ ヴィラ砂町 1F",
+          "travel_time_minutes": 10,
+          "travel_cost_yen": 0,
+          "travel_summary": "徒歩 10分",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 11時00分～15時00分, 17時00分～22時30分",
+            "火曜日: 11時00分～15時00分, 17時00分～22時30分",
+            "水曜日: 11時00分～15時00分, 17時00分～22時30分",
+            "木曜日: 定休日",
+            "金曜日: 11時00分～15時00分, 17時00分～22時30分",
+            "土曜日: 11時00分～15時00分, 17時00分～22時30分",
+            "日曜日: 11時00分～15時00分, 17時00分～22時30分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJgcCtEY2IGGARqDfbJ0xvSCs_0.jpg",
+              "attribution": "ラ・フェーデ"
+            },
+            {
+              "filename": "ChIJgcCtEY2IGGARqDfbJ0xvSCs_1.jpg",
+              "attribution": "ラ・フェーデ"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=3118865114830944168&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "http://www.bistro-lafede.com/",
+          "phone": "03-6666-6795",
+          "primary_type": "italian_restaurant",
+          "genre": "イタリア料理店",
+          "nearest_station": "",
+          "recommended_menu": "本日、10,000円のコースをいただきました。\nどのお料理もとても丁寧に作られており、一品一品が本当に美味しかったです。\nスタッフの方々のサービスも素晴らしく、心地よい時間を過ごせました。\n間違いなく..."
+        },
+        {
+          "place_id": "ChIJT8hfj9-IGGARbxuhm1nIbWs",
+          "name": "アムリット",
+          "rating": 4.1,
+          "user_rating_count": 116,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒135-0002 東京都江東区住吉２丁目３−５",
+          "travel_time_minutes": 15,
+          "travel_cost_yen": 180,
+          "travel_summary": "公共交通機関 約15分（3km）",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 11時00分～15時00分, 17時00分～23時30分",
+            "火曜日: 11時00分～15時00分, 17時00分～23時30分",
+            "水曜日: 11時00分～15時00分, 17時00分～23時30分",
+            "木曜日: 11時00分～15時00分, 17時00分～23時30分",
+            "金曜日: 11時00分～15時00分, 17時00分～23時30分",
+            "土曜日: 11時00分～15時00分, 17時00分～23時30分",
+            "日曜日: 11時00分～15時00分, 17時00分～23時30分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJT8hfj9-IGGARbxuhm1nIbWs_0.jpg",
+              "attribution": "パチパチぺー"
+            },
+            {
+              "filename": "ChIJT8hfj9-IGGARbxuhm1nIbWs_1.jpg",
+              "attribution": "李裕貴"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=7741063621708421999&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "",
+          "phone": "03-3846-4365",
+          "primary_type": "indian_restaurant",
+          "genre": "インド料理店",
+          "nearest_station": "住吉駅",
+          "recommended_menu": "本格的なカレーとナンを味わえるお店。\n久しぶりにランチで利用しましたが、かれこれ10年以上前からあると思います。少し値上がりしてましたが、サラダとドリンクが付いてこの価格なら安い。そして、変わらず美味..."
+        },
+        {
+          "place_id": "ChIJedos9ueIGGARjPbWZdJmD_o",
+          "name": "銀杏",
+          "rating": 4.3,
+          "user_rating_count": 475,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒136-0072 東京都江東区大島２丁目１５−３",
+          "travel_time_minutes": 12,
+          "travel_cost_yen": 0,
+          "travel_summary": "徒歩 12分",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 11時30分～14時00分",
+            "火曜日: 定休日",
+            "水曜日: 11時30分～14時30分, 17時30分～21時00分",
+            "木曜日: 11時30分～14時30分, 17時30分～21時00分",
+            "金曜日: 11時00分～14時30分, 17時00分～21時00分",
+            "土曜日: 11時30分～14時30分, 17時00分～21時00分",
+            "日曜日: 11時30分～14時30分, 17時30分～21時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJedos9ueIGGARjPbWZdJmD_o_0.jpg",
+              "attribution": "愛台湾"
+            },
+            {
+              "filename": "ChIJedos9ueIGGARjPbWZdJmD_o_1.jpg",
+              "attribution": "銀杏"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=18018733687970395788&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "http://silver-apricot.com/",
+          "phone": "03-3681-9962",
+          "primary_type": "restaurant",
+          "genre": "レストラン",
+          "nearest_station": "西大島駅",
+          "recommended_menu": "名古屋からの出張で、どうしても行きたくて初訪問！\nお蕎麦はめっっちゃ美味しくて🤤✨ お酒も最高でした！\n\nお酒好きの友人たちにも大好評で、「いいお店紹介してくれてありがとう」と感謝されたのもうれしかっ..."
+        },
+        {
+          "place_id": "ChIJjxP3m8aIGGARmt3u8bhuSK0",
+          "name": "Che Carino（ケカリーノ）",
+          "rating": 4.1,
+          "user_rating_count": 74,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒136-0071 東京都江東区亀戸５丁目２９−２３",
+          "travel_time_minutes": 17,
+          "travel_cost_yen": 0,
+          "travel_summary": "徒歩 17分",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 11時30分～15時00分, 17時30分～20時00分",
+            "火曜日: 11時30分～15時00分, 17時30分～20時00分",
+            "水曜日: 定休日",
+            "木曜日: 11時30分～15時00分, 17時30分～20時00分",
+            "金曜日: 11時30分～15時00分, 17時30分～20時00分",
+            "土曜日: 11時30分～15時00分, 17時30分～20時00分",
+            "日曜日: 11時30分～15時00分, 17時30分～20時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJjxP3m8aIGGARmt3u8bhuSK0_0.jpg",
+              "attribution": "A SUZU"
+            },
+            {
+              "filename": "ChIJjxP3m8aIGGARmt3u8bhuSK0_1.jpg",
+              "attribution": "武田里子"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=12486351707496701338&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "",
+          "phone": "03-5875-5788",
+          "primary_type": "italian_restaurant",
+          "genre": "イタリア料理店",
+          "nearest_station": "亀戸駅",
+          "recommended_menu": "亀戸駅東口から徒歩5分くらい。中央通り商店街の中にあるコスパが最高でとても美味しいイタリアン。どちらかと言うと住宅地の方面なので、街に住んでいる人以外は見つけにくいかも。その分地域の人から愛されるお店..."
+        },
+        {
+          "place_id": "ChIJKaxAUcSIGGARXmRCobPk6wc",
+          "name": "魚々楽",
+          "rating": 4,
+          "user_rating_count": 156,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒136-0071 東京都江東区亀戸５丁目５−２",
+          "travel_time_minutes": 17,
+          "travel_cost_yen": 0,
+          "travel_summary": "徒歩 17分",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 16時00分～23時00分",
+            "火曜日: 16時00分～23時00分",
+            "水曜日: 16時00分～23時00分",
+            "木曜日: 16時00分～23時00分",
+            "金曜日: 16時00分～23時00分",
+            "土曜日: 16時00分～23時00分",
+            "日曜日: 16時00分～23時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJKaxAUcSIGGARXmRCobPk6wc_0.jpg",
+              "attribution": "Motoki Namioka"
+            },
+            {
+              "filename": "ChIJKaxAUcSIGGARXmRCobPk6wc_1.jpg",
+              "attribution": "益田真琴"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=570801237948261470&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "https://totoraku.jp/",
+          "phone": "03-5875-4902",
+          "primary_type": "japanese_izakaya_restaurant",
+          "genre": "居酒屋",
+          "nearest_station": "亀戸駅",
+          "recommended_menu": "今回は５人で伺いましたが、お魚料理が色々楽しめたのと、日本酒の種類も豊富で大満足でした。\n落ち着いた雰囲気でゆっくり出来ました。"
+        },
+        {
+          "place_id": "ChIJzdpASoaJGGARr-NotXeT-Ug",
+          "name": "ボンベイチャウパティ",
+          "rating": 4.5,
+          "user_rating_count": 127,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒136-0072 東京都江東区大島４丁目１３−５",
+          "travel_time_minutes": 3,
+          "travel_cost_yen": 0,
+          "travel_summary": "徒歩 3分",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 11時00分～14時30分, 17時30分～22時00分",
+            "火曜日: 11時00分～14時30分, 17時30分～22時00分",
+            "水曜日: 11時00分～14時30分, 17時30分～22時00分",
+            "木曜日: 11時00分～14時30分, 17時30分～22時00分",
+            "金曜日: 11時00分～14時30分, 17時30分～22時00分",
+            "土曜日: 11時00分～14時30分, 17時30分～22時00分",
+            "日曜日: 11時00分～14時30分, 17時30分～22時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJzdpASoaJGGARr-NotXeT-Ug_0.jpg",
+              "attribution": "「ゴローのAI飯」"
+            },
+            {
+              "filename": "ChIJzdpASoaJGGARr-NotXeT-Ug_1.jpg",
+              "attribution": "BOMBAY CHOWPATTY"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=5258396182285706159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "https://www.facebook.com/bombaychowpattyojima",
+          "phone": "03-5875-0777",
+          "primary_type": "indian_restaurant",
+          "genre": "インド料理店",
+          "nearest_station": "大島駅",
+          "recommended_menu": "西大島界隈でインド料理を探しているなら、ここは間違いなく訪れるべき名店です！\n「ここ、絶対うまいやつや。」という予感は的中！個人的には、西大島エリアのインド料理屋さんの中でナンバーワンでした。\n🌟 今..."
+        }
+      ]
+    },
+    {
       "generated_at": "2026-03-03T22:21:37.484289+09:00",
       "week_label": "2026年3月3日（火）",
       "restaurants": [

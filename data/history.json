@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-03-03T22:36:57.750802+09:00",
+      "week_label": "2026年3月3日（火）",
+      "restaurants": [
+        {
+          "place_id": "ChIJpRzB_v6IGGARgpJ4J6AIJvQ",
+          "name": "大衆バルジカビヤ 東陽町店",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJccAH1-OIGGARcB5n5YH7PRA",
+          "name": "味久",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJV4XLJemLGGARjVJDE4eqPGw",
+          "name": "銀座 やまの辺 江戸中華",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJMez2JlWPGGARd0QTrZfUZgI",
+          "name": "イタメシ 心技体",
+          "rating": 4.8
+        },
+        {
+          "place_id": "ChIJgcCtEY2IGGARqDfbJ0xvSCs",
+          "name": "ラ・フェーデ",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJT8hfj9-IGGARbxuhm1nIbWs",
+          "name": "アムリット",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJedos9ueIGGARjPbWZdJmD_o",
+          "name": "銀杏",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJjxP3m8aIGGARmt3u8bhuSK0",
+          "name": "Che Carino（ケカリーノ）",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJKaxAUcSIGGARXmRCobPk6wc",
+          "name": "魚々楽",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJzdpASoaJGGARr-NotXeT-Ug",
+          "name": "ボンベイチャウパティ",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
       "generated_at": "2026-03-03T22:21:37.484289+09:00",
       "week_label": "2026年3月3日（火）",
       "restaurants": [
