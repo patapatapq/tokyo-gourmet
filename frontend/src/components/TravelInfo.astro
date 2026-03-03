@@ -8,16 +8,24 @@ interface Props {
 const { minutes, cost, summary } = Astro.props;
 ---
 
-<div class="flex items-center gap-2 text-sm text-text-muted">
-  <span class="text-base">🚃</span>
+<div class="flex items-start gap-2 text-sm text-text-muted">
+  <svg class="w-4 h-4 mt-0.5 shrink-0 text-text-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <rect width="16" height="16" x="4" y="3" rx="2"/>
+    <path d="M4 11h16"/>
+    <path d="M12 3v8"/>
+    <path d="m8 19-2 3"/>
+    <path d="m18 22-2-3"/>
+    <path d="M8 15h0"/>
+    <path d="M16 15h0"/>
+  </svg>
   <div>
     {minutes !== null ? (
-      <span class="font-medium text-text">{minutes}分</span>
+      <span class="font-medium text-white">{minutes}分</span>
     ) : (
       <span class="text-text-light">—</span>
     )}
     {cost !== null && (
-      <span class="ml-1">/ ¥{cost.toLocaleString()}</span>
+      <span class="ml-1 text-text-muted">/ ¥{cost.toLocaleString()}</span>
     )}
     {summary && (
       <div class="text-xs text-text-light mt-0.5">{summary}</div>
