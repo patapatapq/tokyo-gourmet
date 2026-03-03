@@ -1,6 +1,512 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-03-03T21:52:55.523439+09:00",
+      "week_label": "2026年3月3日（火）",
+      "restaurants": [
+        {
+          "place_id": "ChIJBVY7CCmJGGARnJCH8Kr0R40",
+          "name": "Tocci Kinshichō",
+          "rating": 4.2,
+          "user_rating_count": 174,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "1-chōme-4-14 Kinshi, Sumida City, Tokyo 130-0013, Japan",
+          "travel_time_minutes": 20,
+          "travel_cost_yen": 180,
+          "travel_summary": "公共交通機関 約20分（4km）",
+          "reservable": true,
+          "opening_hours": [
+            "Monday: 11:30 AM – 2:00 PM, 5:00 – 11:00 PM",
+            "Tuesday: 11:30 AM – 2:00 PM, 5:00 – 11:00 PM",
+            "Wednesday: 11:30 AM – 2:00 PM, 5:00 – 11:00 PM",
+            "Thursday: 11:30 AM – 2:00 PM, 5:00 – 11:00 PM",
+            "Friday: 11:30 AM – 2:00 PM, 5:00 – 11:00 PM",
+            "Saturday: 5:00 – 11:00 PM",
+            "Sunday: 4:00 – 10:00 PM"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJBVY7CCmJGGARnJCH8Kr0R40_0.jpg",
+              "attribution": "酒屋ばる Tocci 錦糸町店"
+            },
+            {
+              "filename": "ChIJBVY7CCmJGGARnJCH8Kr0R40_1.jpg",
+              "attribution": "酒屋ばる Tocci 錦糸町店"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=10180374497711329436&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "https://tocci-menu.faith-one.co.jp/",
+          "phone": "03-5637-7225",
+          "primary_type": "japanese_izakaya_restaurant",
+          "recommended_menu": "Wow!  Just wow!!  Been in Tokyo for a week now.  3rd time eating at Tocci tonight.  Sat 3/16/24\n\nThe..."
+        },
+        {
+          "place_id": "ChIJudbgAFyPGGARgqnwAEomL6A",
+          "name": "国丸食堂とアカネコ",
+          "rating": 4.4,
+          "user_rating_count": 90,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "1-chōme-32-5 Yanagibashi, Taito City, Tokyo 111-0052, Japan",
+          "travel_time_minutes": 32,
+          "travel_cost_yen": 250,
+          "travel_summary": "公共交通機関 約32分（7km）",
+          "reservable": true,
+          "opening_hours": [
+            "Monday: 6:00 PM – 12:00 AM",
+            "Tuesday: 6:00 PM – 12:00 AM",
+            "Wednesday: 6:00 PM – 12:00 AM",
+            "Thursday: 6:00 PM – 12:00 AM",
+            "Friday: 6:00 PM – 12:00 AM",
+            "Saturday: 6:00 – 11:00 PM",
+            "Sunday: Closed"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJudbgAFyPGGARgqnwAEomL6A_0.jpg",
+              "attribution": "産直グリルと手作りタパス 国丸食堂とアカネコ。"
+            },
+            {
+              "filename": "ChIJudbgAFyPGGARgqnwAEomL6A_1.jpg",
+              "attribution": "産直グリルと手作りタパス 国丸食堂とアカネコ。"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=11542486469259078018&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "https://tabelog.com/tokyo/A1311/A131103/13227034/",
+          "phone": "03-5809-3618",
+          "primary_type": "restaurant",
+          "recommended_menu": "Everything was on point, craft beer, appetizer platter and wagyu beef was amazing! Went back the fol..."
+        },
+        {
+          "place_id": "ChIJdXQ2RemIGGARtsc0iQ4fTRg",
+          "name": "Bull Steak House",
+          "rating": 4,
+          "user_rating_count": 181,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "Japan, 〒136-0072 Tokyo, Koto City, Ōjima, 4-chōme−6−２１ 西大島ビューハイツ",
+          "travel_time_minutes": 5,
+          "travel_cost_yen": 0,
+          "travel_summary": "徒歩 5分",
+          "reservable": true,
+          "opening_hours": [
+            "Monday: 11:30 AM – 2:30 PM, 5:30 – 10:30 PM",
+            "Tuesday: Closed",
+            "Wednesday: 11:30 AM – 2:30 PM, 5:30 – 10:30 PM",
+            "Thursday: 11:30 AM – 2:30 PM, 5:30 – 10:30 PM",
+            "Friday: 11:30 AM – 2:30 PM, 5:30 – 10:30 PM",
+            "Saturday: 11:30 AM – 2:30 PM, 5:30 – 10:30 PM",
+            "Sunday: 11:30 AM – 2:30 PM, 5:30 – 10:30 PM"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJdXQ2RemIGGARtsc0iQ4fTRg_0.jpg",
+              "attribution": "ステーキハウスブル"
+            },
+            {
+              "filename": "ChIJdXQ2RemIGGARtsc0iQ4fTRg_1.jpg",
+              "attribution": "ステーキハウスブル"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=1751089977408931766&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "https://buru.owst.jp/",
+          "phone": "03-5626-6529",
+          "primary_type": "steak_house",
+          "recommended_menu": "This restaurant gives you Latin vibes. The Steak is nice here with the options of topping.\nWine is c..."
+        },
+        {
+          "place_id": "ChIJ_RM7nuGIGGAR5SsYMxJn-QE",
+          "name": "Point",
+          "rating": 4.4,
+          "user_rating_count": 94,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "2-chōme-17-3 Ōgibashi, Koto City, Tokyo 135-0011, Japan",
+          "travel_time_minutes": 17,
+          "travel_cost_yen": 180,
+          "travel_summary": "公共交通機関 約17分（3km）",
+          "reservable": true,
+          "opening_hours": [
+            "Monday: Closed",
+            "Tuesday: Closed",
+            "Wednesday: 11:30 AM – 2:00 PM, 6:00 – 9:00 PM",
+            "Thursday: 11:30 AM – 2:00 PM, 6:00 – 9:00 PM",
+            "Friday: 11:30 AM – 2:00 PM, 6:00 – 9:00 PM",
+            "Saturday: 11:30 AM – 2:00 PM, 6:00 – 9:00 PM",
+            "Sunday: 6:00 – 9:00 PM"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJ_RM7nuGIGGAR5SsYMxJn-QE_0.jpg",
+              "attribution": "ニャーイチ"
+            },
+            {
+              "filename": "ChIJ_RM7nuGIGGAR5SsYMxJn-QE_1.jpg",
+              "attribution": "「ゴローのAI飯」"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=142258191103175653&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "",
+          "phone": "03-3649-3353",
+          "primary_type": "restaurant",
+          "recommended_menu": "I've been there several times for lunch.\nYou can choose between Japanese-style and demi-glace hambur..."
+        },
+        {
+          "place_id": "ChIJq3-_iWWLGGARAh1xm66RrjQ",
+          "name": "Sudachi",
+          "rating": 4.5,
+          "user_rating_count": 149,
+          "budget_tier": "premium",
+          "budget_label": "高級",
+          "budget_icon": "💰💰💰",
+          "budget_morning_lunch": {
+            "tier": "premium",
+            "label": "高級",
+            "icon": "💰💰💰"
+          },
+          "budget_dinner": {
+            "tier": "premium",
+            "label": "高級",
+            "icon": "💰💰💰"
+          },
+          "price_range": "¥3,000〜",
+          "price_range_dinner": "¥6,000〜",
+          "address": "Japan, 〒107-0062 Tokyo, Minato City, Minamiaoyama, 7-chōme−12−１２ 南青山モワビル 地下1階",
+          "travel_time_minutes": 42,
+          "travel_cost_yen": 400,
+          "travel_summary": "公共交通機関 約42分（17km）",
+          "reservable": true,
+          "opening_hours": [
+            "Monday: Closed",
+            "Tuesday: 6:00 – 11:00 PM",
+            "Wednesday: 11:30 AM – 2:00 PM, 6:00 – 11:00 PM",
+            "Thursday: 11:30 AM – 2:00 PM, 6:00 – 11:00 PM",
+            "Friday: 11:30 AM – 2:00 PM, 6:00 – 11:00 PM",
+            "Saturday: 11:30 AM – 2:00 PM, 6:00 – 11:00 PM",
+            "Sunday: 11:30 AM – 2:00 PM, 6:00 – 11:00 PM"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJq3-_iWWLGGARAh1xm66RrjQ_0.jpg",
+              "attribution": "AlanAlan"
+            },
+            {
+              "filename": "ChIJq3-_iWWLGGARAh1xm66RrjQ_1.jpg",
+              "attribution": "Sudachi"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=3796131715038125314&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "http://sudachi.tokyo/",
+          "phone": "03-6433-5386",
+          "primary_type": "japanese_restaurant",
+          "recommended_menu": "We had the tasting menu for dinner. It’s easily the best Japanese dinner I ever had"
+        },
+        {
+          "place_id": "ChIJp3CpTsWIGGARfdumxbD_dpc",
+          "name": "ISATACO",
+          "rating": 4.5,
+          "user_rating_count": 150,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "Japan, 〒136-0071 Tokyo, Koto City, Kameido, 2-chōme−30−９ アーバンヴィラ 1F",
+          "travel_time_minutes": 16,
+          "travel_cost_yen": 180,
+          "travel_summary": "公共交通機関 約16分（3km）",
+          "reservable": true,
+          "opening_hours": [
+            "Monday: Closed",
+            "Tuesday: 5:00 PM – 12:00 AM",
+            "Wednesday: 5:00 PM – 12:00 AM",
+            "Thursday: 5:00 PM – 12:00 AM",
+            "Friday: 5:00 PM – 12:00 AM",
+            "Saturday: 5:00 PM – 12:00 AM",
+            "Sunday: 5:00 PM – 12:00 AM"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJp3CpTsWIGGARfdumxbD_dpc_0.jpg",
+              "attribution": "亀戸沖縄ダイニング居酒屋いさたこ"
+            },
+            {
+              "filename": "ChIJp3CpTsWIGGARfdumxbD_dpc_1.jpg",
+              "attribution": "亀戸沖縄ダイニング居酒屋いさたこ"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=10914191881674349437&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "https://isataco.com/",
+          "phone": "03-5858-6088",
+          "primary_type": "japanese_izakaya_restaurant",
+          "recommended_menu": "We thoroughly enjoyed our dinner here, and would definitely recommend to others. The food was tasty ..."
+        },
+        {
+          "place_id": "ChIJkSjf4OmJGGARrnAZHiBiz50",
+          "name": "焼き鳥とワイン＋ビストロおでん 3B 門前仲町",
+          "rating": 4.6,
+          "user_rating_count": 73,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "Japan, 〒135-0048 Tokyo, Koto City, Monzennakachō, 2-chōme−4−９ Muse Monzen-nakacho, 門前仲町1階",
+          "travel_time_minutes": 29,
+          "travel_cost_yen": 240,
+          "travel_summary": "公共交通機関 約29分（6km）",
+          "reservable": true,
+          "opening_hours": [
+            "Monday: 5:00 – 11:00 PM",
+            "Tuesday: 5:00 – 11:00 PM",
+            "Wednesday: 5:00 – 11:00 PM",
+            "Thursday: 5:00 – 11:00 PM",
+            "Friday: 5:00 – 11:00 PM",
+            "Saturday: 2:00 – 11:00 PM",
+            "Sunday: 2:00 – 10:00 PM"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJkSjf4OmJGGARrnAZHiBiz50_0.jpg",
+              "attribution": "焼き鳥とワイン＋ビストロおでん 3B 門前仲町"
+            },
+            {
+              "filename": "ChIJkSjf4OmJGGARrnAZHiBiz50_1.jpg",
+              "attribution": "焼き鳥とワイン＋ビストロおでん 3B 門前仲町"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=11371415474217250990&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "https://3-bar.com/monnaka/?utm_source=top_google",
+          "phone": "050-5448-4139",
+          "primary_type": "japanese_izakaya_restaurant",
+          "recommended_menu": "Very interesting concept with fusion japanese/western food. For example mixing Oden with Italian mea..."
+        },
+        {
+          "place_id": "ChIJg8_S44yIGGARDO6OmvONDzY",
+          "name": "Sendaiya",
+          "rating": 4.6,
+          "user_rating_count": 80,
+          "budget_tier": "kosupa",
+          "budget_label": "コスパ重視",
+          "budget_icon": "💰",
+          "budget_morning_lunch": {
+            "tier": "kosupa",
+            "label": "コスパ重視",
+            "icon": "💰"
+          },
+          "budget_dinner": {
+            "tier": "kosupa",
+            "label": "コスパ重視",
+            "icon": "💰"
+          },
+          "price_range": "¥0〜¥1,500",
+          "price_range_dinner": "¥0〜¥3,000",
+          "address": "5-chōme-18-11 Kitasuna, Koto City, Tokyo 136-0073, Japan",
+          "travel_time_minutes": 5,
+          "travel_cost_yen": 0,
+          "travel_summary": "徒歩 5分",
+          "reservable": null,
+          "opening_hours": [
+            "Monday: 5:00 – 10:00 PM",
+            "Tuesday: 5:00 – 10:00 PM",
+            "Wednesday: 5:00 – 10:00 PM",
+            "Thursday: 5:00 – 10:00 PM",
+            "Friday: 5:00 – 10:00 PM",
+            "Saturday: 5:00 – 10:00 PM",
+            "Sunday: Closed"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJg8_S44yIGGARDO6OmvONDzY_0.jpg",
+              "attribution": "くさいだまじこ"
+            },
+            {
+              "filename": "ChIJg8_S44yIGGARDO6OmvONDzY_1.jpg",
+              "attribution": "林田芳幸"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=3895488280108396044&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "",
+          "phone": "03-3647-9489",
+          "primary_type": "japanese_izakaya_restaurant",
+          "recommended_menu": "I've been going there for years.\nIt's truly a downtown drinking spot.\nIt's a little inconvenient fro..."
+        },
+        {
+          "place_id": "ChIJq3vPqu6JGGARTbuKvrDtpZc",
+          "name": "割烹 坊々樹",
+          "rating": 4.2,
+          "user_rating_count": 259,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "Japan, 〒130-0013 Tokyo, Sumida City, Kinshi, 3-chōme−11−１ ＫＯＷＡビル １階",
+          "travel_time_minutes": 20,
+          "travel_cost_yen": 180,
+          "travel_summary": "公共交通機関 約20分（4km）",
+          "reservable": true,
+          "opening_hours": [
+            "Monday: 11:30 AM – 2:00 PM, 5:00 – 11:00 PM",
+            "Tuesday: 11:30 AM – 2:00 PM, 5:00 – 11:00 PM",
+            "Wednesday: 11:30 AM – 2:00 PM, 5:00 – 11:00 PM",
+            "Thursday: 11:30 AM – 2:00 PM, 5:00 – 11:00 PM",
+            "Friday: 11:30 AM – 2:00 PM, 5:00 – 11:00 PM",
+            "Saturday: 11:30 AM – 2:00 PM, 5:00 – 11:00 PM",
+            "Sunday: Closed"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJq3vPqu6JGGARTbuKvrDtpZc_0.jpg",
+              "attribution": "割烹 坊々樹"
+            },
+            {
+              "filename": "ChIJq3vPqu6JGGARTbuKvrDtpZc_1.jpg",
+              "attribution": "割烹 坊々樹"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=10927401414251166541&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "http://www.bobojyu.com/",
+          "phone": "03-6658-4545",
+          "primary_type": "japanese_restaurant",
+          "recommended_menu": "So tasty. No English menu as far as I could see, but the menu has pictures of the food."
+        },
+        {
+          "place_id": "ChIJpQ_PrKqOGGARHqNqcsk3ioc",
+          "name": "Muromachi cafe HACHI",
+          "rating": 4,
+          "user_rating_count": 655,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "Japan, 〒103-0022 Tokyo, Chuo City, Nihonbashimuromachi, 4-chōme−4−１０ 東短室町ビル 地下１階",
+          "travel_time_minutes": 38,
+          "travel_cost_yen": 270,
+          "travel_summary": "公共交通機関 約38分（8km）",
+          "reservable": true,
+          "opening_hours": [
+            "Monday: 7:00 AM – 10:00 PM",
+            "Tuesday: 7:00 AM – 10:00 PM",
+            "Wednesday: 7:00 AM – 10:00 PM",
+            "Thursday: 7:00 AM – 10:00 PM",
+            "Friday: 7:00 AM – 10:00 PM",
+            "Saturday: 11:00 AM – 5:00 PM",
+            "Sunday: Closed"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJpQ_PrKqOGGARHqNqcsk3ioc_0.jpg",
+              "attribution": "ムロマチカフェ ハチ"
+            },
+            {
+              "filename": "ChIJpQ_PrKqOGGARHqNqcsk3ioc_1.jpg",
+              "attribution": "ムロマチカフェ ハチ"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=9766680080253887262&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "https://hachi8.owst.jp/",
+          "phone": "03-3527-9108",
+          "primary_type": "cafe",
+          "recommended_menu": "We were lucky to be assigned the only table with couches. I wonder if I felt the same if we were sea..."
+        }
+      ]
+    },
+    {
       "generated_at": "2026-02-27T13:29:47.554543+09:00",
       "week_label": "2026年2月27日（金）",
       "restaurants": [

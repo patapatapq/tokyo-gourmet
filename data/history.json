@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-03-03T21:52:55.523439+09:00",
+      "week_label": "2026年3月3日（火）",
+      "restaurants": [
+        {
+          "place_id": "ChIJBVY7CCmJGGARnJCH8Kr0R40",
+          "name": "Tocci Kinshichō",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJudbgAFyPGGARgqnwAEomL6A",
+          "name": "国丸食堂とアカネコ",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJdXQ2RemIGGARtsc0iQ4fTRg",
+          "name": "Bull Steak House",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJ_RM7nuGIGGAR5SsYMxJn-QE",
+          "name": "Point",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJq3-_iWWLGGARAh1xm66RrjQ",
+          "name": "Sudachi",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJp3CpTsWIGGARfdumxbD_dpc",
+          "name": "ISATACO",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJkSjf4OmJGGARrnAZHiBiz50",
+          "name": "焼き鳥とワイン＋ビストロおでん 3B 門前仲町",
+          "rating": 4.6
+        },
+        {
+          "place_id": "ChIJg8_S44yIGGARDO6OmvONDzY",
+          "name": "Sendaiya",
+          "rating": 4.6
+        },
+        {
+          "place_id": "ChIJq3vPqu6JGGARTbuKvrDtpZc",
+          "name": "割烹 坊々樹",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJpQ_PrKqOGGARHqNqcsk3ioc",
+          "name": "Muromachi cafe HACHI",
+          "rating": 4
+        }
+      ]
+    },
+    {
       "generated_at": "2026-02-27T13:29:47.554543+09:00",
       "week_label": "2026年2月27日（金）",
       "restaurants": [
