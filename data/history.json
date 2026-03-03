@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-03-03T21:56:54.534378+09:00",
+      "week_label": "2026年3月3日（火）",
+      "restaurants": [
+        {
+          "place_id": "ChIJXV-jKFCJGGARKhfaXaU4Tsc",
+          "name": "Sico ITALIAN RESTAURANT Ryogoku",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJc18Ser-OGGAR9BzBt5lQciw",
+          "name": "阿娑縛(あさば)",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJE-__7sCIGGAReYbHpEX18qE",
+          "name": "洋食中華 エチゴヤ",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJR24Gve6JGGARWhIVjRKglkY",
+          "name": "しゃぶ食べ 錦糸町南口駅前店",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJWfXGT6qMGGARIdq1-1DfUEI",
+          "name": "TOMBOY カフェ 渋谷店｜グルメ ランチ ディナー 昼夜ご飯｜歓送迎会",
+          "rating": 4.6
+        },
+        {
+          "place_id": "ChIJs3HleimPGGARIyymF8gYKhc",
+          "name": "emc",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJETU4kteIGGARJHv3Q56HSxE",
+          "name": "レストラン シラツユ",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJxx4qdCCJGGARDrdigZ-Rqi8",
+          "name": "石焼ビビンパハウス",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJ78uW5eCLGGARXYdXapMKRjk",
+          "name": "Osteria Barababao 銀座",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJ8zKOv8OIGGARL0VJWSFTKHc",
+          "name": "シエル",
+          "rating": 4.3
+        }
+      ]
+    },
+    {
       "generated_at": "2026-03-03T21:52:55.523439+09:00",
       "week_label": "2026年3月3日（火）",
       "restaurants": [
