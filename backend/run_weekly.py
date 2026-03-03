@@ -10,7 +10,7 @@ from datetime import datetime, timedelta, timezone
 
 from backend.config import load_config, DATA_DIR, FRONTEND_DATA_DIR, PHOTOS_DIR
 from backend.places_client import search_all_restaurants, get_place_details
-from backend.routes_client import get_travel_info
+from backend.routes_client import get_travel_info, get_nearest_station
 from backend.recommender import (
     load_visited_ids,
     load_recent_history,
@@ -38,6 +38,48 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 JST = timezone(timedelta(hours=9))
+
+# primaryType → 日本語ジャンル名のマッピング
+PRIMARY_TYPE_JA: dict[str, str] = {
+    "restaurant": "レストラン",
+    "japanese_restaurant": "日本料理",
+    "sushi_restaurant": "寿司",
+    "ramen_restaurant": "ラーメン",
+    "noodle_restaurant": "麺料理",
+    "chinese_restaurant": "中華料理",
+    "italian_restaurant": "イタリアン",
+    "french_restaurant": "フレンチ",
+    "korean_restaurant": "韓国料理",
+    "seafood_restaurant": "海鮮料理",
+    "steak_house": "ステーキ",
+    "barbecue_restaurant": "バーベキュー",
+    "pizza_restaurant": "ピザ",
+    "american_restaurant": "アメリカン",
+    "thai_restaurant": "タイ料理",
+    "indian_restaurant": "インド料理",
+    "spanish_restaurant": "スペイン料理",
+    "hamburger_restaurant": "ハンバーガー",
+    "tempura_restaurant": "天ぷら",
+    "yakitori_restaurant": "焼き鳥",
+    "izakaya": "居酒屋",
+    "cafe": "カフェ",
+    "coffee_shop": "カフェ",
+    "bar": "バー",
+    "bakery": "ベーカリー",
+    "dessert_restaurant": "デザート",
+    "fast_food_restaurant": "ファストフード",
+    "yakiniku_restaurant": "焼肉",
+    "shabu_shabu_restaurant": "しゃぶしゃぶ",
+    "tonkatsu_restaurant": "とんかつ",
+    "teppanyaki_restaurant": "鉄板焼き",
+    "dim_sum_restaurant": "飲茶",
+    "vietnamese_restaurant": "ベトナム料理",
+    "vegetarian_restaurant": "ベジタリアン",
+    "vegan_restaurant": "ヴィーガン",
+    "brunch_restaurant": "ブランチ",
+    "mediterranean_restaurant": "地中海料理",
+    "middle_eastern_restaurant": "中東料理",
+}
 
 
 def main() -> int:
@@ -178,6 +220,29 @@ def main() -> int:
         display_name = details.get("displayName", {})
         name = display_name.get("text", "") if isinstance(display_name, dict) else str(display_name)
 
+        # ジャンル: primaryTypeDisplayName（日本語） → PRIMARY_TYPE_JA マッピング の順で取得
+        primary_type_display = details.get("primaryTypeDisplayName", {})
+        if isinstance(primary_type_display, dict):
+            genre = primary_type_display.get("text", "")
+        else:
+            genre = ""
+        if not genre:
+            genre = PRIMARY_TYPE_JA.get(details.get("primaryType", ""), "")
+
+        # 最寄り駅
+        location = details.get("location", {})
+        r_lat = location.get("latitude")
+        r_lng = location.get("longitude")
+        nearest_station = ""
+        if r_lat and r_lng:
+            try:
+                nearest_station = get_nearest_station(
+                    r_lat, r_lng,
+                    cache_expiry_days=cache_cfg.get("travel_time_expiry_days", 90),
+                )
+            except Exception as e:
+                logger.warning(f"  最寄り駅取得失敗 ({place_id}): {e}")
+
         restaurant = {
             "place_id": place_id,
             "name": name,
@@ -209,6 +274,8 @@ def main() -> int:
             "website": details.get("websiteUri", ""),
             "phone": details.get("nationalPhoneNumber", ""),
             "primary_type": details.get("primaryType", ""),
+            "genre": genre,
+            "nearest_station": nearest_station,
             "recommended_menu": recommended_menu,
         }
         restaurants.append(restaurant)

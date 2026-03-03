@@ -26,6 +26,8 @@ interface Props {
     website: string;
     phone: string;
     primary_type: string;
+    genre: string;
+    nearest_station: string;
     recommended_menu: string | null;
   };
   index: number;
@@ -35,57 +37,75 @@ const { restaurant: r, index } = Astro.props;
 const base = import.meta.env.BASE_URL;
 ---
 
-<article class="bg-surface rounded-xl shadow-md hover:shadow-lg transition-shadow overflow-hidden">
-  <!-- Photos -->
-  {r.photos.length > 0 && (
-    <div class="relative h-48 md:h-56 overflow-hidden">
+<article class="glass-card rounded-[16px] overflow-hidden group">
+  <!-- Photo Hero -->
+  <div class="relative h-56 md:h-64 overflow-hidden">
+    {r.photos.length > 0 ? (
       <img
         src={`${base}photos/${r.photos[0].filename}`}
         alt={r.name}
-        class="w-full h-full object-cover"
+        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
         loading="lazy"
       />
-      {r.photos.length > 1 && (
+    ) : (
+      <div class="w-full h-full bg-white/5 flex items-center justify-center">
+        <svg class="w-12 h-12 text-white/20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/>
+          <circle cx="12" cy="13" r="3"/>
+        </svg>
+      </div>
+    )}
+
+    <!-- Gradient Overlay -->
+    <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent" aria-hidden="true"></div>
+
+    <!-- Rank Badge -->
+    <div class="absolute top-3 left-3">
+      <span class="text-primary font-black text-2xl leading-none drop-shadow-lg">#{index}</span>
+    </div>
+
+    <!-- Second photo thumbnail -->
+    {r.photos.length > 1 && (
+      <div class="absolute top-3 right-3">
         <img
           src={`${base}photos/${r.photos[1].filename}`}
           alt={`${r.name} の料理`}
-          class="absolute top-2 right-2 w-20 h-20 md:w-24 md:h-24 rounded-lg object-cover border-2 border-white shadow-md"
+          class="w-16 h-16 rounded-[8px] object-cover border border-white/20 shadow-lg"
           loading="lazy"
         />
-      )}
-      <div class="absolute top-2 left-2 bg-black/60 text-white text-xs px-2 py-1 rounded-full">
-        #{index}
       </div>
-    </div>
-  )}
+    )}
 
-  {r.photos.length === 0 && (
-    <div class="h-32 bg-gray-100 flex items-center justify-center text-text-light">
-      <div class="text-center">
-        <div class="text-3xl mb-1">📷</div>
-        <div class="text-xs">写真なし</div>
-      </div>
-    </div>
-  )}
-
-  <!-- Content -->
-  <div class="p-4">
-    <!-- Name & Rating -->
-    <div class="flex items-start justify-between gap-2 mb-2">
-      <h3 class="text-lg font-bold text-text leading-tight">{r.name}</h3>
-      {r.rating && (
-        <div class="flex items-center gap-1 shrink-0">
-          <span class="text-star text-sm">★</span>
-          <span class="font-bold text-sm">{r.rating}</span>
-          <span class="text-text-light text-xs">({r.user_rating_count})</span>
+    <!-- Name & Rating (photo bottom overlay) -->
+    <div class="absolute bottom-0 left-0 right-0 p-4">
+      <div class="flex items-end justify-between gap-3">
+        <div class="flex-1 min-w-0">
+          <h3 class="text-white font-bold text-xl leading-tight">{r.name}</h3>
+          {r.genre && (
+            <p class="text-white/65 text-xs mt-0.5">{r.genre}</p>
+          )}
         </div>
-      )}
+        {r.rating && (
+          <div class="flex flex-col items-end shrink-0">
+            <div class="flex items-center gap-1">
+              <svg class="w-4 h-4 text-star" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+              </svg>
+              <span class="text-white font-bold text-lg leading-none">{r.rating}</span>
+            </div>
+            <span class="text-white/55 text-xs">{r.user_rating_count}件</span>
+          </div>
+        )}
+      </div>
     </div>
+  </div>
 
-    <!-- Budget Badges -->
-    <div class="flex flex-wrap gap-1.5 mb-3">
-      <div class="flex items-center gap-1">
-        <span class="text-xs text-text-light">朝昼:</span>
+  <!-- Body -->
+  <div class="p-5 space-y-4">
+    <!-- Budget -->
+    <div class="flex flex-wrap gap-x-4 gap-y-1.5">
+      <div class="flex items-center gap-1.5">
+        <span class="text-xs text-text-light">朝昼</span>
         <BudgetBadge
           tier={r.budget_morning_lunch.tier}
           label={r.budget_morning_lunch.label}
@@ -93,8 +113,8 @@ const base = import.meta.env.BASE_URL;
         />
         <span class="text-xs text-text-muted">{r.price_range}</span>
       </div>
-      <div class="flex items-center gap-1">
-        <span class="text-xs text-text-light">夜:</span>
+      <div class="flex items-center gap-1.5">
+        <span class="text-xs text-text-light">夜</span>
         <BudgetBadge
           tier={r.budget_dinner.tier}
           label={r.budget_dinner.label}
@@ -104,7 +124,7 @@ const base = import.meta.env.BASE_URL;
       </div>
     </div>
 
-    <!-- Travel Info -->
+    <!-- Travel -->
     <TravelInfo
       minutes={r.travel_time_minutes}
       cost={r.travel_cost_yen}
@@ -112,34 +132,75 @@ const base = import.meta.env.BASE_URL;
     />
 
     <!-- Details -->
-    <div class="mt-3 space-y-1.5 text-sm">
-      <div class="flex items-center gap-2 text-text-muted">
-        <span>📍</span>
-        <span class="text-xs">{r.address}</span>
-      </div>
-
-      {r.reservable !== null && (
+    <div class="space-y-2">
+      <!-- Nearest Station -->
+      {r.nearest_station && (
         <div class="flex items-center gap-2 text-text-muted">
-          <span>{r.reservable ? '📞' : '🚶'}</span>
-          <span class="text-xs">{r.reservable ? '予約可' : '予約不要'}</span>
+          <svg class="w-4 h-4 shrink-0 text-text-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="7" width="20" height="14" rx="2"/>
+            <path d="M16 2H8"/>
+            <path d="M12 2v5"/>
+            <path d="M6 17l-2 2"/>
+            <path d="M18 17l2 2"/>
+            <path d="M8 11h8"/>
+            <path d="M8 15h2"/>
+            <path d="M14 15h2"/>
+          </svg>
+          <span class="text-xs">{r.nearest_station} 最寄り</span>
         </div>
       )}
 
-      {r.recommended_menu && (
-        <div class="mt-2 p-2 bg-amber-50 rounded-lg text-xs text-text-muted border border-amber-100">
-          <span class="font-medium text-amber-700">💬 レビューより:</span>
-          <p class="mt-0.5">{r.recommended_menu}</p>
+      <!-- Address -->
+      <div class="flex items-start gap-2 text-text-muted">
+        <svg class="w-4 h-4 mt-0.5 shrink-0 text-text-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+          <circle cx="12" cy="10" r="3"/>
+        </svg>
+        <span class="text-xs">{r.address}</span>
+      </div>
+
+      <!-- Reservable -->
+      {r.reservable !== null && (
+        <div class="flex items-center gap-2 text-text-muted">
+          {r.reservable ? (
+            <svg class="w-4 h-4 shrink-0 text-text-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.99 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.92 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+          ) : (
+            <svg class="w-4 h-4 shrink-0 text-text-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="8" r="4"/>
+              <path d="M6 20v-2a6 6 0 0 1 12 0v2"/>
+            </svg>
+          )}
+          <span class="text-xs">{r.reservable ? '予約可' : '予約不要・当日OK'}</span>
         </div>
       )}
     </div>
 
-    <!-- Opening Hours (collapsible) -->
+    <!-- Recommended Menu -->
+    {r.recommended_menu && (
+      <div class="p-3 rounded-[12px] bg-primary/10 border border-primary/20">
+        <div class="flex items-center gap-1.5 mb-1">
+          <svg class="w-3.5 h-3.5 text-primary-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/>
+          </svg>
+          <span class="text-xs text-primary-light font-medium">口コミより</span>
+        </div>
+        <p class="text-xs text-white/80 leading-relaxed">{r.recommended_menu}</p>
+      </div>
+    )}
+
+    <!-- Opening Hours -->
     {r.opening_hours.length > 0 && (
-      <details class="mt-3">
-        <summary class="text-xs text-text-light cursor-pointer hover:text-text-muted">
-          🕐 営業時間を確認
+      <details>
+        <summary class="text-xs text-text-light cursor-pointer hover:text-white transition-colors flex items-center gap-1.5 list-none select-none">
+          <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"/>
+            <polyline points="12 6 12 12 16 14"/>
+          </svg>
+          営業時間を確認
         </summary>
-        <ul class="mt-1 text-xs text-text-muted space-y-0.5 pl-5">
+        <ul class="mt-2 text-xs text-text-muted space-y-1 pl-5">
           {r.opening_hours.map((h: string) => (
             <li>{h}</li>
           ))}
@@ -148,21 +209,21 @@ const base = import.meta.env.BASE_URL;
     )}
 
     <!-- Actions -->
-    <div class="mt-4 flex gap-2">
+    <div class="flex gap-2 pt-1">
       <a
         href={r.google_maps_url}
         target="_blank"
         rel="noopener noreferrer"
-        class="flex-1 text-center py-2 px-3 bg-primary text-white rounded-lg text-sm font-medium hover:bg-primary-dark transition-colors no-underline"
+        class="flex-1 text-center py-2.5 px-4 bg-primary hover:bg-primary-dark text-white rounded-[12px] text-sm font-medium transition-colors no-underline cursor-pointer"
       >
-        Google Maps
+        地図を開く
       </a>
       {r.website && (
         <a
           href={r.website}
           target="_blank"
           rel="noopener noreferrer"
-          class="py-2 px-3 border border-border text-text-muted rounded-lg text-sm hover:bg-gray-50 transition-colors no-underline"
+          class="py-2.5 px-4 border border-white/15 text-text-muted hover:text-white hover:bg-white/10 rounded-[12px] text-sm transition-colors no-underline cursor-pointer"
         >
           公式サイト
         </a>

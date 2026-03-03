@@ -35,6 +35,7 @@ DETAIL_FIELDS = [
     "formattedAddress",
     "location",
     "primaryType",
+    "primaryTypeDisplayName",
     "googleMapsUri",
     "photos",
     "regularOpeningHours",
@@ -145,7 +146,7 @@ def get_place_details(place_id: str) -> dict:
     headers = _headers()
     headers["X-Goog-FieldMask"] = ",".join(DETAIL_FIELDS)
 
-    resp = requests.get(url, headers=headers, timeout=30)
+    resp = requests.get(url, headers=headers, params={"languageCode": "ja"}, timeout=30)
     resp.raise_for_status()
     return resp.json()
 

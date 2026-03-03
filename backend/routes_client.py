@@ -6,6 +6,7 @@ DRIVE モードの所要時間 × 1.5 で公共交通機関の目安を推定す
 import json
 import logging
 import math
+import re
 import time
 from datetime import datetime, timedelta, timezone
 
@@ -17,6 +18,8 @@ logger = logging.getLogger(__name__)
 
 JST = timezone(timedelta(hours=9))
 ROUTES_URL = "https://routes.googleapis.com/directions/v2:computeRoutes"
+PLACES_BASE_URL = "https://places.googleapis.com/v1"
+NEARBY_URL = f"{PLACES_BASE_URL}/places:searchNearby"
 
 # 車での所要時間に対する公共交通機関の係数
 TRANSIT_MULTIPLIER = 1.5
@@ -177,3 +180,105 @@ def get_travel_info(
 
     time.sleep(0.2)  # レート制限対策
     return result
+
+
+def get_nearest_station(
+    lat: float,
+    lng: float,
+    cache_expiry_days: int = 90,
+) -> str:
+    """最寄り駅名（可能であれば路線名付き）を返す。
+
+    例: "大島駅（都営新宿線）" または "大島駅"
+
+    Places API Nearby Search で駅を探し、
+    editorialSummary から路線名を正規表現で抽出する。
+    結果は station_cache.json に "station:lat,lng" キーでキャッシュする。
+    """
+    cache_key = f"station:{round(lat, 4)},{round(lng, 4)}"
+    cache = _load_cache()
+
+    if cache_key in cache:
+        entry = cache[cache_key]
+        if _is_cache_valid(entry, cache_expiry_days):
+            logger.debug(f"駅キャッシュヒット: {cache_key}")
+            return entry.get("name", "")
+
+    # Step 1: 最寄り駅を検索
+    headers = {
+        "Content-Type": "application/json",
+        "X-Goog-Api-Key": get_api_key(),
+        "X-Goog-FieldMask": "places.displayName,places.id",
+    }
+    body = {
+        "includedTypes": ["subway_station", "train_station", "light_rail_station"],
+        "maxResultCount": 1,
+        "rankPreference": "DISTANCE",
+        "locationRestriction": {
+            "circle": {
+                "center": {"latitude": lat, "longitude": lng},
+                "radius": 1000.0,
+            }
+        },
+        "languageCode": "ja",
+    }
+
+    try:
+        resp = requests.post(NEARBY_URL, json=body, headers=headers, timeout=30)
+        resp.raise_for_status()
+        places = resp.json().get("places", [])
+    except Exception as e:
+        logger.warning(f"最寄り駅検索失敗: {e}")
+        return ""
+
+    if not places:
+        _cache_station(cache, cache_key, "")
+        return ""
+
+    first = places[0]
+    dn = first.get("displayName", {})
+    station_name = dn.get("text", "") if isinstance(dn, dict) else str(dn)
+    station_id = first.get("id", "")
+
+    # Step 2: editorialSummary から路線名を抽出
+    line_name = ""
+    if station_id:
+        try:
+            detail_url = f"{PLACES_BASE_URL}/places/{station_id}"
+            detail_headers = {
+                "X-Goog-Api-Key": get_api_key(),
+                "X-Goog-FieldMask": "editorialSummary",
+            }
+            detail_resp = requests.get(
+                detail_url,
+                headers=detail_headers,
+                params={"languageCode": "ja"},
+                timeout=30,
+            )
+            detail_resp.raise_for_status()
+            summary_obj = detail_resp.json().get("editorialSummary", {})
+            summary_text = summary_obj.get("text", "") if isinstance(summary_obj, dict) else ""
+
+            # 路線名パターン: 主要な運行会社名 + 路線名
+            m = re.search(
+                r"((?:東京メトロ|都営|JR|東急|京急|小田急|京王|西武|東武|相鉄|京成"
+                r"|つくばエクスプレス|ゆりかもめ|りんかい線|多摩モノレール)"
+                r"[^\s、。]{0,15}線)",
+                summary_text,
+            )
+            if m:
+                line_name = m.group(1)
+            time.sleep(0.2)
+        except Exception as e:
+            logger.debug(f"路線名取得失敗 ({station_name}): {e}")
+
+    result = f"{station_name}（{line_name}）" if line_name else station_name
+    _cache_station(cache, cache_key, result)
+    logger.info(f"最寄り駅: {result}")
+    return result
+
+
+def _cache_station(cache: dict, key: str, name: str) -> None:
+    """駅情報をキャッシュに保存する。"""
+    cache[key] = {"name": name, "cached_at": datetime.now(JST).isoformat()}
+    _save_cache(cache)

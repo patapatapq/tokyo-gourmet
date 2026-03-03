@@ -4,8 +4,9 @@ from pathlib import Path
 
 import requests
 
-from backend.config import PHOTOS_DIR
-from backend.places_client import get_photo_url
+from backend.config import PHOTOS_DIR, get_api_key
+
+BASE_URL = "https://places.googleapis.com/v1"
 
 logger = logging.getLogger(__name__)
 
@@ -40,15 +41,17 @@ def download_photos(
         filepath = PHOTOS_DIR / filename
 
         try:
-            # 写真URLを取得
-            photo_url = get_photo_url(photo_name, max_width=max_width)
-            if not photo_url:
-                logger.warning(f"写真URL取得失敗: {photo_name}")
-                continue
-
-            # ダウンロード
-            resp = requests.get(photo_url, timeout=30)
+            # 写真を直接ダウンロード（HTTPリダイレクトを追跡）
+            media_url = f"{BASE_URL}/{photo_name}/media"
+            params = {"maxWidthPx": max_width, "key": get_api_key()}
+            resp = requests.get(media_url, params=params, timeout=30, allow_redirects=True)
             resp.raise_for_status()
+
+            # 画像データであることを確認
+            content_type = resp.headers.get("Content-Type", "")
+            if "image" not in content_type:
+                logger.warning(f"写真取得失敗（画像でない）: {photo_name} Content-Type={content_type}")
+                continue
 
             with open(filepath, "wb") as f:
                 f.write(resp.content)

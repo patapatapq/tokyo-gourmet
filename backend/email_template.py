@@ -29,6 +29,8 @@ def render_email(
         budget_icon = r.get("budget_icon", "💰")
         budget_label = r.get("budget_label", "")
         price_range = r.get("price_range", "")
+        genre = r.get("genre", "")
+        nearest_station = r.get("nearest_station", "")
 
         restaurant_rows += f"""
         <tr>
@@ -39,7 +41,7 @@ def render_email(
                   <span style="font-size: 20px; font-weight: bold; color: #f97316;">{i}</span>
                 </td>
                 <td>
-                  <div style="font-size: 16px; font-weight: bold; color: #1f2937; margin-bottom: 4px;">
+                  <div style="font-size: 16px; font-weight: bold; color: #1f2937; margin-bottom: 2px;">
                     {r['name']}
                     <span style="font-size: 13px; font-weight: normal; color: #f59e0b;">
                       ★{r.get('rating', '-')}
@@ -48,9 +50,11 @@ def render_email(
                       ({r.get('user_rating_count', 0)}件)
                     </span>
                   </div>
+                  {f'<div style="font-size: 11px; color: #f97316; margin-bottom: 4px;">🍴 {genre}</div>' if genre else ''}
                   <div style="font-size: 13px; color: #6b7280; line-height: 1.6;">
                     {budget_icon} {budget_label} {f'| {price_range}' if price_range else ''}<br>
                     🚃 {travel_time}{travel_cost}<br>
+                    {f'🚉 {nearest_station} 最寄り<br>' if nearest_station else ''}
                     📍 {r.get('address', '')}<br>
                     {f'{reservable}<br>' if reservable else ''}
                   </div>
