@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-03-06T13:26:05.879106+09:00",
+      "week_label": "2026年3月6日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJ7x10s1WJGGARAD3DYKIo8E0",
+          "name": "レストラン桂",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJ93tEPRmJGGAR7KAQ-3vOuX4",
+          "name": "心らん",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJq6qmucaOGGARcNBft4flNX0",
+          "name": "喫茶店 とうよう",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJoeziRJ6OGGARtx_p0OnzAKw",
+          "name": "お食事処 森の茶屋",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJ40Kis_SIGGARnoyI9PLAyVc",
+          "name": "スタミナ苑",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJxfcJ_OuIGGARc9y40fMB6Zs",
+          "name": "炭火焼鳥 大門",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJf0pZfqOIGGARa_IWG8YoRx0",
+          "name": "クイーンガーデン 𝑄𝑈𝐸𝐸𝑁 𝐺𝐴𝑅𝐷𝐸𝑁",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJuSLjaWaNGGARFl5pwVPEhFE",
+          "name": "牛かつ いろは",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJgQRrXh6JGGARVoml4ZEQXuM",
+          "name": "肉の田じま",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJ5SIlM62HGGARPNeGyNk4Tl4",
+          "name": "食事処 喜界",
+          "rating": 4.3
+        }
+      ]
+    },
+    {
       "generated_at": "2026-03-03T22:36:57.750802+09:00",
       "week_label": "2026年3月3日（火）",
       "restaurants": [

@@ -1,6 +1,532 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-03-06T13:26:05.879106+09:00",
+      "week_label": "2026年3月6日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJ7x10s1WJGGARAD3DYKIo8E0",
+          "name": "レストラン桂",
+          "rating": 4.1,
+          "user_rating_count": 835,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒103-0022 東京都中央区日本橋室町１丁目１３−７",
+          "travel_time_minutes": 36,
+          "travel_cost_yen": 250,
+          "travel_summary": "公共交通機関 約36分（7km）",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 11時00分～14時15分, 17時00分～20時00分",
+            "火曜日: 11時00分～14時15分, 17時00分～20時00分",
+            "水曜日: 11時00分～14時15分, 17時00分～20時00分",
+            "木曜日: 11時00分～14時15分, 17時00分～20時00分",
+            "金曜日: 11時00分～14時15分, 17時00分～20時00分",
+            "土曜日: 11時00分～14時15分",
+            "日曜日: 定休日"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJ7x10s1WJGGARAD3DYKIo8E0_0.jpg",
+              "attribution": "Hidenori Ishibe"
+            },
+            {
+              "filename": "ChIJ7x10s1WJGGARAD3DYKIo8E0_1.jpg",
+              "attribution": "ゆうゆう"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=5616033413204229376&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "https://www.facebook.com/profile.php?id=100063499121699",
+          "phone": "03-3241-4922",
+          "primary_type": "japanese_restaurant",
+          "genre": "和食店",
+          "nearest_station": "三越前駅",
+          "recommended_menu": "日本橋の老舗レストラン桂\n⚠️\n時間が気になる方には向かないお店です。\n当然記帳台も票も無いので多人数の場合揃ってから並ぶのが当たり前のルールです‼️\n人気店です。代表者待ちをする様な方々には向かない..."
+        },
+        {
+          "place_id": "ChIJ93tEPRmJGGAR7KAQ-3vOuX4",
+          "name": "心らん",
+          "rating": 4.2,
+          "user_rating_count": 91,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒135-0022 東京都江東区三好４丁目９−８ 第２伊藤ビル",
+          "travel_time_minutes": 22,
+          "travel_cost_yen": 180,
+          "travel_summary": "公共交通機関 約22分（4km）",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 11時30分～14時00分, 17時30分～20時00分",
+            "火曜日: 11時30分～14時00分, 17時30分～20時00分",
+            "水曜日: 定休日",
+            "木曜日: 11時30分～14時00分, 17時30分～20時00分",
+            "金曜日: 11時30分～14時00分, 17時30分～20時00分",
+            "土曜日: 11時30分～14時00分, 17時30分～20時00分",
+            "日曜日: 11時30分～14時00分, 17時30分～20時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJ93tEPRmJGGAR7KAQ-3vOuX4_0.jpg",
+              "attribution": "yukimasa hitomi"
+            },
+            {
+              "filename": "ChIJ93tEPRmJGGAR7KAQ-3vOuX4_1.jpg",
+              "attribution": "Takahiro Kosaka"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=9131556751358861548&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "http://www.fukagawa-shinran.com/",
+          "phone": "03-5875-8793",
+          "primary_type": "japanese_restaurant",
+          "genre": "和食店",
+          "nearest_station": "菊川駅",
+          "recommended_menu": "東京メトロや都営大江戸線の清澄白河駅B2出口から徒歩約10分の「心らん」へ土曜の昼の11:50頃に1人で行って来ました♪\n\n店内は薄暗いながらも上質で席の構成は以下でしたね。\n\n・入って右側カウンター..."
+        },
+        {
+          "place_id": "ChIJq6qmucaOGGARcNBft4flNX0",
+          "name": "喫茶店 とうよう",
+          "rating": 4.1,
+          "user_rating_count": 124,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒111-0032 東京都台東区浅草１丁目１−１",
+          "travel_time_minutes": 33,
+          "travel_cost_yen": 240,
+          "travel_summary": "公共交通機関 約33分（6km）",
+          "reservable": null,
+          "opening_hours": [
+            "月曜日: 11時00分～20時30分",
+            "火曜日: 11時00分～20時30分",
+            "水曜日: 定休日",
+            "木曜日: 11時00分～20時30分",
+            "金曜日: 11時00分～20時30分",
+            "土曜日: 11時00分～20時30分",
+            "日曜日: 11時00分～20時30分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJq6qmucaOGGARcNBft4flNX0_0.jpg",
+              "attribution": "さへきひろのぶ"
+            },
+            {
+              "filename": "ChIJq6qmucaOGGARcNBft4flNX0_1.jpg",
+              "attribution": "津島有香"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=9022369799566512240&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "",
+          "phone": "03-3841-9108",
+          "primary_type": "japanese_restaurant",
+          "genre": "和食店",
+          "nearest_station": "浅草駅",
+          "recommended_menu": "2026/01/01ナポリタン(1100円)をいただきました。ウインナー＆ピーマン＆玉ねぎスライスの火の通り具合とパスタのもちもち弾力食感が絶妙！特にケチャップの加熱されて濃度が濃くなりトマトの旨味が..."
+        },
+        {
+          "place_id": "ChIJoeziRJ6OGGARtx_p0OnzAKw",
+          "name": "お食事処 森の茶屋",
+          "rating": 4.3,
+          "user_rating_count": 889,
+          "budget_tier": "kosupa",
+          "budget_label": "コスパ重視",
+          "budget_icon": "💰",
+          "budget_morning_lunch": {
+            "tier": "kosupa",
+            "label": "コスパ重視",
+            "icon": "💰"
+          },
+          "budget_dinner": {
+            "tier": "kosupa",
+            "label": "コスパ重視",
+            "icon": "💰"
+          },
+          "price_range": "¥0〜¥1,500",
+          "price_range_dinner": "¥0〜¥3,000",
+          "address": "日本、〒110-0005 東京都台東区上野６丁目１１−１９",
+          "travel_time_minutes": 40,
+          "travel_cost_yen": 270,
+          "travel_summary": "公共交通機関 約40分（8km）",
+          "reservable": false,
+          "opening_hours": [
+            "月曜日: 定休日",
+            "火曜日: 11時00分～14時50分, 17時00分～19時00分",
+            "水曜日: 11時00分～14時50分, 17時00分～19時00分",
+            "木曜日: 11時00分～14時50分, 17時00分～19時00分",
+            "金曜日: 11時00分～14時50分, 17時00分～19時00分",
+            "土曜日: 11時00分～14時50分, 17時00分～19時00分",
+            "日曜日: 11時00分～15時30分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJoeziRJ6OGGARtx_p0OnzAKw_0.jpg",
+              "attribution": "GS “Johnny” Tomo"
+            },
+            {
+              "filename": "ChIJoeziRJ6OGGARtx_p0OnzAKw_1.jpg",
+              "attribution": "Sunmean Kim"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=12394174360081473463&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "",
+          "phone": "03-3831-1570",
+          "primary_type": "japanese_restaurant",
+          "genre": "和食店",
+          "nearest_station": "京成上野駅",
+          "recommended_menu": "🍽️食レポ ─ 定食屋編 ─\n\nやっぱり定食が一番落ち着く。\n味噌汁が大好きで、最後の晩餐も味噌汁でいいと思うほど。\n\n⸻\n\n📅 10月某日　平日17時半ごろ訪問\n\n数年ぶりに来てみましたが――やっぱ..."
+        },
+        {
+          "place_id": "ChIJ40Kis_SIGGARnoyI9PLAyVc",
+          "name": "スタミナ苑",
+          "rating": 4.2,
+          "user_rating_count": 320,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒136-0073 東京都江東区北砂５丁目９−３",
+          "travel_time_minutes": 9,
+          "travel_cost_yen": 0,
+          "travel_summary": "徒歩 9分",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 定休日",
+            "火曜日: 17時00分～0時00分",
+            "水曜日: 17時00分～0時00分",
+            "木曜日: 17時00分～0時00分",
+            "金曜日: 17時00分～0時00分",
+            "土曜日: 11時30分～14時00分, 17時00分～0時00分",
+            "日曜日: 11時30分～14時00分, 17時00分～0時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJ40Kis_SIGGARnoyI9PLAyVc_0.jpg",
+              "attribution": "スタミナ苑"
+            },
+            {
+              "filename": "ChIJ40Kis_SIGGARnoyI9PLAyVc_1.jpg",
+              "attribution": "美酒乱"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=6325799301335780510&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "https://yakiniku-sutaminaen.com/",
+          "phone": "03-3640-9752",
+          "primary_type": "yakiniku_restaurant",
+          "genre": "焼肉店",
+          "nearest_station": "",
+          "recommended_menu": "昭和ハラミランチ(ご飯並盛り、肉並盛り)並タン塩、テグタンスープをいただきました。\n生姜の味が効いた特製タレでいただくハラミは柔らかく最高でした。\nタン塩も細かく包丁を入れてあり、食感を際立たせてくれ..."
+        },
+        {
+          "place_id": "ChIJxfcJ_OuIGGARc9y40fMB6Zs",
+          "name": "炭火焼鳥 大門",
+          "rating": 4.2,
+          "user_rating_count": 73,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒136-0072 東京都江東区大島４丁目６−４",
+          "travel_time_minutes": 4,
+          "travel_cost_yen": 0,
+          "travel_summary": "徒歩 4分",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 定休日",
+            "火曜日: 17時00分～23時30分",
+            "水曜日: 17時00分～23時30分",
+            "木曜日: 17時00分～23時30分",
+            "金曜日: 17時00分～23時30分",
+            "土曜日: 17時00分～23時30分",
+            "日曜日: 17時00分～23時30分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJxfcJ_OuIGGARc9y40fMB6Zs_0.jpg",
+              "attribution": "炭火焼鳥 大門"
+            },
+            {
+              "filename": "ChIJxfcJ_OuIGGARc9y40fMB6Zs_1.jpg",
+              "attribution": "炭火焼鳥 大門"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=11234512892159646835&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "https://sumibiyakitori-daimon.com/",
+          "phone": "03-5875-3632",
+          "primary_type": "yakitori_restaurant",
+          "genre": "焼き鳥店",
+          "nearest_station": "西大島駅",
+          "recommended_menu": "東京都（大島）\n\n大島、西大島に来たら、焼き鳥はこの店🤗\n肉の新鮮さ🙆‍♂️\nレバーは旨し！\nハツはちょうど良い歯応えと柔らかさ😁\n全部\n焼き、歯応え、良い感じ😁\nタレも、塩加減もちょうど良い。\n\n手..."
+        },
+        {
+          "place_id": "ChIJf0pZfqOIGGARa_IWG8YoRx0",
+          "name": "クイーンガーデン 𝑄𝑈𝐸𝐸𝑁 𝐺𝐴𝑅𝐷𝐸𝑁",
+          "rating": 4.3,
+          "user_rating_count": 123,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒132-0035 東京都江戸川区平井４丁目４−２８ 大商第５ビル 103",
+          "travel_time_minutes": 18,
+          "travel_cost_yen": 180,
+          "travel_summary": "公共交通機関 約18分（4km）",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 定休日",
+            "火曜日: 11時00分～15時00分, 17時00分～22時00分",
+            "水曜日: 11時00分～15時00分, 17時00分～22時00分",
+            "木曜日: 11時00分～15時00分, 17時00分～22時00分",
+            "金曜日: 11時00分～15時00分, 17時00分～22時00分",
+            "土曜日: 11時00分～15時00分, 17時00分～22時00分",
+            "日曜日: 11時00分～15時00分, 17時00分～22時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJf0pZfqOIGGARa_IWG8YoRx0_0.jpg",
+              "attribution": "クイーンガーデン 𝑄𝑈𝐸𝐸𝑁 𝐺𝐴𝑅𝐷𝐸𝑁"
+            },
+            {
+              "filename": "ChIJf0pZfqOIGGARa_IWG8YoRx0_1.jpg",
+              "attribution": "Shy Penguin"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=2109699781769491051&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "https://g.page/QueenGarden",
+          "phone": "03-3683-3773",
+          "primary_type": "indian_restaurant",
+          "genre": "インド料理店",
+          "nearest_station": "平井駅",
+          "recommended_menu": "前々から気になっていた地元民から大好評のお店🇳🇵\n平日ランチのテイクアウトで利用しました🙏\n感動する美味しさでした😋ファンになりました😇\n\n店員さんもフレンドリーで、常連さんとの会話が耳に入りました。..."
+        },
+        {
+          "place_id": "ChIJuSLjaWaNGGARFl5pwVPEhFE",
+          "name": "牛かつ いろは",
+          "rating": 4.7,
+          "user_rating_count": 5728,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒170-0013 東京都豊島区東池袋１丁目９−７ 友光ビル B1F",
+          "travel_time_minutes": 47,
+          "travel_cost_yen": 400,
+          "travel_summary": "公共交通機関 約47分（17km）",
+          "reservable": false,
+          "opening_hours": [
+            "月曜日: 11時00分～22時00分",
+            "火曜日: 11時00分～22時00分",
+            "水曜日: 11時00分～22時00分",
+            "木曜日: 11時00分～22時00分",
+            "金曜日: 11時00分～22時00分",
+            "土曜日: 11時00分～22時00分",
+            "日曜日: 11時00分～22時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJuSLjaWaNGGARFl5pwVPEhFE_0.jpg",
+              "attribution": "牛かつ いろは"
+            },
+            {
+              "filename": "ChIJuSLjaWaNGGARFl5pwVPEhFE_1.jpg",
+              "attribution": "牛かつ いろは"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=5874035678004207126&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "https://tabelog.com/tokyo/A1305/A130501/13175782/",
+          "phone": "03-3971-2838",
+          "primary_type": "tonkatsu_restaurant",
+          "genre": "とんかつ店",
+          "nearest_station": "池袋駅",
+          "recommended_menu": "少し高めの値段ですが全然払える味です。牛カツを自分の好きな焼き具合に焼くスタイルです。カツは柔らかいと同時に少し弾力のある刺身のような食感で牛肉らしい味です。味付けの種類が豊富でとろろ、和風ソース、し..."
+        },
+        {
+          "place_id": "ChIJgQRrXh6JGGARVoml4ZEQXuM",
+          "name": "肉の田じま",
+          "rating": 4.4,
+          "user_rating_count": 2104,
+          "budget_tier": "premium",
+          "budget_label": "高級",
+          "budget_icon": "💰💰💰",
+          "budget_morning_lunch": {
+            "tier": "premium",
+            "label": "高級",
+            "icon": "💰💰💰"
+          },
+          "budget_dinner": {
+            "tier": "premium",
+            "label": "高級",
+            "icon": "💰💰💰"
+          },
+          "price_range": "¥3,000〜",
+          "price_range_dinner": "¥6,000〜",
+          "address": "日本、〒135-0011 東京都江東区扇橋１丁目４−１",
+          "travel_time_minutes": 20,
+          "travel_cost_yen": 180,
+          "travel_summary": "公共交通機関 約20分（4km）",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 定休日",
+            "火曜日: 11時00分～21時30分",
+            "水曜日: 11時00分～21時30分",
+            "木曜日: 11時00分～21時30分",
+            "金曜日: 11時00分～21時30分",
+            "土曜日: 11時00分～21時30分",
+            "日曜日: 11時00分～21時30分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJgQRrXh6JGGARVoml4ZEQXuM_0.jpg",
+              "attribution": "肉の田じま"
+            },
+            {
+              "filename": "ChIJgQRrXh6JGGARVoml4ZEQXuM_1.jpg",
+              "attribution": "肉の田じま"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=16383550713162467670&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "http://www.nikunotajima.com/",
+          "phone": "03-3699-8929",
+          "primary_type": "yakiniku_restaurant",
+          "genre": "焼肉店",
+          "nearest_station": "菊川駅",
+          "recommended_menu": "畳(座敷)があった時によくいきました。改装してから初訪問です。ひとりや二人でも入りやすいようにカウンターがあります。テールがなくなったのは残念ですが、タンシタネギのは贅沢に個別になってたり、はらみ(特..."
+        },
+        {
+          "place_id": "ChIJ5SIlM62HGGARPNeGyNk4Tl4",
+          "name": "食事処 喜界",
+          "rating": 4.3,
+          "user_rating_count": 264,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒134-0081 東京都江戸川区北葛西２丁目２３−１９ 1階",
+          "travel_time_minutes": 20,
+          "travel_cost_yen": 220,
+          "travel_summary": "公共交通機関 約20分（5km）",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 11時00分～13時30分, 17時00分～21時00分",
+            "火曜日: 11時00分～13時30分, 17時00分～21時00分",
+            "水曜日: 11時00分～13時30分, 17時00分～21時00分",
+            "木曜日: 11時00分～13時30分, 17時00分～21時00分",
+            "金曜日: 11時00分～13時30分, 17時00分～21時00分",
+            "土曜日: 11時00分～13時30分, 17時00分～21時00分",
+            "日曜日: 定休日"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJ5SIlM62HGGARPNeGyNk4Tl4_0.jpg",
+              "attribution": "h Ochiai"
+            },
+            {
+              "filename": "ChIJ5SIlM62HGGARPNeGyNk4Tl4_1.jpg",
+              "attribution": "A SUZU"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=6795431395771995964&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "https://www4.hp-ez.com/hp/kikainisi",
+          "phone": "03-4361-1438",
+          "primary_type": "japanese_restaurant",
+          "genre": "和食店",
+          "nearest_station": "",
+          "recommended_menu": "平日の昼に訪問しました。\n海鮮メニューが豊富なお食事処。\n注文したもの\n刺身定食　1,500円\n8種類ほどのお刺身にご飯おかわり無料！\nコスパはもちろん、刺身も美味しかったです。\nお店の方の雰囲気も優..."
+        }
+      ]
+    },
+    {
       "generated_at": "2026-03-03T22:36:57.750802+09:00",
       "week_label": "2026年3月3日（火）",
       "restaurants": [
