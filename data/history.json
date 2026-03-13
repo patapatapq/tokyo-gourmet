@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-03-13T13:28:09.800947+09:00",
+      "week_label": "2026年3月13日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJKaZ--IKPGGARD5DfwiD-1rY",
+          "name": "GONIA KURAMAE",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJR4zCe3qJGGARqMdwRjW84Z0",
+          "name": "Café Accha（カフェ・アチャ）",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJd_05ruSLGGARpUZLC9YfbVw",
+          "name": "091\"",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJR3U9VMWIGGAR7lzahisreDw",
+          "name": "炭火焼鳥 亀戸 酉 ＴＯＲＩＹＡ",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJOS0IKiiJGGARmOaiez6hqSM",
+          "name": "サイゴンマジェスティック",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJWf24PgCPGGARKFswkqSNXPE",
+          "name": "カフェ 寛味堂",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJnxOshd-IGGARZwPGpXrhnME",
+          "name": "スミヨシホルモン",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJp8bfgGiJGGARe2vAgn7ukeU",
+          "name": "ラトリエ 住吉",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJjX2UEKaNGGARqhp9myAPFiw",
+          "name": "レストラン モロッコ",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJ4V7HsByMGGARQh7spliek0U",
+          "name": "レストラン マルシャン",
+          "rating": 4.1
+        }
+      ]
+    },
+    {
       "generated_at": "2026-03-06T13:26:05.879106+09:00",
       "week_label": "2026年3月6日（金）",
       "restaurants": [
