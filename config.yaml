@@ -66,7 +66,7 @@ sheets:
 
 # 写真設定
 photos:
-  max_per_restaurant: 2
+  max_per_restaurant: 4
   max_width_px: 800
 
 # キャッシュ設定

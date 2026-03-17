@@ -43,6 +43,11 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+/* Opening hours details chevron */
+details[open] .chevron-icon {
+  transform: rotate(180deg);
+}
+
 /* Glass header */
 .glass-header {
   background: rgba(13, 13, 26, 0.85);
