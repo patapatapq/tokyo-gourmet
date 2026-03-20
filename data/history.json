@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-03-20T13:30:21.681164+09:00",
+      "week_label": "2026年3月20日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJ6yk9kbGJGGARWRni9Uv4YqY",
+          "name": "豚ウォリー 錦糸町店",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJuXFkGDeJGGARyk0BvJtFMic",
+          "name": "Surya Royal Garden 錦糸町店",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJY81dd3zzGGARUhdHewUJeO8",
+          "name": "酒場たいよう｜下北沢 グルメ居酒屋",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJdwokn7mJGGARprXPdWMRYiI",
+          "name": "インディアンパレス大島支店",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJk8JyRLCHGGART6cIOjM2c5o",
+          "name": "Taverna e Pizzeria Salute",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJsQJiKdmHGGAR-yeIXwmgu_Q",
+          "name": "こしじ",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJC_Huv2eNGGAR_vHkMAx_CHg",
+          "name": "阿津満",
+          "rating": 4.6
+        },
+        {
+          "place_id": "ChIJIdyTmdeIGGARpAeN4p9_gIc",
+          "name": "タベルナ セルジオ（TABERNA SERGIO）",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJnSEEKbuIGGARghCJS0teeoE",
+          "name": "牛繁 平井店",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJgZy7tReJGGARuNeWTz4wr94",
+          "name": "EN FACE",
+          "rating": 4.6
+        }
+      ]
+    },
+    {
       "generated_at": "2026-03-13T13:28:09.800947+09:00",
       "week_label": "2026年3月13日（金）",
       "restaurants": [
