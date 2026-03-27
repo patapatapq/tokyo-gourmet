@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-03-27T14:00:40.981383+09:00",
+      "week_label": "2026年3月27日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJQZeXydmIGGARncBwMJLgKMc",
+          "name": "ワイン食堂 ジョイーレ",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJ3WEIs96NGGAR4oO9nvssiUw",
+          "name": "ZEERA 秋葉原店(ジーラ)",
+          "rating": 4.6
+        },
+        {
+          "place_id": "ChIJoTAju_-PGGAR85FjwSBmkFY",
+          "name": "nicocafe 328 ニコカフェ328",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJVbBJaxWJGGARoLqrsuNhoKE",
+          "name": "コクショウ 清澄白河のイタリアンレストラン(KOKUSHO)",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJ9UW4h8SIGGARDkBRvOCv_3s",
+          "name": "ステーキ＆ハンバーグ専門店 肉の村山 亀戸店",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJD9Pd-daOGGARCYgMMXqki5E",
+          "name": "東京ソラマチ",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJ840H6FmJGGARlpD85gi6NWI",
+          "name": "錦糸町ジンギスカン オクノ羊ヤ、ミナミ",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJVZRyhlCJGGARBqiouKILmqQ",
+          "name": "Ringraziamento レストランリングラツィアメント",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJ3S5-AymJGGARwMNXpQHKJMA",
+          "name": "簾",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJDUz3p_6LGGAR1Vvgz2soy2E",
+          "name": "産直グルメ回転ずし 函太郎Tokyo",
+          "rating": 4
+        }
+      ]
+    },
+    {
       "generated_at": "2026-03-20T13:30:21.681164+09:00",
       "week_label": "2026年3月20日（金）",
       "restaurants": [
