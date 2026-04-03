@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-04-03T13:58:00.354702+09:00",
+      "week_label": "2026年4月3日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJo7DLaJGJGGARmOR5xWC84b4",
+          "name": "うず食堂",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJheEi32yJGGAR11vAduSsGb8",
+          "name": "イタリア食堂 Ricco 21",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJ7x10s1WJGGARAD3DYKIo8E0",
+          "name": "レストラン桂",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJWwt7jcOIGGARRbVZpSOY0QU",
+          "name": "DECARY",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJTZH_vyeJGGARKGDiUDQTWr0",
+          "name": "呑み処(和助)",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJV4XLJemLGGARjVJDE4eqPGw",
+          "name": "銀座 やまの辺 江戸中華",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJaxP9U8SIGGARF-JmLqjdMHk",
+          "name": "洋風居酒屋 民酒党",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJxza49_OIGGARymvrSHvEHbk",
+          "name": "KO-UN TO-RAI",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJu4zxdh2PGGARqMhcH_5Kl10",
+          "name": "レストラン リヨン",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJrbqtZs-JGGARU1IrI7OoUOU",
+          "name": "砂町ホルモン匠 南砂店",
+          "rating": 4.3
+        }
+      ]
+    },
+    {
       "generated_at": "2026-03-27T14:00:40.981383+09:00",
       "week_label": "2026年3月27日（金）",
       "restaurants": [
