@@ -1,6 +1,612 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-04-10T14:16:01.058843+09:00",
+      "week_label": "2026年4月10日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJBVY7CCmJGGARnJCH8Kr0R40",
+          "name": "酒屋ばる Tocci 錦糸町店",
+          "rating": 4.2,
+          "user_rating_count": 176,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒130-0013 東京都墨田区錦糸１丁目４−１４",
+          "travel_time_minutes": 20,
+          "travel_cost_yen": 180,
+          "travel_summary": "公共交通機関 約20分（4km）",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 11時30分～14時00分, 17時00分～23時00分",
+            "火曜日: 11時30分～14時00分, 17時00分～23時00分",
+            "水曜日: 11時30分～14時00分, 17時00分～23時00分",
+            "木曜日: 11時30分～14時00分, 17時00分～23時00分",
+            "金曜日: 11時30分～14時00分, 17時00分～23時00分",
+            "土曜日: 17時00分～23時00分",
+            "日曜日: 16時00分～22時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJBVY7CCmJGGARnJCH8Kr0R40_0.jpg",
+              "attribution": "酒屋ばる Tocci 錦糸町店"
+            },
+            {
+              "filename": "ChIJBVY7CCmJGGARnJCH8Kr0R40_1.jpg",
+              "attribution": "酒屋ばる Tocci 錦糸町店"
+            },
+            {
+              "filename": "ChIJBVY7CCmJGGARnJCH8Kr0R40_2.jpg",
+              "attribution": "K “マンモス” I"
+            },
+            {
+              "filename": "ChIJBVY7CCmJGGARnJCH8Kr0R40_3.jpg",
+              "attribution": "かしわ"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=10180374497711329436&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "https://tocci-menu.faith-one.co.jp/",
+          "phone": "03-5637-7225",
+          "primary_type": "japanese_izakaya_restaurant",
+          "genre": "居酒屋",
+          "nearest_station": "錦糸町駅",
+          "recommended_menu": "平日のランチタイムに訪問。\n店内は広く、明るくて開放感がある。カウンター席とテーブル席が合わせて10席ほどあり、ほぼ満席だった。\n\n注文したのはAランチのチキンのグリル。\n上品な味付けで美味しく、しっ..."
+        },
+        {
+          "place_id": "ChIJF2aPQk2JGGAR7wZtL2rjpkQ",
+          "name": "三景(サンケイ)",
+          "rating": 4.1,
+          "user_rating_count": 69,
+          "budget_tier": "kosupa",
+          "budget_label": "コスパ重視",
+          "budget_icon": "💰",
+          "budget_morning_lunch": {
+            "tier": "kosupa",
+            "label": "コスパ重視",
+            "icon": "💰"
+          },
+          "budget_dinner": {
+            "tier": "kosupa",
+            "label": "コスパ重視",
+            "icon": "💰"
+          },
+          "price_range": "¥0〜¥1,500",
+          "price_range_dinner": "¥0〜¥3,000",
+          "address": "日本、〒103-0004 東京都中央区東日本橋３丁目９−７ 東日ビル",
+          "travel_time_minutes": 32,
+          "travel_cost_yen": 250,
+          "travel_summary": "公共交通機関 約32分（7km）",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 11時30分～14時30分",
+            "火曜日: 11時30分～14時30分",
+            "水曜日: 11時30分～14時30分",
+            "木曜日: 11時30分～14時30分",
+            "金曜日: 11時30分～14時30分",
+            "土曜日: 定休日",
+            "日曜日: 定休日"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJF2aPQk2JGGAR7wZtL2rjpkQ_0.jpg",
+              "attribution": "Hideki Hasunuma"
+            },
+            {
+              "filename": "ChIJF2aPQk2JGGAR7wZtL2rjpkQ_1.jpg",
+              "attribution": "Dai Suzuki"
+            },
+            {
+              "filename": "ChIJF2aPQk2JGGAR7wZtL2rjpkQ_2.jpg",
+              "attribution": "てるさんR171"
+            },
+            {
+              "filename": "ChIJF2aPQk2JGGAR7wZtL2rjpkQ_3.jpg",
+              "attribution": "二郎三郎"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=4946891285914781423&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "",
+          "phone": "03-3666-9310",
+          "primary_type": "japanese_restaurant",
+          "genre": "和食店",
+          "nearest_station": "馬喰横山駅",
+          "recommended_menu": "出先で素晴らしいお店を発見しました。スタミナ定食を頂きましたがニンニクガッツリで大満足です。行きつけになりそう。"
+        },
+        {
+          "place_id": "ChIJ8zKOv8OIGGARL0VJWSFTKHc",
+          "name": "シエル",
+          "rating": 4.3,
+          "user_rating_count": 55,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒136-0071 東京都江東区亀戸６丁目２１−９ 第２高木ビル",
+          "travel_time_minutes": 13,
+          "travel_cost_yen": 0,
+          "travel_summary": "徒歩 13分",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 定休日",
+            "火曜日: 11時30分～14時00分, 18時00分～22時00分",
+            "水曜日: 11時30分～14時00分, 18時00分～22時00分",
+            "木曜日: 11時30分～14時00分, 18時00分～22時00分",
+            "金曜日: 11時30分～14時00分, 18時00分～22時00分",
+            "土曜日: 11時30分～14時00分, 18時00分～22時00分",
+            "日曜日: 11時30分～15時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJ8zKOv8OIGGARL0VJWSFTKHc_0.jpg",
+              "attribution": "飯島由隆"
+            },
+            {
+              "filename": "ChIJ8zKOv8OIGGARL0VJWSFTKHc_1.jpg",
+              "attribution": "シエル"
+            },
+            {
+              "filename": "ChIJ8zKOv8OIGGARL0VJWSFTKHc_2.jpg",
+              "attribution": "たくろいち"
+            },
+            {
+              "filename": "ChIJ8zKOv8OIGGARL0VJWSFTKHc_3.jpg",
+              "attribution": "Peter Isgaard"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=8586204092278850863&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "",
+          "phone": "03-5875-3732",
+          "primary_type": "italian_restaurant",
+          "genre": "イタリア料理店",
+          "nearest_station": "亀戸駅",
+          "recommended_menu": "亀戸駅徒歩2分くらい。6丁目の住宅街の地域にある洋食屋さん。ランチでいきました。\n店内はアットホームな雰囲気で、カウンターとテーブル席がある。カウンター前の壁はコルクでできていたりとイタリアンな雰囲気..."
+        },
+        {
+          "place_id": "ChIJIQyREZOIGGARm54gZXACPXM",
+          "name": "大城屋",
+          "rating": 4.4,
+          "user_rating_count": 71,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒136-0072 東京都江東区大島５丁目３５−４",
+          "travel_time_minutes": 5,
+          "travel_cost_yen": 0,
+          "travel_summary": "徒歩 5分",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 18時00分～2時00分",
+            "火曜日: 定休日",
+            "水曜日: 18時00分～2時00分",
+            "木曜日: 18時00分～2時00分",
+            "金曜日: 18時00分～3時00分",
+            "土曜日: 18時00分～3時00分",
+            "日曜日: 18時00分～0時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJIQyREZOIGGARm54gZXACPXM_0.jpg",
+              "attribution": "大城屋"
+            },
+            {
+              "filename": "ChIJIQyREZOIGGARm54gZXACPXM_1.jpg",
+              "attribution": "大城屋"
+            },
+            {
+              "filename": "ChIJIQyREZOIGGARm54gZXACPXM_2.jpg",
+              "attribution": "大城屋"
+            },
+            {
+              "filename": "ChIJIQyREZOIGGARm54gZXACPXM_3.jpg",
+              "attribution": "大城屋"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=8303795969697291931&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "https://www.instagram.com/ooshiroya?igsh=MWI4eWg4cHRhdWlnMA==",
+          "phone": "03-3682-7474",
+          "primary_type": "japanese_izakaya_restaurant",
+          "genre": "居酒屋",
+          "nearest_station": "大島駅",
+          "recommended_menu": "金曜夜、予約無しの2人でテーブル席案内してもらえました。\n紅芋ポテサラやもずく天ぷらなど、はじめて食べるものも美味しかったです！また行きたいなと思いました☺️\n泡盛もはじめて飲みましたが、個人的にはま..."
+        },
+        {
+          "place_id": "ChIJP29WkCSJGGARpe9AEOvpbdY",
+          "name": "お好み焼き 味三",
+          "rating": 4.6,
+          "user_rating_count": 92,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒130-0024 東京都墨田区菊川２丁目６−１４",
+          "travel_time_minutes": 21,
+          "travel_cost_yen": 180,
+          "travel_summary": "公共交通機関 約21分（4km）",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 定休日",
+            "火曜日: 17時00分～22時00分",
+            "水曜日: 11時30分～14時00分, 17時00分～22時00分",
+            "木曜日: 11時30分～14時00分, 17時00分～22時00分",
+            "金曜日: 11時30分～14時00分, 17時00分～22時00分",
+            "土曜日: 17時00分～22時00分",
+            "日曜日: 17時00分～22時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJP29WkCSJGGARpe9AEOvpbdY_0.jpg",
+              "attribution": "さへきひろのぶ"
+            },
+            {
+              "filename": "ChIJP29WkCSJGGARpe9AEOvpbdY_1.jpg",
+              "attribution": "A W"
+            },
+            {
+              "filename": "ChIJP29WkCSJGGARpe9AEOvpbdY_2.jpg",
+              "attribution": "werni30989"
+            },
+            {
+              "filename": "ChIJP29WkCSJGGARpe9AEOvpbdY_3.jpg",
+              "attribution": "えま"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=15451263092377317285&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "",
+          "phone": "03-3632-6008",
+          "primary_type": "japanese_restaurant",
+          "genre": "和食店",
+          "nearest_station": "菊川駅",
+          "recommended_menu": "豚ミックス랑カマンベールチーズもんじゃ焼き 먹었습니다!! 사장님들도 정말정말 기분이 좋아질 정도로 친절하시고 음식도 너무너무 맛있었어요! 처음 먹어본 몬자야끼였는데 최고였습니당! 완전..."
+        },
+        {
+          "place_id": "ChIJedos9ueIGGARjPbWZdJmD_o",
+          "name": "銀杏",
+          "rating": 4.3,
+          "user_rating_count": 479,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒136-0072 東京都江東区大島２丁目１５−３",
+          "travel_time_minutes": 12,
+          "travel_cost_yen": 0,
+          "travel_summary": "徒歩 12分",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 11時30分～14時00分",
+            "火曜日: 定休日",
+            "水曜日: 11時30分～14時30分, 17時30分～21時00分",
+            "木曜日: 11時30分～14時30分, 17時30分～21時00分",
+            "金曜日: 11時00分～14時30分, 17時00分～21時00分",
+            "土曜日: 11時30分～14時30分, 17時00分～21時00分",
+            "日曜日: 11時30分～14時30分, 17時30分～21時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJedos9ueIGGARjPbWZdJmD_o_0.jpg",
+              "attribution": "愛台湾"
+            },
+            {
+              "filename": "ChIJedos9ueIGGARjPbWZdJmD_o_1.jpg",
+              "attribution": "銀杏"
+            },
+            {
+              "filename": "ChIJedos9ueIGGARjPbWZdJmD_o_2.jpg",
+              "attribution": "miki_maplog"
+            },
+            {
+              "filename": "ChIJedos9ueIGGARjPbWZdJmD_o_3.jpg",
+              "attribution": "miki_maplog"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=18018733687970395788&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "http://silver-apricot.com/",
+          "phone": "03-3681-9962",
+          "primary_type": "restaurant",
+          "genre": "レストラン",
+          "nearest_station": "西大島駅",
+          "recommended_menu": "名古屋からの出張で、どうしても行きたくて初訪問！\nお蕎麦はめっっちゃ美味しくて🤤✨ お酒も最高でした！\n\nお酒好きの友人たちにも大好評で、「いいお店紹介してくれてありがとう」と感謝されたのもうれしかっ..."
+        },
+        {
+          "place_id": "ChIJc6a-b_6PGGARiXxoLij1pxQ",
+          "name": "カフェ・レストラン Paradise Poke 蔵前駅前店",
+          "rating": 4.8,
+          "user_rating_count": 792,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒111-0051 東京都台東区蔵前２丁目４−８",
+          "travel_time_minutes": 30,
+          "travel_cost_yen": 250,
+          "travel_summary": "公共交通機関 約30分（6km）",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 定休日",
+            "火曜日: 11時00分～15時30分, 17時00分～21時30分",
+            "水曜日: 11時00分～15時30分, 17時00分～21時30分",
+            "木曜日: 11時00分～15時30分, 17時00分～21時30分",
+            "金曜日: 11時00分～15時30分, 17時00分～21時30分",
+            "土曜日: 11時00分～21時30分",
+            "日曜日: 11時00分～20時30分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJc6a-b_6PGGARiXxoLij1pxQ_0.jpg",
+              "attribution": "カフェ・レストラン Paradise Poke 蔵前駅前店"
+            },
+            {
+              "filename": "ChIJc6a-b_6PGGARiXxoLij1pxQ_1.jpg",
+              "attribution": "カフェ・レストラン Paradise Poke 蔵前駅前店"
+            },
+            {
+              "filename": "ChIJc6a-b_6PGGARiXxoLij1pxQ_2.jpg",
+              "attribution": "おみ"
+            },
+            {
+              "filename": "ChIJc6a-b_6PGGARiXxoLij1pxQ_3.jpg",
+              "attribution": "y y"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=1488427754795334793&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "https://www.instagram.com/paradise_poke.kuramae/",
+          "phone": "03-5829-3994",
+          "primary_type": "cafe",
+          "genre": "カフェ・喫茶",
+          "nearest_station": "蔵前駅",
+          "recommended_menu": "犬連れで一緒にご飯が食べれる貴重なお店です！！\n雰囲気⭕️スタッフさんの対応⭕️食事の満足度⭕️\nまた行きたいです♪"
+        },
+        {
+          "place_id": "ChIJExytlCmJGGAR0f-jLdq5uEU",
+          "name": "CAYU des ROIS 亀沢店",
+          "rating": 4.1,
+          "user_rating_count": 600,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒130-0014 東京都墨田区亀沢４丁目１７−１７ I.T.O. bldg 1F",
+          "travel_time_minutes": 21,
+          "travel_cost_yen": 180,
+          "travel_summary": "公共交通機関 約21分（4km）",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 10時30分～21時00分",
+            "火曜日: 10時30分～21時00分",
+            "水曜日: 10時30分～21時00分",
+            "木曜日: 10時30分～21時00分",
+            "金曜日: 10時30分～21時00分",
+            "土曜日: 10時30分～20時00分",
+            "日曜日: 10時30分～20時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJExytlCmJGGAR0f-jLdq5uEU_0.jpg",
+              "attribution": "sかん"
+            },
+            {
+              "filename": "ChIJExytlCmJGGAR0f-jLdq5uEU_1.jpg",
+              "attribution": "ききょう"
+            },
+            {
+              "filename": "ChIJExytlCmJGGAR0f-jLdq5uEU_2.jpg",
+              "attribution": "ro shi"
+            },
+            {
+              "filename": "ChIJExytlCmJGGAR0f-jLdq5uEU_3.jpg",
+              "attribution": "CAYU des ROIS 亀沢店"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=5023969731051519953&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "https://cayudesrois.jp/",
+          "phone": "03-3829-3406",
+          "primary_type": "restaurant",
+          "genre": "レストラン",
+          "nearest_station": "錦糸町駅",
+          "recommended_menu": "TVで紹介される人気粥専門店\n\n平日朝10:30開店してすぐに伺いましたが\nどんどんお客さんが入ってきました‼️\n11時前にお店を出る時には\n満席近くてビックリしました‼️\n予約されてる方もいました\n..."
+        },
+        {
+          "place_id": "ChIJg8_S44yIGGARDO6OmvONDzY",
+          "name": "仙台屋",
+          "rating": 4.6,
+          "user_rating_count": 80,
+          "budget_tier": "kosupa",
+          "budget_label": "コスパ重視",
+          "budget_icon": "💰",
+          "budget_morning_lunch": {
+            "tier": "kosupa",
+            "label": "コスパ重視",
+            "icon": "💰"
+          },
+          "budget_dinner": {
+            "tier": "kosupa",
+            "label": "コスパ重視",
+            "icon": "💰"
+          },
+          "price_range": "¥0〜¥1,500",
+          "price_range_dinner": "¥0〜¥3,000",
+          "address": "日本、〒136-0073 東京都江東区北砂５丁目１８−１１",
+          "travel_time_minutes": 5,
+          "travel_cost_yen": 0,
+          "travel_summary": "徒歩 5分",
+          "reservable": null,
+          "opening_hours": [
+            "月曜日: 17時00分～22時00分",
+            "火曜日: 17時00分～22時00分",
+            "水曜日: 17時00分～22時00分",
+            "木曜日: 17時00分～22時00分",
+            "金曜日: 17時00分～22時00分",
+            "土曜日: 17時00分～22時00分",
+            "日曜日: 定休日"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJg8_S44yIGGARDO6OmvONDzY_0.jpg",
+              "attribution": "くさいだまじこ"
+            },
+            {
+              "filename": "ChIJg8_S44yIGGARDO6OmvONDzY_1.jpg",
+              "attribution": "林田芳幸"
+            },
+            {
+              "filename": "ChIJg8_S44yIGGARDO6OmvONDzY_2.jpg",
+              "attribution": "林田芳幸"
+            },
+            {
+              "filename": "ChIJg8_S44yIGGARDO6OmvONDzY_3.jpg",
+              "attribution": "marcey"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=3895488280108396044&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "",
+          "phone": "03-3647-9489",
+          "primary_type": "japanese_izakaya_restaurant",
+          "genre": "居酒屋",
+          "nearest_station": "大島駅",
+          "recommended_menu": "もう何年も前から通っています。\nまさに下町の呑み屋というのにふさわしいお店です。\n場所は電車の駅からは少し不便ですが、\nこれも下町ならではでバスを使えば\nバス停の目の前です。\n\n開店は17時で、たいて..."
+        },
+        {
+          "place_id": "ChIJAYqJGdaIGGARJ_d6R7LijAQ",
+          "name": "BORABORA",
+          "rating": 4.1,
+          "user_rating_count": 176,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒130-0012 東京都墨田区太平３丁目３−４",
+          "travel_time_minutes": 20,
+          "travel_cost_yen": 180,
+          "travel_summary": "公共交通機関 約20分（4km）",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 11時30分～14時30分, 17時30分～22時30分",
+            "火曜日: 11時30分～14時30分, 17時30分～22時30分",
+            "水曜日: 定休日",
+            "木曜日: 11時30分～14時30分, 17時30分～22時30分",
+            "金曜日: 11時30分～14時30分, 17時30分～22時30分",
+            "土曜日: 11時30分～14時30分, 17時30分～21時30分",
+            "日曜日: 定休日"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJAYqJGdaIGGARJ_d6R7LijAQ_0.jpg",
+              "attribution": "kyoko"
+            },
+            {
+              "filename": "ChIJAYqJGdaIGGARJ_d6R7LijAQ_1.jpg",
+              "attribution": "keykeykeyty"
+            },
+            {
+              "filename": "ChIJAYqJGdaIGGARJ_d6R7LijAQ_2.jpg",
+              "attribution": "kyoko"
+            },
+            {
+              "filename": "ChIJAYqJGdaIGGARJ_d6R7LijAQ_3.jpg",
+              "attribution": "ERIKO"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=327886128222500647&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "website": "http://kitchenandbarborab.wix.com/borabora",
+          "phone": "03-5608-9630",
+          "primary_type": "italian_restaurant",
+          "genre": "イタリア料理店",
+          "nearest_station": "錦糸町駅",
+          "recommended_menu": "イタリアン、ボラボラさん！\nお店の雰囲気が良さそうなのて気になり入ってみました。結果は大当たり！\nなんとはじめはは“カレー屋さんでしたが、イタリア料理をつくりはじめた“と\nいう面白い背景を持つお店だそ..."
+        }
+      ]
+    },
+    {
       "generated_at": "2026-04-03T13:58:00.354702+09:00",
       "week_label": "2026年4月3日（金）",
       "restaurants": [

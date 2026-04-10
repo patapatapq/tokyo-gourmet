@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-04-10T14:16:01.058843+09:00",
+      "week_label": "2026年4月10日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJBVY7CCmJGGARnJCH8Kr0R40",
+          "name": "酒屋ばる Tocci 錦糸町店",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJF2aPQk2JGGAR7wZtL2rjpkQ",
+          "name": "三景(サンケイ)",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJ8zKOv8OIGGARL0VJWSFTKHc",
+          "name": "シエル",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJIQyREZOIGGARm54gZXACPXM",
+          "name": "大城屋",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJP29WkCSJGGARpe9AEOvpbdY",
+          "name": "お好み焼き 味三",
+          "rating": 4.6
+        },
+        {
+          "place_id": "ChIJedos9ueIGGARjPbWZdJmD_o",
+          "name": "銀杏",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJc6a-b_6PGGARiXxoLij1pxQ",
+          "name": "カフェ・レストラン Paradise Poke 蔵前駅前店",
+          "rating": 4.8
+        },
+        {
+          "place_id": "ChIJExytlCmJGGAR0f-jLdq5uEU",
+          "name": "CAYU des ROIS 亀沢店",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJg8_S44yIGGARDO6OmvONDzY",
+          "name": "仙台屋",
+          "rating": 4.6
+        },
+        {
+          "place_id": "ChIJAYqJGdaIGGARJ_d6R7LijAQ",
+          "name": "BORABORA",
+          "rating": 4.1
+        }
+      ]
+    },
+    {
       "generated_at": "2026-04-03T13:58:00.354702+09:00",
       "week_label": "2026年4月3日（金）",
       "restaurants": [
