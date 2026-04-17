@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-04-17T14:20:23.899284+09:00",
+      "week_label": "2026年4月17日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJuyx9_w2JGGARQbu7Ku2Xmis",
+          "name": "食事処 富水",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJ5_FLBSiJGGARmBpvV7pm-6Y",
+          "name": "ワインの酒場。ディプント錦糸町店",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJJa9mH1CJGGARZ-z1MWORvro",
+          "name": "カフェ シェ・アンドレ ドゥ・サクレクール",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJT-lPqN-IGGARbByML83g6yM",
+          "name": "ラ・ボーディチッタ",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJBcQhSiyJGGARJUS0ZJn6cc4",
+          "name": "MAKIN",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJKcCksE-FImARNvt161R7taE",
+          "name": "むさしの森珈琲 千葉駅前店",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJgbwyYwCJGGAR6X-s0vYAXtk",
+          "name": "サカナビストロToMo 亀戸店",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJsQlfu9aOGGARgR6NvX9qzPs",
+          "name": "お食事処 三好弥",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJ9Tat8daOGGARl8xLDlb8_ew",
+          "name": "PAOPAO 東京ソラマチ店",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJx_vdcQKNGGAR2NlIvwnTTDY",
+          "name": "ホンデポチャ 池袋店",
+          "rating": 4.2
+        }
+      ]
+    },
+    {
       "generated_at": "2026-04-10T14:16:01.058843+09:00",
       "week_label": "2026年4月10日（金）",
       "restaurants": [
