@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-04-24T14:26:50.101468+09:00",
+      "week_label": "2026年4月24日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJ7WCrsPuLGGARgS1FStupdwc",
+          "name": "レストラン ブラン ルージュ",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJ4Udu6E-JGGAR8fM0WcUZr3s",
+          "name": "中華 あづま軒",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJo8ECo3SJGGAR9ySD8YCI-3Y",
+          "name": "青森Souls",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJ7TX-mfaJGGARi1JuxdAU6Zw",
+          "name": "フーフー飯店",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJfXjz0VGPGGARHD1mhewzpl8",
+          "name": "食事処 島村",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJ6fU4IxmLGGARbv649c3P4cA",
+          "name": "酒嚢飯袋",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJw17m_8aIGGARLeLO_r9qcsY",
+          "name": "ファームイン",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJM4TvscOIGGARzKnqhGZzPug",
+          "name": "アミコ",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJR24Gve6JGGARWhIVjRKglkY",
+          "name": "しゃぶ食べ 錦糸町南口駅前店",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJj1oZxayOGGARav5eUa_vAk0",
+          "name": "Jack37Burger",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
       "generated_at": "2026-04-17T14:20:23.899284+09:00",
       "week_label": "2026年4月17日（金）",
       "restaurants": [
