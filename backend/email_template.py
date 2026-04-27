@@ -8,124 +8,81 @@ def render_email(
 ) -> str:
     """推薦レストランのHTMLメールを生成する。"""
 
-    restaurant_rows = ""
-    for i, r in enumerate(restaurants, 1):
-        travel_cost = ""
-        if r.get("travel_cost_yen") is not None:
-            travel_cost = f" / ¥{r['travel_cost_yen']:,}"
+    count = len(restaurants)
 
-        travel_time = r.get("travel_summary", "")
-        if r.get("travel_time_minutes") is not None:
-            travel_time = f"{r['travel_time_minutes']}分"
-            if r.get("travel_summary"):
-                travel_time += f" ({r['travel_summary']})"
-
-        reservable = ""
-        if r.get("reservable") is True:
-            reservable = "📞 予約可"
-        elif r.get("reservable") is False:
-            reservable = "🚶 予約不要"
-
-        budget_icon = r.get("budget_icon", "💰")
-        budget_label = r.get("budget_label", "")
-        price_range = r.get("price_range", "")
-        genre = r.get("genre", "")
-        nearest_station = r.get("nearest_station", "")
-
-        restaurant_rows += f"""
-        <tr>
-          <td style="padding: 16px 0; border-bottom: 1px solid #eee;">
-            <table cellpadding="0" cellspacing="0" width="100%">
-              <tr>
-                <td style="vertical-align: top; padding-right: 12px; width: 30px;">
-                  <span style="font-size: 20px; font-weight: bold; color: #f97316;">{i}</span>
-                </td>
-                <td>
-                  <div style="font-size: 16px; font-weight: bold; color: #1f2937; margin-bottom: 2px;">
-                    {r['name']}
-                    <span style="font-size: 13px; font-weight: normal; color: #f59e0b;">
-                      ★{r.get('rating', '-')}
-                    </span>
-                    <span style="font-size: 12px; font-weight: normal; color: #9ca3af;">
-                      ({r.get('user_rating_count', 0)}件)
-                    </span>
-                  </div>
-                  {f'<div style="font-size: 11px; color: #f97316; margin-bottom: 4px;">🍴 {genre}</div>' if genre else ''}
-                  <div style="font-size: 13px; color: #6b7280; line-height: 1.6;">
-                    {budget_icon} {budget_label} {f'| {price_range}' if price_range else ''}<br>
-                    🚃 {travel_time}{travel_cost}<br>
-                    {f'🚉 {nearest_station} 最寄り<br>' if nearest_station else ''}
-                    📍 {r.get('address', '')}<br>
-                    {f'{reservable}<br>' if reservable else ''}
-                  </div>
-                  <div style="margin-top: 6px;">
-                    <a href="{r.get('google_maps_url', '#')}"
-                       style="font-size: 12px; color: #3b82f6; text-decoration: none;">
-                      Google Maps で開く →
-                    </a>
-                  </div>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        """
-
-    return f"""
-<!DOCTYPE html>
+    return f"""<!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body style="margin: 0; padding: 0; background-color: #f9fafb; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;">
-  <table cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; margin: 0 auto; background-color: #ffffff;">
-    <!-- Header -->
+<body style="margin: 0; padding: 0; background-color: #0D0D1A;
+             font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;">
+  <table cellpadding="0" cellspacing="0" width="100%"
+         style="max-width: 600px; margin: 0 auto;
+                background-color: #0D0D1A;
+                border-radius: 12px;
+                overflow: hidden;">
+
+    <!-- ヘッダー -->
     <tr>
-      <td style="background: linear-gradient(135deg, #f97316, #ea580c); padding: 24px; text-align: center;">
-        <div style="font-size: 24px; font-weight: bold; color: #ffffff;">
+      <td style="background: linear-gradient(135deg, #f97316, #ea580c);
+                 padding: 32px 24px 28px; text-align: center;">
+        <div style="font-size: 13px; letter-spacing: 0.12em;
+                    color: rgba(255,255,255,0.75); margin-bottom: 10px;">
+          TOKYO ぱたしー GOURMET
+        </div>
+        <div style="font-size: 26px; font-weight: bold; color: #ffffff; line-height: 1.3;">
           🍽️ 今週のグルメおすすめ
         </div>
-        <div style="font-size: 14px; color: #fed7aa; margin-top: 4px;">
+        <div style="font-size: 13px; color: #fed7aa; margin-top: 8px;">
           {week_label}
         </div>
       </td>
     </tr>
 
-    <!-- CTA -->
+    <!-- メイン -->
     <tr>
-      <td style="padding: 20px 24px 8px;">
-        <div style="text-align: center; margin-bottom: 16px;">
-          <a href="{site_url}"
-             style="display: inline-block; background-color: #f97316; color: #ffffff; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 14px;">
-            📸 写真付き詳細を見る
+      <td style="padding: 48px 32px 40px; text-align: center;
+                 background-color: #141428;">
+        <div style="font-size: 15px; color: #CBD5E1; margin-bottom: 32px; line-height: 1.7;">
+          1週間おつかれさま！<br>
+          今週の {count} 件をピックアップしました。
+        </div>
+        <a href="{site_url}"
+           style="display: inline-block;
+                  background: linear-gradient(135deg, #f97316, #ea580c);
+                  color: #ffffff;
+                  text-decoration: none;
+                  font-size: 16px;
+                  font-weight: bold;
+                  padding: 16px 40px;
+                  border-radius: 50px;
+                  letter-spacing: 0.04em;">
+          写真付き詳細をみる
+        </a>
+      </td>
+    </tr>
+
+    <!-- セパレーター -->
+    <tr>
+      <td style="background-color: #141428; padding: 0 32px;">
+        <div style="border-top: 1px solid rgba(255,255,255,0.08);"></div>
+      </td>
+    </tr>
+
+    <!-- フッター -->
+    <tr>
+      <td style="background-color: #0D0D1A; padding: 20px 24px; text-align: center;">
+        <div style="font-size: 11px; color: #94A3B8; line-height: 1.8;">
+          Tokyo Patashī Gourmet<br>
+          <a href="{site_url}" style="color: #f97316; text-decoration: none;">
+            {site_url}
           </a>
         </div>
-        <div style="font-size: 14px; color: #6b7280; text-align: center;">
-          今週の {len(restaurants)} 軒をピックアップしました！
-        </div>
       </td>
     </tr>
 
-    <!-- Restaurant List -->
-    <tr>
-      <td style="padding: 8px 24px 24px;">
-        <table cellpadding="0" cellspacing="0" width="100%">
-          {restaurant_rows}
-        </table>
-      </td>
-    </tr>
-
-    <!-- Footer -->
-    <tr>
-      <td style="background-color: #f3f4f6; padding: 16px 24px; text-align: center;">
-        <div style="font-size: 12px; color: #9ca3af;">
-          Tokyo Gourmet Recommender<br>
-          <a href="{site_url}" style="color: #6b7280;">Webサイトで詳細を確認</a>
-        </div>
-      </td>
-    </tr>
   </table>
 </body>
-</html>
-"""
+</html>"""

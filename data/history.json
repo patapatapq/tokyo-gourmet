@@ -1,6 +1,230 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-04-18T14:32:24.418229+09:00",
+      "week_label": "2026年4月18日（土）",
+      "restaurants": [
+        {
+          "place_id": "ChIJoTAju_-PGGAR85FjwSBmkFY",
+          "name": "nicocafe 328 ニコカフェ328",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJd9r665p9GGAR_757Ocn0U5Y",
+          "name": "海鮮お食事処 卯兵衛 アトレ新浦安店",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJvb6FfMCOGGARB3iKykNIrTA",
+          "name": "徳仙",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJWbIWGR6HImARDv9x2QbkjTs",
+          "name": "貝殻亭",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJqY7f1JOFGGARjaJEywCUz5s",
+          "name": "高砂 ときわ",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJT5hi8_KIGGAR291xm-De09I",
+          "name": "三龍亭 北砂五丁目店",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJFS_DkFyJGGARt_Sn447sR7w",
+          "name": "鉄板処 麦",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJ8fpIy4uJGGARqxcMvfcfSiY",
+          "name": "蕎麦処 いなたや アトレ亀戸店",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJd0lSQ-KIGGARkYUTAjCD_Qc",
+          "name": "そば 㐂のした",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJm0avYnyLGGAR_g58B17dNZM",
+          "name": "Bistro Double11",
+          "rating": 4.3
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-04-18T14:19:35.042601+09:00",
+      "week_label": "2026年4月18日（土）",
+      "restaurants": [
+        {
+          "place_id": "ChIJVVVlMMeOGGARN6UiviJU4Q0",
+          "name": "R restaurant & bar(アール レストラン & バー) / THE GATE HOTEL 雷門 by HULIC",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJoeziRJ6OGGARtx_p0OnzAKw",
+          "name": "お食事処 森の茶屋",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJWf24PgCPGGARKFswkqSNXPE",
+          "name": "カフェ 寛味堂",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJVVWRJ7aYImARTRfuBlfkowo",
+          "name": "ふさのえき食堂",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJJZ8WE-GJGGARqzXhsf61ueM",
+          "name": "串屋横丁 東大島もつ焼きセンター",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJTbVDTMWIGGARh73CCkPjtYA",
+          "name": "ienomi バル日和 ビストロ 亀戸",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJ840H6FmJGGARlpD85gi6NWI",
+          "name": "錦糸町ジンギスカン オクノ羊ヤ、ミナミ",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJ93-qptqIGGARr_rZrIOFxzs",
+          "name": "ニ升五合",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJTaKcGMmJGGARRzDpbxXFZDc",
+          "name": "25Hudson",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJs2DgsZqIGGAR5dnUWe7QOn4",
+          "name": "キッチン・ヒイラギ",
+          "rating": 4.2
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-04-18T14:05:11.076040+09:00",
+      "week_label": "2026年4月18日（土）",
+      "restaurants": [
+        {
+          "place_id": "ChIJj3LN4X-JGGARf3O4cMLHHAE",
+          "name": "NIJIYA cafe&dining",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJzY6zOfGIGGAReGBUwJbb_70",
+          "name": "天兵",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJo7DLaJGJGGARmOR5xWC84b4",
+          "name": "うず食堂",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJ7TX-mfaJGGARi1JuxdAU6Zw",
+          "name": "フーフー飯店",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJ6VXiFZOIGGARumsZ3Ww_JEo",
+          "name": "炭火焼肉 雅",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJW3tr1-iLGGARAfl6lNydeNQ",
+          "name": "お食事処 きく",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJ3WQh0QWJGGARzTBlCa5-hV8",
+          "name": "ビストロ・ド・リヨン",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJ_RJLGRmJGGARjO4kVSS48_Q",
+          "name": "深川亭",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJubqmc_GFGGARFv6sMiE13zU",
+          "name": "食事処高雅こうが",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJBV4myl2JGGAR04FUgWr6uIU",
+          "name": "お食事処 いち",
+          "rating": 4.3
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-04-18T14:00:43.846605+09:00",
+      "week_label": "2026年4月18日（土）",
+      "restaurants": [
+        {
+          "place_id": "ChIJy3jtxV2PGGARARNTmrBQIko",
+          "name": "Series the Sky",
+          "rating": 4.6
+        },
+        {
+          "place_id": "ChIJtYE3FeWJGGAR3bJ_pxjyDJ8",
+          "name": "島の食事処ココワオキナワ",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJIQyREZOIGGARm54gZXACPXM",
+          "name": "大城屋",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJp8bfgGiJGGARe2vAgn7ukeU",
+          "name": "ラトリエ 住吉",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJg8_S44yIGGARDO6OmvONDzY",
+          "name": "仙台屋",
+          "rating": 4.6
+        },
+        {
+          "place_id": "ChIJo8ECo3SJGGAR9ySD8YCI-3Y",
+          "name": "青森Souls",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJfXjz0VGPGGARHD1mhewzpl8",
+          "name": "食事処 島村",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJuyx9_w2JGGARQbu7Ku2Xmis",
+          "name": "食事処 富水",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJvwOyvuOJGGARTzvhDgu03uo",
+          "name": "Risosteria Trentatre｜清澄 門仲 イタリアン",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJq6qqateIGGAROSEf7sxwhE4",
+          "name": "イルパッソ",
+          "rating": 4
+        }
+      ]
+    },
+    {
       "generated_at": "2026-03-13T13:28:09.800947+09:00",
       "week_label": "2026年3月13日（金）",
       "restaurants": [

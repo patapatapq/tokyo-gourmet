@@ -55,8 +55,9 @@ budget:
 
 # メール通知
 email:
-  recipient: "patashi1203@gmail.com"
-  sender: "patashi1203@gmail.com"
+  recipients:
+    - "patashi1203@gmail.com"
+  sender: "ptptppptptp@gmail.com"
   subject_template: "今週のグルメおすすめ 🍽️ {date}"
 
 # Google Sheets（訪問済み管理）

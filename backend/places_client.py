@@ -43,6 +43,7 @@ DETAIL_FIELDS = [
     "websiteUri",
     "nationalPhoneNumber",
     "reviews",
+    "paymentOptions",
 ]
 
 
@@ -106,6 +107,7 @@ def search_all_restaurants(
     for query in queries:
         logger.info(f"検索中: '{query}'")
         page_token = None
+        query_count = 0
 
         for page in range(max_pages_per_query):
             try:
@@ -122,6 +124,7 @@ def search_all_restaurants(
                 break
 
             places = result.get("places", [])
+            query_count += len(places)
             for place in places:
                 place_id = place.get("id", "")
                 if place_id and place_id not in seen_ids:
@@ -133,7 +136,7 @@ def search_all_restaurants(
                 break
             time.sleep(0.5)
 
-        logger.info(f"  → {len(places)}件取得 (累計ユニーク: {len(all_places)}件)")
+        logger.info(f"  → {query_count}件取得 (累計ユニーク: {len(all_places)}件)")
         time.sleep(1)  # クエリ間のウェイト
 
     logger.info(f"検索完了: 合計 {len(all_places)} 件のユニーク候補")

@@ -215,7 +215,9 @@ def main() -> int:
         weekday_text = opening_hours.get("weekdayDescriptions", [])
 
         # レビューからおすすめメニューを抽出
-        recommended_menu = _extract_menu_from_reviews(details.get("reviews", []))
+        menu_info = _extract_menu_from_reviews(details.get("reviews", []))
+        recommended_menu = menu_info["text"] if menu_info else None
+        recommended_menu_rating = menu_info["rating"] if menu_info else None
 
         display_name = details.get("displayName", {})
         name = display_name.get("text", "") if isinstance(display_name, dict) else str(display_name)
@@ -277,6 +279,8 @@ def main() -> int:
             "genre": genre,
             "nearest_station": nearest_station,
             "recommended_menu": recommended_menu,
+            "recommended_menu_rating": recommended_menu_rating,
+            "payment_methods": _extract_payment_methods(details),
         }
         restaurants.append(restaurant)
         time.sleep(0.3)
@@ -292,21 +296,24 @@ def main() -> int:
 
     # Step 9: メール送信
     logger.info("[Step 9/10] メール送信")
-    if email_cfg.get("recipient"):
+    recipients = email_cfg.get("recipients") or []
+    if isinstance(recipients, str):
+        recipients = [recipients]
+    if recipients:
         site_url = site_cfg.get("base_url", "")
         subject = email_cfg["subject_template"].format(date=week_label)
         html_body = render_email(restaurants, week_label, site_url)
-
-        success = send_email(
-            to=email_cfg["recipient"],
-            subject=subject,
-            html_body=html_body,
-            sender=email_cfg.get("sender", ""),
-        )
-        if not success:
-            logger.warning("メール送信に失敗しました")
+        for recipient in recipients:
+            success = send_email(
+                to=recipient,
+                subject=subject,
+                html_body=html_body,
+                sender=email_cfg.get("sender", ""),
+            )
+            if not success:
+                logger.warning(f"メール送信に失敗しました: {recipient}")
     else:
-        logger.warning("メール送信先が未設定です (config.yaml: email.recipient)")
+        logger.warning("メール送信先が未設定です (config.yaml: email.recipients)")
 
     # Step 10: Sheets同期
     logger.info("[Step 10/10] Google Sheets 同期")
@@ -327,16 +334,29 @@ def main() -> int:
     return 0
 
 
-def _extract_menu_from_reviews(reviews: list[dict]) -> str | None:
-    """レビューからおすすめメニューを簡易的に抽出する。
+def _extract_payment_methods(details: dict) -> dict | None:
+    """Places API の paymentOptions から決済方法を抽出する。"""
+    opts = details.get("paymentOptions")
+    if not opts:
+        return None
+    return {
+        "credit_card": opts.get("acceptsCreditCards"),
+        "debit_card": opts.get("acceptsDebitCards"),
+        "cash_only": opts.get("acceptsCashOnly"),
+        "nfc": opts.get("acceptsNfc"),
+    }
 
-    レビューテキストから頻出する料理名らしき単語を抽出する簡易実装。
+
+def _extract_menu_from_reviews(reviews: list[dict]) -> dict | None:
+    """レビューから最高評価の口コミを抽出する。
+
+    Returns:
+        {"text": str, "rating": int} または None
     """
     if not reviews:
         return None
 
-    # レビューの中から最も評価が高いものの一部を返す
-    best_review = None
+    best_text = None
     best_rating = 0
     for review in reviews[:5]:
         rating = review.get("rating", 0)
@@ -344,14 +364,17 @@ def _extract_menu_from_reviews(reviews: list[dict]) -> str | None:
             best_rating = rating
             text = review.get("text", {})
             if isinstance(text, dict):
-                best_review = text.get("text", "")
+                best_text = text.get("text", "")
             else:
-                best_review = str(text)
+                best_text = str(text)
 
-    if best_review and len(best_review) > 100:
-        best_review = best_review[:100] + "..."
+    if not best_text:
+        return None
 
-    return best_review
+    if len(best_text) > 160:
+        best_text = best_text[:160] + "..."
+
+    return {"text": best_text, "rating": best_rating}
 
 
 if __name__ == "__main__":
