@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-05-01T14:58:20.615265+09:00",
+      "week_label": "2026年5月1日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJzdpASoaJGGARr-NotXeT-Ug",
+          "name": "ボンベイチャウパティ",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJy4r41VGJGGARluZJY2JlBBs",
+          "name": "人形町 伊勢利 フレンチ ランチ/ディナー",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJ0x8SgDOJGGAReOaUdC1Bzbs",
+          "name": "両国湯屋 江戸遊",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJ05HYsuqOGGARky_87UjNmqA",
+          "name": "タイレストラン イサーン",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJy3jtxV2PGGARARNTmrBQIko",
+          "name": "Series the Sky",
+          "rating": 4.6
+        },
+        {
+          "place_id": "ChIJkSjf4OmJGGARrnAZHiBiz50",
+          "name": "焼き鳥とワイン＋ビストロおでん 3B 門前仲町",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJLdgY3FeIGGARIO9WNNrsJ2E",
+          "name": "ガハハビール",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJ4y1XzsaIGGARhi5gz6sxR8k",
+          "name": "三代目 まる天 亀戸店",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJt6GV7tiIGGARVS3sm1EIBQM",
+          "name": "とんかつ すみ田 錦糸町楽天地ビル店",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJC_RukyiJGGARqs724-97JOs",
+          "name": "洋麺バルパスタバ 錦糸町店",
+          "rating": 4.1
+        }
+      ]
+    },
+    {
       "generated_at": "2026-04-24T14:26:50.101468+09:00",
       "week_label": "2026年4月24日（金）",
       "restaurants": [
