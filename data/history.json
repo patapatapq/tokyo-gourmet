@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-05-08T14:20:55.266055+09:00",
+      "week_label": "2026年5月8日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJTZH_vyeJGGARKGDiUDQTWr0",
+          "name": "呑み処(和助)",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJ1Vcu_HGOGGARhkC53r0K7ow",
+          "name": "京成線沿い ときわ本店",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJT6fRd-yOGGARRCwcCdf07fg",
+          "name": "お食事処 ナカジマ",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJgcCtEY2IGGARqDfbJ0xvSCs",
+          "name": "ラ・フェーデ",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJBW-7kdiIGGARaVXBpCfK3Cw",
+          "name": "創作鉄板 粉者東京",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJA7oH4N6HGGARDeJlZCqKaxM",
+          "name": "Cuore",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJubqmc_GFGGARFv6sMiE13zU",
+          "name": "食事処高雅こうが",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJqY7f1JOFGGARjaJEywCUz5s",
+          "name": "高砂 ときわ",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJfUYMdAaJGGARxmivZ2JTrSo",
+          "name": "ワインアンドダイニング チェルキオ 木場店",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJ840H6FmJGGARlpD85gi6NWI",
+          "name": "錦糸町ジンギスカン オクノ羊ヤ、ミナミ",
+          "rating": 4.7
+        }
+      ]
+    },
+    {
       "generated_at": "2026-05-01T14:58:20.615265+09:00",
       "week_label": "2026年5月1日（金）",
       "restaurants": [
