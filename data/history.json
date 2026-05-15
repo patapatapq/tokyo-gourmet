@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-05-16T08:34:41.853240+09:00",
+      "week_label": "2026年5月16日（土）",
+      "restaurants": [
+        {
+          "place_id": "ChIJX-Xo1kmJGGARupXVPdkxkD4",
+          "name": "鮨 さの夢",
+          "rating": 4.8
+        },
+        {
+          "place_id": "ChIJjxP3m8aIGGARmt3u8bhuSK0",
+          "name": "Che Carino（ケカリーノ）",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJzY6zOfGIGGAReGBUwJbb_70",
+          "name": "天兵",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJYyALxN-IGGARYz-8XlSSEHM",
+          "name": "男鹿半島 住吉店",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJuYdLFeyHGGARSbyxqWmW1WQ",
+          "name": "かど鈴",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJGxnupcOJGGARPXpyNcwGxgU",
+          "name": "ククク 大島3号店",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJdwokn7mJGGARprXPdWMRYiI",
+          "name": "インディアンパレス 大島支店",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJbTJDulCJGGARAXgefeXA1iA",
+          "name": "らっきーせぶん 西大島 居酒屋",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJMez2JlWPGGARd0QTrZfUZgI",
+          "name": "イタメシ 心技体",
+          "rating": 4.8
+        },
+        {
+          "place_id": "ChIJd_05ruSLGGARpUZLC9YfbVw",
+          "name": "091\"",
+          "rating": 4.7
+        }
+      ]
+    },
+    {
       "generated_at": "2026-05-16T08:14:20.571906+09:00",
       "week_label": "2026年5月16日（土）",
       "restaurants": [
