@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-05-15T15:21:56.536670+09:00",
+      "week_label": "2026年5月15日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJrTU4UpOIGGAR_euX2iH9cZk",
+          "name": "大衆酒場 泥亀 大島店",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJdXBXTsGNGGARTIKfzy4cdI4",
+          "name": "ときわ",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJudbgAFyPGGARgqnwAEomL6A",
+          "name": "国丸食堂とアカネコ",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJ58XNh-qJGGARD_XpsPvumJw",
+          "name": "本気メシBAR 赤龜",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJd6kOtsOIGGARdKJZ62irNjU",
+          "name": "トーン・ハー（５５５）",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJY2c1SUSJGGARVmCjTOHw81k",
+          "name": "シェフズダイニング シンフォニー",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJtYE3FeWJGGAR3bJ_pxjyDJ8",
+          "name": "島の食事処ココワオキナワ",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJx5x3pw6LGGARhbDfJ-F3TSM",
+          "name": "アッピア 本店",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJ7-vHVwCNGGARe7ig5wdWH1k",
+          "name": "渋谷 グルメ阿井",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJVZRyhlCJGGARBqiouKILmqQ",
+          "name": "Ringraziamento レストランリングラツィアメント",
+          "rating": 4.2
+        }
+      ]
+    },
+    {
       "generated_at": "2026-05-08T14:20:55.266055+09:00",
       "week_label": "2026年5月8日（金）",
       "restaurants": [
