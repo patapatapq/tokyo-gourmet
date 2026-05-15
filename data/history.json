@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-05-16T08:14:20.571906+09:00",
+      "week_label": "2026年5月16日（土）",
+      "restaurants": [
+        {
+          "place_id": "ChIJiXTqi1WJGGARHq1Aliky7a8",
+          "name": "カフェ&レストラン ランドマーク",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJT-lPqN-IGGARbByML83g6yM",
+          "name": "ラ・ボーディチッタ",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJO85w7gCJGGAR78_wBNugkog",
+          "name": "クレメンティア",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJE4M5M5fyGGARw8lTP24nkeU",
+          "name": "ゴーバル 中野店",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJsdXIsdqIGGARnwW9bkFJfoQ",
+          "name": "スペイン郷土料理 タベルナパタタ 亀戸",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJQZeXydmIGGARncBwMJLgKMc",
+          "name": "ワイン食堂 ジョイーレ",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJBVY7CCmJGGARnJCH8Kr0R40",
+          "name": "酒屋ばる Tocci 錦糸町店",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJo1r6iK6JGGAR6pWzDtwBmi0",
+          "name": "フルバリ FULBARI 亀戸店",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJJ3GewMyIGGARFsec6eMKmI0",
+          "name": "四季坊",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJq6qqateIGGAROSEf7sxwhE4",
+          "name": "イルパッソ",
+          "rating": 4
+        }
+      ]
+    },
+    {
       "generated_at": "2026-05-15T15:21:56.536670+09:00",
       "week_label": "2026年5月15日（金）",
       "restaurants": [
