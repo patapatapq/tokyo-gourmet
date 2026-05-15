@@ -43,9 +43,6 @@ interface Props {
 const { restaurant: r, index } = Astro.props;
 const base = import.meta.env.BASE_URL;
 
-// 住所から先頭の「日本、」「日本, 」を除去
-const cleanAddress = r.address.replace(/^日本[、,，]\s*/, '');
-
 // 写真
 const hasQuadPhotos = r.photos.length >= 4;
 const hasMultiplePhotos = !hasQuadPhotos && r.photos.length >= 2;

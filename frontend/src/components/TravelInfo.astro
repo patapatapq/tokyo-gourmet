@@ -2,18 +2,18 @@
 interface Props {
   minutes: number | null;
   cost: number | null;
-  summary: string;
-  nearest_station: string;
+  summary: string | null | undefined;
+  nearest_station: string | null | undefined;
 }
 
 const { minutes, cost, summary, nearest_station } = Astro.props;
 
-const displayStation = nearest_station
+const displayStation = (nearest_station ?? '')
   .replace(/駅（/, '（')
   .replace(/駅$/, '');
 
 // サマリーから時間部分を除去して末尾に表示（例: "公共交通機関（7km）"）
-const compactSummary = summary
+const compactSummary = (summary ?? '')
   .replace(/約?\s*\d+分\s*/, '')
   .trim();
 ---
