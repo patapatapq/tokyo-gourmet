@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-05-22T15:37:39.885481+09:00",
+      "week_label": "2026年5月22日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJ76CqMuuJGGAR8WyEFaAx0yg",
+          "name": "Italian Kitchen VANSAN 亀戸店",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJw-VxF8iJGGARkEvVTSRDkxQ",
+          "name": "ラ・オハナ 南砂店",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJXV-jKFCJGGARKhfaXaU4Tsc",
+          "name": "Sico ITALIAN RESTAURANT Ryogoku",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJgQRrXh6JGGARVoml4ZEQXuM",
+          "name": "肉の田じま",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJc_ynnE6JGGAR6fKBa5rHPmY",
+          "name": "トラットリア・コッレ",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJgctmFEWPGGARwRw8BzyrBA0",
+          "name": "インド・ネパールレストラン RARA KITCHEN",
+          "rating": 4.8
+        },
+        {
+          "place_id": "ChIJdTz5h8SIGGARhiU0iZ70Rsc",
+          "name": "蔵之助 亀戸店",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJL-Rokr-OGGARMOtRXantd_0",
+          "name": "浅草うな鐵 国際通り店",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJTVR0b5iOGGARAA_QTkW09c8",
+          "name": "フレンチレストラン キエチュード 上野",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJ3WQh0QWJGGARzTBlCa5-hV8",
+          "name": "ビストロ・ド・リヨン",
+          "rating": 4.4
+        }
+      ]
+    },
+    {
       "generated_at": "2026-05-16T08:39:53.570367+09:00",
       "week_label": "2026年5月16日（土）",
       "restaurants": [
