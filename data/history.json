@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-05-29T15:43:43.586379+09:00",
+      "week_label": "2026年5月29日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJ2fSkUk6JGGARv4wJBoySvGs",
+          "name": "ふうれん",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJozQ8re6IGGARDFdE8paqRbY",
+          "name": "ハビビ",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJn1rM5OiIGGARgn182TbkDZk",
+          "name": "トラットリア イル・フィオーレ",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJ08rIZ_6IGGARCn4AL_JLuug",
+          "name": "柳 韓国家庭料理",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJgZy7tReJGGARuNeWTz4wr94",
+          "name": "EN FACE",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJvwOyvuOJGGARTzvhDgu03uo",
+          "name": "Risosteria Trentatre｜清澄 門仲 イタリアン",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJ3V3WT-iIGGARQExEUAW_ovc",
+          "name": "クチーナ シゲ",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJgbwyYwCJGGAR6X-s0vYAXtk",
+          "name": "サカナビストロToMo 亀戸店",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJf0pZfqOIGGARa_IWG8YoRx0",
+          "name": "クイーンガーデン 𝑄𝑈𝐸𝐸𝑁 𝐺𝐴𝑅𝐷𝐸𝑁",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJWf24PgCPGGARKFswkqSNXPE",
+          "name": "カフェ 寛味堂",
+          "rating": 4.1
+        }
+      ]
+    },
+    {
       "generated_at": "2026-05-22T15:37:39.885481+09:00",
       "week_label": "2026年5月22日（金）",
       "restaurants": [
