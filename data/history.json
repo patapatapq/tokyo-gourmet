@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-06-03T23:58:45.029104+09:00",
+      "week_label": "2026年6月3日（水）",
+      "restaurants": [
+        {
+          "place_id": "ChIJpRzB_v6IGGARgpJ4J6AIJvQ",
+          "name": "大衆バルジカビヤ 東陽町店",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJAQCznxqJGGAR17cCQTbJrMM",
+          "name": "居酒屋 木場くぼ",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJ3TlFNN-LGGARWjndeIeoJdA",
+          "name": "そば處 長生庵",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJOeXbmI2PGGARAeIkhGUBsFY",
+          "name": "MOTORA",
+          "rating": 4.6
+        },
+        {
+          "place_id": "ChIJPeHC0vaIGGARNAaEEgp0mFU",
+          "name": "永らく",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJ78uW5eCLGGARXYdXapMKRjk",
+          "name": "Osteria Barababao 銀座",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJF2aPQk2JGGAR7wZtL2rjpkQ",
+          "name": "三景(サンケイ)",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJR4zCe3qJGGARqMdwRjW84Z0",
+          "name": "Café Accha（カフェ・アチャ）",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJnSEEKbuIGGARghCJS0teeoE",
+          "name": "牛繁 平井店",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJo7DLaJGJGGARmOR5xWC84b4",
+          "name": "うず食堂",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
       "generated_at": "2026-05-29T15:43:43.586379+09:00",
       "week_label": "2026年5月29日（金）",
       "restaurants": [
