@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-06-05T15:56:08.755017+09:00",
+      "week_label": "2026年6月5日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJzWzHo1mJGGARD6i_9uTSqUQ",
+          "name": "la radice",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJA5YI9r-IGGARZcaEdXlJJRI",
+          "name": "鉄板焼ステーキ コバ",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJJZ8WE-GJGGARqzXhsf61ueM",
+          "name": "串屋横丁 東大島もつ焼きセンター",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJ59cVBdmIGGAR_l8BncHU1xk",
+          "name": "日本酒海鮮居酒屋 愛魚人",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJFS_DkFyJGGARt_Sn447sR7w",
+          "name": "鉄板処 麦",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJTbVDTMWIGGARh73CCkPjtYA",
+          "name": "ienomi バル日和 ビストロ 亀戸",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJgcCtEY2IGGARqDfbJ0xvSCs",
+          "name": "ラ・フェーデ",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJF-rgXKaJGGARzORMOWFKw3o",
+          "name": "タイレストランバンプー【BANG PU】",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJ_RM7nuGIGGAR5SsYMxJn-QE",
+          "name": "ポイント",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJj1oZxayOGGARav5eUa_vAk0",
+          "name": "Jack37Burger",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
       "generated_at": "2026-06-03T23:58:45.029104+09:00",
       "week_label": "2026年6月3日（水）",
       "restaurants": [
