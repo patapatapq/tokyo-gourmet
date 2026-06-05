@@ -30,7 +30,7 @@ def render_email(
                  padding: 32px 24px 28px; text-align: center;">
         <div style="font-size: 13px; letter-spacing: 0.12em;
                     color: rgba(255,255,255,0.75); margin-bottom: 10px;">
-          TOKYO ぱたしー GOURMET
+          TOKYO ぱたしー グルメ
         </div>
         <div style="font-size: 26px; font-weight: bold; color: #ffffff; line-height: 1.3;">
           🍽️ 今週のグルメおすすめ

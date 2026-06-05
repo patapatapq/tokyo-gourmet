@@ -2,18 +2,21 @@
 interface Props {
   minutes: number | null;
   cost: number | null;
+  bicycle?: number | null;
   summary: string | null | undefined;
   nearest_station: string | null | undefined;
 }
 
-const { minutes, cost, summary, nearest_station } = Astro.props;
+const { minutes, cost, bicycle, summary, nearest_station } = Astro.props;
 
 const displayStation = (nearest_station ?? '')
   .replace(/駅（/, '（')
   .replace(/駅$/, '');
 
-// サマリーから時間部分を除去して末尾に表示（例: "公共交通機関（7km）"）
+// サマリーから自転車の併記と時間部分を除去して末尾に表示（例: "公共交通機関（7km）"）
+// 自転車は専用バッジで表示するためサマリーからは除去する
 const compactSummary = (summary ?? '')
+  .replace(/／自転車.*$/, '')
   .replace(/約?\s*\d+分\s*/, '')
   .trim();
 ---
@@ -37,6 +40,16 @@ const compactSummary = (summary ?? '')
     )}
     {cost !== null && cost > 0 && (
       <span class="text-text-muted text-xs">¥{cost.toLocaleString()}</span>
+    )}
+    {bicycle !== null && bicycle !== undefined && (
+      <span class="inline-flex items-center gap-1 text-text-muted text-xs">
+        <svg class="w-3.5 h-3.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-label="自転車">
+          <circle cx="5.5" cy="17.5" r="3.5"/>
+          <circle cx="18.5" cy="17.5" r="3.5"/>
+          <path d="M15 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-3 11.5V14l-3-3 4-3 2 3h2"/>
+        </svg>
+        約{bicycle}分
+      </span>
     )}
     {compactSummary && (
       <span class="text-text-light text-xs">{compactSummary}</span>

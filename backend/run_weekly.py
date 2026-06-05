@@ -268,6 +268,7 @@ def main() -> int:
             "address": details.get("formattedAddress", ""),
             "travel_time_minutes": travel.get("travel_time_minutes"),
             "travel_cost_yen": travel.get("travel_cost_yen"),
+            "travel_bicycle_minutes": travel.get("travel_bicycle_minutes"),
             "travel_summary": travel.get("travel_summary", ""),
             "reservable": details.get("reservable"),
             "opening_hours": weekday_text,

@@ -24,6 +24,17 @@ NEARBY_URL = f"{PLACES_BASE_URL}/places:searchNearby"
 # 車での所要時間に対する公共交通機関の係数
 TRANSIT_MULTIPLIER = 1.5
 
+# 自転車を併記する距離の上限（km）と速度の目安（時速15km = 1kmあたり4分）
+BICYCLE_MAX_KM = 5.0
+BICYCLE_MIN_PER_KM = 4
+
+
+def _bicycle_minutes(distance_km: float) -> int | None:
+    """5km以内であれば自転車での所要時間（分）を返す。範囲外は None。"""
+    if distance_km > BICYCLE_MAX_KM:
+        return None
+    return max(1, round(distance_km * BICYCLE_MIN_PER_KM))
+
 
 def _load_cache() -> dict:
     """キャッシュファイルを読み込む。"""
@@ -80,10 +91,15 @@ def compute_travel_time(
     # 徒歩圏内（1.5km以内）
     if distance_km <= 1.5:
         walk_minutes = round(distance_km / 0.08)  # 時速4.8km = 分速0.08km
+        bike_minutes = _bicycle_minutes(distance_km)
+        summary = f"徒歩 {walk_minutes}分"
+        if bike_minutes is not None:
+            summary += f"／自転車 約{bike_minutes}分"
         return {
             "travel_time_minutes": walk_minutes,
             "travel_cost_yen": 0,
-            "travel_summary": f"徒歩 {walk_minutes}分",
+            "travel_bicycle_minutes": bike_minutes,
+            "travel_summary": summary,
         }
 
     headers = {
@@ -115,10 +131,15 @@ def compute_travel_time(
     if not routes:
         # フォールバック: 直線距離から推定
         est_minutes = round(distance_km * 3)  # 1km あたり約3分（電車）
+        bike_minutes = _bicycle_minutes(distance_km)
+        summary = f"推定 {est_minutes}分（直線{distance_km:.1f}km）"
+        if bike_minutes is not None:
+            summary += f"／自転車 約{bike_minutes}分"
         return {
             "travel_time_minutes": est_minutes,
             "travel_cost_yen": None,
-            "travel_summary": f"推定 {est_minutes}分（直線{distance_km:.1f}km）",
+            "travel_bicycle_minutes": bike_minutes,
+            "travel_summary": summary,
         }
 
     route = routes[0]
@@ -143,10 +164,17 @@ def compute_travel_time(
     # 10円単位に丸め
     fare_estimate = round(fare_estimate / 10) * 10
 
+    # 走行距離が5km以内なら自転車での所要時間を併記
+    bike_minutes = _bicycle_minutes(distance_km_road)
+    summary = f"公共交通機関 約{transit_minutes}分（{distance_km_road:.0f}km）"
+    if bike_minutes is not None:
+        summary += f"／自転車 約{bike_minutes}分"
+
     return {
         "travel_time_minutes": transit_minutes,
         "travel_cost_yen": fare_estimate,
-        "travel_summary": f"公共交通機関 約{transit_minutes}分（{distance_km_road:.0f}km）",
+        "travel_bicycle_minutes": bike_minutes,
+        "travel_summary": summary,
     }
 
 

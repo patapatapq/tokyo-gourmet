@@ -18,6 +18,7 @@ interface Props {
     address: string;
     travel_time_minutes: number | null;
     travel_cost_yen: number | null;
+    travel_bicycle_minutes?: number | null;
     travel_summary: string;
     reservable: boolean | null;
     opening_hours: string[];
@@ -66,51 +67,56 @@ function formatHours(h: string): string {
   <div class="relative h-64 md:h-72 overflow-hidden">
 
     {hasQuadPhotos ? (
-      <!-- 4分割: 左列(外観+内装) / 中(料理1) / 右(料理2) -->
+      <!-- 4分割: 左(縦長) / 右上に小2枚 + 右下に横長1枚 -->
       <div class="flex h-full gap-px">
 
-        <!-- 左列: 外観(上) + 内装(下) -->
-        <div class="relative flex flex-col flex-1 gap-px">
-          <div class="relative flex-1 overflow-hidden">
-            <img
-              src={`${base}/photos/${r.photos[0].filename}`}
-              alt={`${r.name} 外観`}
-              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-              loading="lazy"
-            />
-            <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/50" aria-hidden="true"></div>
+        <!-- 左: 外観(縦長) -->
+        <div class="relative flex-1 overflow-hidden">
+          <img
+            src={`${base}/photos/${r.photos[0].filename}`}
+            alt={`${r.name} 外観`}
+            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+            loading="lazy"
+          />
+          <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/50" aria-hidden="true"></div>
+        </div>
+
+        <!-- 右: 上に小2枚、下に横長1枚（左の2倍幅 = 全体の2/3） -->
+        <div class="relative flex flex-col flex-[2] gap-px">
+
+          <!-- 上段: 内装(中央上) + 料理1(右上) -->
+          <div class="flex flex-1 gap-px">
+            <div class="relative flex-1 overflow-hidden">
+              <img
+                src={`${base}/photos/${r.photos[1].filename}`}
+                alt={`${r.name} 内装`}
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                loading="lazy"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/45 via-transparent to-transparent" aria-hidden="true"></div>
+            </div>
+            <div class="relative flex-1 overflow-hidden">
+              <img
+                src={`${base}/photos/${r.photos[2].filename}`}
+                alt={`${r.name} 料理1`}
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                loading="lazy"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/45 via-transparent to-transparent" aria-hidden="true"></div>
+            </div>
           </div>
+
+          <!-- 下段: 料理2(横長) -->
           <div class="relative flex-1 overflow-hidden">
             <img
-              src={`${base}/photos/${r.photos[1].filename}`}
-              alt={`${r.name} 内装`}
+              src={`${base}/photos/${r.photos[3].filename}`}
+              alt={`${r.name} 料理2`}
               class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               loading="lazy"
             />
             <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" aria-hidden="true"></div>
           </div>
-        </div>
 
-        <!-- 中: 料理1 -->
-        <div class="relative flex-1 overflow-hidden">
-          <img
-            src={`${base}/photos/${r.photos[2].filename}`}
-            alt={`${r.name} 料理1`}
-            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-            loading="lazy"
-          />
-          <div class="absolute inset-0 bg-gradient-to-t from-black/45 via-transparent to-transparent" aria-hidden="true"></div>
-        </div>
-
-        <!-- 右: 料理2 -->
-        <div class="relative flex-1 overflow-hidden">
-          <img
-            src={`${base}/photos/${r.photos[3].filename}`}
-            alt={`${r.name} 料理2`}
-            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-            loading="lazy"
-          />
-          <div class="absolute inset-0 bg-gradient-to-t from-black/45 via-transparent to-transparent" aria-hidden="true"></div>
         </div>
 
       </div>
@@ -228,6 +234,7 @@ function formatHours(h: string): string {
     <TravelInfo
       minutes={r.travel_time_minutes}
       cost={r.travel_cost_yen}
+      bicycle={r.travel_bicycle_minutes}
       summary={r.travel_summary}
       nearest_station={r.nearest_station}
     />
