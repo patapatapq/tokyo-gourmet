@@ -274,6 +274,14 @@ def main() -> int:
             "opening_hours": weekday_text,
             "photos": saved_photos,
             "google_maps_url": details.get("googleMapsUri", ""),
+            "route_url": _build_route_url(
+                origin["lat"],
+                origin["lng"],
+                r_lat,
+                r_lng,
+                place_id,
+                travel.get("travel_bicycle_minutes"),
+            ),
             "website": details.get("websiteUri", ""),
             "phone": details.get("nationalPhoneNumber", ""),
             "primary_type": details.get("primaryType", ""),
@@ -333,6 +341,33 @@ def main() -> int:
     logger.info("=" * 60)
 
     return 0
+
+
+def _build_route_url(
+    origin_lat: float,
+    origin_lng: float,
+    dest_lat: float | None,
+    dest_lng: float | None,
+    dest_place_id: str,
+    bicycle_minutes: int | None,
+) -> str:
+    """自宅から店舗までのGoogleマップ経路URLを生成する。
+
+    自転車での所要時間がある（5km以内）場合は自転車ルート、
+    なければ公共交通機関ルートを選択した状態の画面に遷移する。
+    """
+    if dest_lat is None or dest_lng is None:
+        return ""
+    travel_mode = "bicycling" if bicycle_minutes is not None else "transit"
+    url = (
+        "https://www.google.com/maps/dir/?api=1"
+        f"&origin={origin_lat},{origin_lng}"
+        f"&destination={dest_lat},{dest_lng}"
+        f"&travelmode={travel_mode}"
+    )
+    if dest_place_id:
+        url += f"&destination_place_id={dest_place_id}"
+    return url
 
 
 def _extract_payment_methods(details: dict) -> dict | None:
