@@ -208,6 +208,8 @@ def main() -> int:
                 photos=photos,
                 max_photos=photos_cfg["max_per_restaurant"],
                 max_width=photos_cfg["max_width_px"],
+                target_width=photos_cfg.get("target_width_px", 640),
+                jpeg_quality=photos_cfg.get("jpeg_quality", 65),
             )
 
         # 営業時間

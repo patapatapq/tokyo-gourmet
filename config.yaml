@@ -68,7 +68,9 @@ sheets:
 # 写真設定
 photos:
   max_per_restaurant: 4
-  max_width_px: 800
+  max_width_px: 960       # Google APIから取得する幅（縮小元・少し大きめに取ると圧縮後が綺麗）
+  target_width_px: 640    # 保存時の最終的な幅（これより大きい画像は縮小）
+  jpeg_quality: 65        # JPEG圧縮品質（1〜95。低いほど軽量・粗い）
 
 # キャッシュ設定
 cache:

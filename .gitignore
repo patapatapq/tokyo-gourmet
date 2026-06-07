@@ -26,3 +26,10 @@ Thumbs.db
 # Env
 .env
 .env.local
+
+# 写真バックアップ（ローカルのみ・再圧縮前の原本）
+frontend/public/photos_backup_*/
+
+# ログ・作業ファイル
+*.log
+.astro/
