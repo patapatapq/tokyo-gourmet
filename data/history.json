@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-06-19T17:23:34.648866+09:00",
+      "week_label": "2026年6月19日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJq3vPqu6JGGARTbuKvrDtpZc",
+          "name": "割烹 坊々樹",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJX-Xo1kmJGGARupXVPdkxkD4",
+          "name": "鮨 さの夢",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJgd_rpsWIGGARPkqlR9tzMm8",
+          "name": "らーめんなが田",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJi38phlmJGGARRMq1STbrlQ0",
+          "name": "中華そばと酒 彩華",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJ3UDiJ7eOGGAR2oal8pB4Wl0",
+          "name": "結わえる",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJh20q_gSJGGARj2THUy1jy8A",
+          "name": "アタゴール",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJIdyTmdeIGGARpAeN4p9_gIc",
+          "name": "タベルナ セルジオ（TABERNA SERGIO）",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJq3-_iWWLGGARAh1xm66RrjQ",
+          "name": "Sudachi",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJQZ19DAGJGGAR67Dzz3hvLmc",
+          "name": "Steak House KURATA",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJxQUul2OJGGAR-xwdFzaXfWM",
+          "name": "焼肉・ホルモン熟成大とろ牛たん 伊達のくら",
+          "rating": 4.1
+        }
+      ]
+    },
+    {
       "generated_at": "2026-06-12T16:10:12.744936+09:00",
       "week_label": "2026年6月12日（金）",
       "restaurants": [
