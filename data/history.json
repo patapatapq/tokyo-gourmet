@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-06-26T15:40:28.457730+09:00",
+      "week_label": "2026年6月26日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJ40Kis_SIGGARnoyI9PLAyVc",
+          "name": "スタミナ苑",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJx_vdcQKNGGAR2NlIvwnTTDY",
+          "name": "ホンデポチャ 池袋店",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJaZNk6-CLGGARFo8CRxzHYtg",
+          "name": "シュラスコレストラン アレグリア ALEGRIA GINZA 銀座",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJo8ECo3SJGGAR9ySD8YCI-3Y",
+          "name": "青森Souls",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJuYdLFeyHGGARSbyxqWmW1WQ",
+          "name": "かど鈴",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJP29WkCSJGGARpe9AEOvpbdY",
+          "name": "お好み焼き 味三",
+          "rating": 4.6
+        },
+        {
+          "place_id": "ChIJzScEDguJGGARZPhzM-ng5SU",
+          "name": "アーマ レストラン",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJX6c-D9aIGGAR_5y1lYPX2Dc",
+          "name": "マッジョーレ",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJjxP3m8aIGGARmt3u8bhuSK0",
+          "name": "Che Carino（ケカリーノ）",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJfTagilGJGGAR8GwjZENcGhY",
+          "name": "BumB東京スポーツ文化館レストラン",
+          "rating": 4
+        }
+      ]
+    },
+    {
       "generated_at": "2026-06-19T17:23:34.648866+09:00",
       "week_label": "2026年6月19日（金）",
       "restaurants": [
