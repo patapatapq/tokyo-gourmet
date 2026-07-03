@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-07-03T15:19:09.040729+09:00",
+      "week_label": "2026年7月3日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJ7x10s1WJGGARAD3DYKIo8E0",
+          "name": "レストラン桂",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJB5xlixyNGGAR4EMQdYnRHHE",
+          "name": "お食事処たかはし",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJidqKI9KHGGARyMuJLHWuJC0",
+          "name": "オハナキッチンOHANA KITCHEN",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJd_05ruSLGGARpUZLC9YfbVw",
+          "name": "091\"",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJx8_lv5WPGGAR7AoOyKogCKQ",
+          "name": "叙々苑 東京スカイツリータウン・ソラマチ店",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJ1ZrkcsaIGGARNFR4NRjo2Zc",
+          "name": "よしのや",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJ05HYsuqOGGARky_87UjNmqA",
+          "name": "タイレストラン イサーン",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJgVxr5imPGGARp48Ga3mBidk",
+          "name": "和・輪",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJu4zxdh2PGGARqMhcH_5Kl10",
+          "name": "レストラン リヨン",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJj3LN4X-JGGARf3O4cMLHHAE",
+          "name": "NIJIYA cafe&dining",
+          "rating": 4.3
+        }
+      ]
+    },
+    {
       "generated_at": "2026-06-26T15:40:28.457730+09:00",
       "week_label": "2026年6月26日（金）",
       "restaurants": [
