@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-07-10T15:30:52.132114+09:00",
+      "week_label": "2026年7月10日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJgcCtEY2IGGARqDfbJ0xvSCs",
+          "name": "ラ・フェーデ",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJo1r6iK6JGGAR6pWzDtwBmi0",
+          "name": "フルバリ FULBARI 亀戸店",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJFZ-icrqIGGAR0cMU2bW-QsA",
+          "name": "コバヤシ",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJad-woMSIGGARF3xDfGTdypQ",
+          "name": "Kamenohe かめのへ",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJIzSuU8SJGGARW_6ncZR3K78",
+          "name": "大衆焼肉ホルモンわいがや西大島",
+          "rating": 4.6
+        },
+        {
+          "place_id": "ChIJ5SIlM62HGGARPNeGyNk4Tl4",
+          "name": "食事処 喜界",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJVVVlMMeOGGARN6UiviJU4Q0",
+          "name": "R restaurant & bar(アール レストラン & バー) / THE GATE HOTEL 雷門 by HULIC",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJ99qLdteIGGARzyL1btF1nFo",
+          "name": "和食Ｄｉｎｉｎｇ 笑酒",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJ9Y_4soSJGGAR452HLDgJTiI",
+          "name": "九州自慢 亀戸店",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJpRzB_v6IGGARgpJ4J6AIJvQ",
+          "name": "大衆バルジカビヤ 東陽町店",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
       "generated_at": "2026-07-03T15:19:09.040729+09:00",
       "week_label": "2026年7月3日（金）",
       "restaurants": [
