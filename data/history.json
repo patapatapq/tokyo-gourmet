@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-07-17T14:30:58.283042+09:00",
+      "week_label": "2026年7月17日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJsdXIsdqIGGARnwW9bkFJfoQ",
+          "name": "スペイン郷土料理 タベルナパタタ 亀戸",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJD9Pd-daOGGARCYgMMXqki5E",
+          "name": "東京ソラマチ",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJmXd-z8-JGGARkvRM1iHCE9A",
+          "name": "ダイナーヴァン",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJs2DgsZqIGGAR5dnUWe7QOn4",
+          "name": "キッチン・ヒイラギ",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJd9r665p9GGAR_757Ocn0U5Y",
+          "name": "海鮮お食事処 卯兵衛 アトレ新浦安店",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJrTU4UpOIGGARukaxYgqGovE",
+          "name": "アジアンキッチン 大島店",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJA5YI9r-IGGARZcaEdXlJJRI",
+          "name": "鉄板焼ステーキ コバ",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJs5dqrjKJGGARYHuH9doLIl8",
+          "name": "First Penguin IL Teatrino",
+          "rating": 4.6
+        },
+        {
+          "place_id": "ChIJ1Vcu_HGOGGARhkC53r0K7ow",
+          "name": "京成線沿い ときわ本店",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJe5R1e8COGGARPlk6ptbRaB8",
+          "name": "水口食堂",
+          "rating": 4.1
+        }
+      ]
+    },
+    {
       "generated_at": "2026-07-10T15:30:52.132114+09:00",
       "week_label": "2026年7月10日（金）",
       "restaurants": [
