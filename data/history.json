@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-07-24T14:39:03.745886+09:00",
+      "week_label": "2026年7月24日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJL-Rokr-OGGARMOtRXantd_0",
+          "name": "浅草うな鐵 国際通り店",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJpSBgsBaMGGARRUpLmaFtDFc",
+          "name": "お食事処 魚玉",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJWwt7jcOIGGARRbVZpSOY0QU",
+          "name": "DECARY",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJFS_DkFyJGGARt_Sn447sR7w",
+          "name": "鉄板処 麦",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJ8zKOv8OIGGARL0VJWSFTKHc",
+          "name": "シエル",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJp8bfgGiJGGARe2vAgn7ukeU",
+          "name": "ラトリエ 住吉",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJ_3c7udaIGGARqxvLJX-CySM",
+          "name": "ニャットタン",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJw4NWZpKNGGARMqOwDWjOm34",
+          "name": "E・A・T GRILL&BAR",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJZU4-QqqdGGARnFBILyRJwxQ",
+          "name": "洋菓子の店グルメ松葉町店",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJo7DLaJGJGGARmOR5xWC84b4",
+          "name": "うず食堂",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
       "generated_at": "2026-07-17T14:30:58.283042+09:00",
       "week_label": "2026年7月17日（金）",
       "restaurants": [
