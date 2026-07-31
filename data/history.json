@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-07-31T14:53:58.394334+09:00",
+      "week_label": "2026年7月31日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJozQ8re6IGGARDFdE8paqRbY",
+          "name": "ハビビ",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJVbBJaxWJGGARoLqrsuNhoKE",
+          "name": "コクショウ 清澄白河のイタリアンレストラン(KOKUSHO)",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJ58XNh-qJGGARD_XpsPvumJw",
+          "name": "本気メシBAR 赤龜",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJ76CqMuuJGGAR8WyEFaAx0yg",
+          "name": "Italian Kitchen VANSAN 亀戸店",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJgZy7tReJGGARuNeWTz4wr94",
+          "name": "EN FACE",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJm_6zIOmIGGAREOU5H1RS9G4",
+          "name": "鮨千登勢",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJBQkIx9ONGGARUR_W5TmYYlU",
+          "name": "お食事処 谷中 大使館",
+          "rating": 4.6
+        },
+        {
+          "place_id": "ChIJwYgMs_aJGGARKmKmXMlnJOQ",
+          "name": "お食事処ゆき",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJXV-jKFCJGGARKhfaXaU4Tsc",
+          "name": "Sico ITALIAN RESTAURANT Ryogoku",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJV4XLJemLGGARjVJDE4eqPGw",
+          "name": "銀座 やまの辺 江戸中華",
+          "rating": 4.1
+        }
+      ]
+    },
+    {
       "generated_at": "2026-07-24T14:39:03.745886+09:00",
       "week_label": "2026年7月24日（金）",
       "restaurants": [
