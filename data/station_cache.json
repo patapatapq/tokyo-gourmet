@@ -1746,10 +1746,11 @@
     "cached_at": "2026-06-03T23:58:13.403372+09:00"
   },
   "ChIJ6ycZ8zqPGGARyVY-BeELShE": {
-    "travel_time_minutes": 22,
+    "travel_time_minutes": 17,
     "travel_cost_yen": 180,
-    "travel_summary": "公共交通機関 約22分（5km）",
-    "cached_at": "2026-02-20T13:29:41.683459+09:00"
+    "travel_bicycle_minutes": 15,
+    "travel_summary": "公共交通機関 約17分（4km）／自転車 約15分",
+    "cached_at": "2026-08-07T13:45:00.388842+09:00"
   },
   "ChIJaUEkdDyJGGARWXhr9s_SVTk": {
     "travel_time_minutes": 22,
@@ -1800,10 +1801,11 @@
     "cached_at": "2026-05-22T15:37:05.067463+09:00"
   },
   "ChIJ80U-JOqJGGARH0QYmmQbGFM": {
-    "travel_time_minutes": 29,
-    "travel_cost_yen": 280,
-    "travel_summary": "公共交通機関 約29分（9km）",
-    "cached_at": "2026-02-20T13:29:44.298899+09:00"
+    "travel_time_minutes": 23,
+    "travel_cost_yen": 260,
+    "travel_bicycle_minutes": null,
+    "travel_summary": "公共交通機関 約23分（8km）",
+    "cached_at": "2026-08-07T13:45:01.091017+09:00"
   },
   "ChIJf0pZfqOIGGARa_IWG8YoRx0": {
     "travel_time_minutes": 18,
@@ -2417,7 +2419,7 @@
   },
   "station:35.7106,139.7748": {
     "name": "京成上野駅",
-    "cached_at": "2026-03-06T13:25:55.060827+09:00"
+    "cached_at": "2026-08-07T13:45:29.829367+09:00"
   },
   "station:35.6802,139.8341": {
     "name": "",
@@ -2779,17 +2781,18 @@
   },
   "station:35.6971,139.8109": {
     "name": "錦糸町駅",
-    "cached_at": "2026-03-27T14:00:38.144685+09:00"
+    "cached_at": "2026-08-07T13:45:12.779403+09:00"
   },
   "station:35.6808,139.768": {
     "name": "東京駅",
-    "cached_at": "2026-03-27T14:00:40.675953+09:00"
+    "cached_at": "2026-08-07T13:45:21.378893+09:00"
   },
   "ChIJvXICViSJGGAR3DG2lIOsqEI": {
-    "travel_time_minutes": 19,
+    "travel_time_minutes": 15,
     "travel_cost_yen": 180,
-    "travel_summary": "公共交通機関 約19分（4km）",
-    "cached_at": "2026-04-03T13:57:36.358453+09:00"
+    "travel_bicycle_minutes": 13,
+    "travel_summary": "公共交通機関 約15分（3km）／自転車 約13分",
+    "cached_at": "2026-08-07T13:45:00.743452+09:00"
   },
   "ChIJQ_NOdpGIGGARXYe8oWNxmiQ": {
     "travel_time_minutes": 10,
@@ -2808,7 +2811,7 @@
   },
   "station:35.6942,139.8125": {
     "name": "錦糸町駅",
-    "cached_at": "2026-04-03T13:57:47.951009+09:00"
+    "cached_at": "2026-08-07T13:45:07.608645+09:00"
   },
   "station:35.6986,139.8269": {
     "name": "亀戸駅",
@@ -3029,7 +3032,7 @@
   },
   "station:35.7494,139.8676": {
     "name": "京成高砂駅",
-    "cached_at": "2026-05-08T14:20:49.979153+09:00"
+    "cached_at": "2026-08-07T13:45:16.003165+09:00"
   },
   "station:35.6692,139.805": {
     "name": "木場駅",
@@ -3945,5 +3948,24 @@
   "station:35.6302,139.7779": {
     "name": "お台場海浜公園駅",
     "cached_at": "2026-07-31T14:53:52.023671+09:00"
+  },
+  "ChIJB3o-LwGGGGARemYAsg7I-S8": {
+    "travel_time_minutes": 20,
+    "travel_cost_yen": 180,
+    "travel_bicycle_minutes": 19,
+    "travel_summary": "公共交通機関 約20分（5km）／自転車 約19分",
+    "cached_at": "2026-08-07T13:45:00.088611+09:00"
+  },
+  "station:35.6889,139.8662": {
+    "name": "船堀駅",
+    "cached_at": "2026-08-07T13:45:04.319865+09:00"
+  },
+  "station:35.6995,139.8288": {
+    "name": "亀戸駅",
+    "cached_at": "2026-08-07T13:45:24.510591+09:00"
+  },
+  "station:35.7191,140.1258": {
+    "name": "東葉勝田台駅",
+    "cached_at": "2026-08-07T13:45:27.459125+09:00"
   }
 }

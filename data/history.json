@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-08-07T13:45:30.135637+09:00",
+      "week_label": "2026年8月7日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJ9Q3qRACHGGAR9HWIJkP7cbY",
+          "name": "ラクナウィ ファミリーレストラン",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJTZH_vyeJGGARKGDiUDQTWr0",
+          "name": "呑み処(和助)",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJu4zxdh2PGGARqMhcH_5Kl10",
+          "name": "レストラン リヨン",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJ3S5-AymJGGARwMNXpQHKJMA",
+          "name": "簾",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJqY7f1JOFGGARjaJEywCUz5s",
+          "name": "高砂 ときわ",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJtYE3FeWJGGAR3bJ_pxjyDJ8",
+          "name": "島の食事処ココワオキナワ",
+          "rating": 4.6
+        },
+        {
+          "place_id": "ChIJDUz3p_6LGGAR1Vvgz2soy2E",
+          "name": "産直グルメ回転ずし 函太郎Tokyo",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJDWz8cwyJGGARgkU3YA63xp0",
+          "name": "ネパール料理 タカリ バンチャ ガル 亀戸",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJWbIWGR6HImARDv9x2QbkjTs",
+          "name": "貝殻亭",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJoeziRJ6OGGARtx_p0OnzAKw",
+          "name": "お食事処 森の茶屋",
+          "rating": 4.3
+        }
+      ]
+    },
+    {
       "generated_at": "2026-07-31T14:53:58.394334+09:00",
       "week_label": "2026年7月31日（金）",
       "restaurants": [
