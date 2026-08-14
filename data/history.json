@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-08-14T13:40:37.291633+09:00",
+      "week_label": "2026年8月14日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJtwZT_sSIGGARx_C6XZn54f0",
+          "name": "名代 亀戸餃子 本店",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJOS0IKiiJGGARmOaiez6hqSM",
+          "name": "サイゴン マジェスティック",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJkUAjkIaPGGARcbBvcfH7v70",
+          "name": "烏",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJO4RgIOmIGGARjLuRSUr-E68",
+          "name": "ナマステヒマール西大島店",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJx_vdcQKNGGAR2NlIvwnTTDY",
+          "name": "ホンデポチャ 池袋店",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJy3jtxV2PGGARARNTmrBQIko",
+          "name": "Series the Sky",
+          "rating": 4.6
+        },
+        {
+          "place_id": "ChIJ4Vs7scGIGGAR76Ak8vDs2dk",
+          "name": "割烹馬目 Japanese Restaurant Manome",
+          "rating": 4.6
+        },
+        {
+          "place_id": "ChIJBV4myl2JGGAR04FUgWr6uIU",
+          "name": "お食事処 いち",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJU9WFnNGIGGARFQf725hBDLo",
+          "name": "イタリアーノラ・ステラ",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJoTAju_-PGGAR85FjwSBmkFY",
+          "name": "nicocafe 328 ニコカフェ328",
+          "rating": 4.4
+        }
+      ]
+    },
+    {
       "generated_at": "2026-08-07T13:45:30.135637+09:00",
       "week_label": "2026年8月7日（金）",
       "restaurants": [
