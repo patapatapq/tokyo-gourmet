@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-08-28T23:39:06.208768+09:00",
+      "week_label": "2026年8月28日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJp8bfgGiJGGARe2vAgn7ukeU",
+          "name": "ラトリエ 住吉",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJJ3GewMyIGGARFsec6eMKmI0",
+          "name": "四季坊",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJzWzHo1mJGGARD6i_9uTSqUQ",
+          "name": "la radice",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJbRqHR-6OGGAR71SqeqTvuZs",
+          "name": "丸千葉",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJp3CpTsWIGGARfdumxbD_dpc",
+          "name": "亀戸沖縄ダイニング居酒屋いさたこ",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJudbgAFyPGGARgqnwAEomL6A",
+          "name": "国丸食堂とアカネコ",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJQwOPDqmNGGARXHsPruII6Ws",
+          "name": "CITRUS BAR TOKYO｜表参道・外苑前・居酒屋・ディナー・おでん",
+          "rating": 5
+        },
+        {
+          "place_id": "ChIJUaJR8NaOGGARbaGu0XYUkl4",
+          "name": "Sky Restaurant 634",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJWwt7jcOIGGARRbVZpSOY0QU",
+          "name": "DECARY",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJVZRyhlCJGGARBqiouKILmqQ",
+          "name": "Ringraziamento レストランリングラツィアメント",
+          "rating": 4.2
+        }
+      ]
+    },
+    {
       "generated_at": "2026-08-21T12:40:33.200241+09:00",
       "week_label": "2026年8月21日（金）",
       "restaurants": [

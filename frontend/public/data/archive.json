@@ -1,6 +1,702 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-08-28T23:39:06.208768+09:00",
+      "week_label": "2026年8月28日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJp8bfgGiJGGARe2vAgn7ukeU",
+          "name": "ラトリエ 住吉",
+          "rating": 4.4,
+          "user_rating_count": 88,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒135-0002 東京都江東区住吉１丁目１９−１ ツインタワーすみとし住吉館 109",
+          "travel_time_minutes": 14,
+          "travel_cost_yen": 180,
+          "travel_bicycle_minutes": 9,
+          "travel_summary": "公共交通機関 約14分（2km）／自転車 約9分",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 定休日",
+            "火曜日: 定休日",
+            "水曜日: 11時30分～14時00分, 18時00分～23時00分",
+            "木曜日: 11時30分～14時00分, 18時00分～23時00分",
+            "金曜日: 11時30分～14時00分, 18時00分～23時00分",
+            "土曜日: 11時30分～15時00分, 17時30分～23時00分",
+            "日曜日: 11時30分～15時00分, 17時30分～22時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJp8bfgGiJGGARe2vAgn7ukeU_0.jpg",
+              "attribution": "ラトリエ 住吉"
+            },
+            {
+              "filename": "ChIJp8bfgGiJGGARe2vAgn7ukeU_1.jpg",
+              "attribution": "ラトリエ 住吉"
+            },
+            {
+              "filename": "ChIJp8bfgGiJGGARe2vAgn7ukeU_2.jpg",
+              "attribution": "ラトリエ 住吉"
+            },
+            {
+              "filename": "ChIJp8bfgGiJGGARe2vAgn7ukeU_3.jpg",
+              "attribution": "ラトリエ 住吉"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=16542265133435480955&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "route_url": "https://www.google.com/maps/dir/?api=1&origin=35.692555,139.831743&destination=35.690267,139.8131446&travelmode=bicycling&destination_place_id=ChIJp8bfgGiJGGARe2vAgn7ukeU",
+          "website": "https://tabelog.com/tokyo/A1312/A131201/13255390/",
+          "phone": "080-5681-1810",
+          "primary_type": "bistro",
+          "genre": "ビストロ",
+          "nearest_station": "住吉駅",
+          "recommended_menu": "おまかせコース？を20年の結婚記念日で使わせてもらいました\nあまりこういうコースとか食べた事なかったけど…めちゃくちゃ美味かった！詳しくは分からないけどどれもこだわった味付けで最高でした！鹿肉がうまい！\nこの内容でこの値段だったら安いんじゃないかなと！\n量は少ないかなと思ったけどそんな事なく満足です！\n店の雰囲気もオシ...",
+          "recommended_menu_rating": 5,
+          "payment_methods": {
+            "credit_card": true,
+            "debit_card": false,
+            "cash_only": false,
+            "nfc": null
+          }
+        },
+        {
+          "place_id": "ChIJJ3GewMyIGGARFsec6eMKmI0",
+          "name": "四季坊",
+          "rating": 4,
+          "user_rating_count": 133,
+          "budget_tier": "kosupa",
+          "budget_label": "コスパ重視",
+          "budget_icon": "💰",
+          "budget_morning_lunch": {
+            "tier": "kosupa",
+            "label": "コスパ重視",
+            "icon": "💰"
+          },
+          "budget_dinner": {
+            "tier": "kosupa",
+            "label": "コスパ重視",
+            "icon": "💰"
+          },
+          "price_range": "¥0〜¥1,500",
+          "price_range_dinner": "¥0〜¥3,000",
+          "address": "日本、〒131-0044 東京都墨田区文花２丁目１０−３ 田中ビル 2F",
+          "travel_time_minutes": 12,
+          "travel_cost_yen": 180,
+          "travel_bicycle_minutes": 10,
+          "travel_summary": "公共交通機関 約12分（2km）／自転車 約10分",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 11時00分～15時00分, 17時00分～23時00分",
+            "火曜日: 11時00分～15時00分, 17時00分～23時00分",
+            "水曜日: 11時00分～15時00分, 17時00分～23時00分",
+            "木曜日: 11時00分～15時00分, 17時00分～23時00分",
+            "金曜日: 11時00分～15時00分, 17時00分～23時00分",
+            "土曜日: 11時00分～15時00分, 17時00分～23時00分",
+            "日曜日: 11時00分～15時00分, 17時00分～23時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJJ3GewMyIGGARFsec6eMKmI0_0.jpg",
+              "attribution": "猛"
+            },
+            {
+              "filename": "ChIJJ3GewMyIGGARFsec6eMKmI0_1.jpg",
+              "attribution": "大将とおる"
+            },
+            {
+              "filename": "ChIJJ3GewMyIGGARFsec6eMKmI0_2.jpg",
+              "attribution": "大将とおる"
+            },
+            {
+              "filename": "ChIJJ3GewMyIGGARFsec6eMKmI0_3.jpg",
+              "attribution": "大将とおる"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=10202916929801078550&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "route_url": "https://www.google.com/maps/dir/?api=1&origin=35.692555,139.831743&destination=35.709646,139.827912&travelmode=bicycling&destination_place_id=ChIJJ3GewMyIGGARFsec6eMKmI0",
+          "website": "",
+          "phone": "03-5631-3655",
+          "primary_type": "chinese_restaurant",
+          "genre": "中華料理店",
+          "nearest_station": "小村井駅",
+          "recommended_menu": "初めて訪問しました\n１２時よりちょっと前の早い時間でしたが\n何人かのお客さんも入ってました\nボリュームが多くお腹いっぱいになりました\n味付けも好みでした\n寒い日でしたので、ハフハフしながら\n美味しく食べれました\n次に行った時には違うメニューにも\n挑戦したいと思えるお店でした",
+          "recommended_menu_rating": 5,
+          "payment_methods": {
+            "credit_card": null,
+            "debit_card": null,
+            "cash_only": false,
+            "nfc": null
+          }
+        },
+        {
+          "place_id": "ChIJzWzHo1mJGGARD6i_9uTSqUQ",
+          "name": "la radice",
+          "rating": 4.4,
+          "user_rating_count": 82,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒103-0026 東京都中央区日本橋兜町１６−１ 第１１大協ビル 1F",
+          "travel_time_minutes": 30,
+          "travel_cost_yen": 280,
+          "travel_bicycle_minutes": null,
+          "travel_summary": "公共交通機関 約30分（9km）",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 11時30分～14時30分, 18時00分～21時30分",
+            "火曜日: 11時30分～14時30分, 18時00分～21時30分",
+            "水曜日: 11時30分～14時30分, 18時00分～21時30分",
+            "木曜日: 11時30分～14時30分, 18時00分～21時30分",
+            "金曜日: 11時30分～14時30分, 18時00分～21時30分",
+            "土曜日: 定休日",
+            "日曜日: 定休日"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJzWzHo1mJGGARD6i_9uTSqUQ_0.jpg",
+              "attribution": "la radice"
+            },
+            {
+              "filename": "ChIJzWzHo1mJGGARD6i_9uTSqUQ_1.jpg",
+              "attribution": "la radice"
+            },
+            {
+              "filename": "ChIJzWzHo1mJGGARD6i_9uTSqUQ_2.jpg",
+              "attribution": "la radice"
+            },
+            {
+              "filename": "ChIJzWzHo1mJGGARD6i_9uTSqUQ_3.jpg",
+              "attribution": "la radice"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=4947717546477332495&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "route_url": "https://www.google.com/maps/dir/?api=1&origin=35.692555,139.831743&destination=35.6790199,139.7765203&travelmode=transit&destination_place_id=ChIJzWzHo1mJGGARD6i_9uTSqUQ",
+          "website": "https://la-radice-kabutocho.com/",
+          "phone": "050-5486-9201",
+          "primary_type": "italian_restaurant",
+          "genre": "イタリア料理店",
+          "nearest_station": "茅場町駅",
+          "recommended_menu": "ランチで伺いました。\n外観がとてもかわいらしいですが、店内はさらにおしゃれでかわいいですね。\nカウンターがあるので、おひとり様も入りやすか、ありがたいです。\n\nクリームパスタの気分だったので筒型パスタ、リガトーニを選びました。\nクリームベースでも変にしつこくないので、さらっと完食！小さいカリフラワーは食べ応えがあり、ソ...",
+          "recommended_menu_rating": 5,
+          "payment_methods": {
+            "credit_card": true,
+            "debit_card": false,
+            "cash_only": false,
+            "nfc": false
+          }
+        },
+        {
+          "place_id": "ChIJbRqHR-6OGGAR71SqeqTvuZs",
+          "name": "丸千葉",
+          "rating": 4.5,
+          "user_rating_count": 672,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒111-0021 東京都台東区日本堤１丁目１−３",
+          "travel_time_minutes": 35,
+          "travel_cost_yen": 260,
+          "travel_bicycle_minutes": null,
+          "travel_summary": "公共交通機関 約35分（7km）",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 14時00分～21時00分",
+            "火曜日: 14時00分～21時00分",
+            "水曜日: 定休日",
+            "木曜日: 14時00分～21時00分",
+            "金曜日: 14時00分～21時00分",
+            "土曜日: 14時00分～21時00分",
+            "日曜日: 14時00分～21時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJbRqHR-6OGGAR71SqeqTvuZs_0.jpg",
+              "attribution": "King"
+            },
+            {
+              "filename": "ChIJbRqHR-6OGGAR71SqeqTvuZs_1.jpg",
+              "attribution": "じぃいぇぞんほぁん"
+            },
+            {
+              "filename": "ChIJbRqHR-6OGGAR71SqeqTvuZs_2.jpg",
+              "attribution": "King"
+            },
+            {
+              "filename": "ChIJbRqHR-6OGGAR71SqeqTvuZs_3.jpg",
+              "attribution": "さとし"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=11221263436281959663&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "route_url": "https://www.google.com/maps/dir/?api=1&origin=35.692555,139.831743&destination=35.7260078,139.8002445&travelmode=transit&destination_place_id=ChIJbRqHR-6OGGAR71SqeqTvuZs",
+          "website": "",
+          "phone": "03-3872-4216",
+          "primary_type": "japanese_izakaya_restaurant",
+          "genre": "居酒屋",
+          "nearest_station": "南千住駅",
+          "recommended_menu": "予約しないでなんとか入れました。\nちょっと運が良かっのかもしれません。\n魚系がとても美味しいですが、ハンバーグも絶品\n何でも美味しいです。\nテキパキ働くスタッフと\n心遣いは尊敬いたします。",
+          "recommended_menu_rating": 5,
+          "payment_methods": {
+            "credit_card": false,
+            "debit_card": null,
+            "cash_only": true,
+            "nfc": null
+          }
+        },
+        {
+          "place_id": "ChIJp3CpTsWIGGARfdumxbD_dpc",
+          "name": "亀戸沖縄ダイニング居酒屋いさたこ",
+          "rating": 4.5,
+          "user_rating_count": 153,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒136-0071 東京都江東区亀戸２丁目３０−９",
+          "travel_time_minutes": 13,
+          "travel_cost_yen": 0,
+          "travel_bicycle_minutes": 4,
+          "travel_summary": "徒歩 13分／自転車 約4分",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 定休日",
+            "火曜日: 17時00分～0時00分",
+            "水曜日: 17時00分～0時00分",
+            "木曜日: 17時00分～0時00分",
+            "金曜日: 17時00分～0時00分",
+            "土曜日: 17時00分～0時00分",
+            "日曜日: 17時00分～0時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJp3CpTsWIGGARfdumxbD_dpc_0.jpg",
+              "attribution": "亀戸沖縄ダイニング居酒屋いさたこ"
+            },
+            {
+              "filename": "ChIJp3CpTsWIGGARfdumxbD_dpc_1.jpg",
+              "attribution": "亀戸沖縄ダイニング居酒屋いさたこ"
+            },
+            {
+              "filename": "ChIJp3CpTsWIGGARfdumxbD_dpc_2.jpg",
+              "attribution": "yoshiaki suzuki"
+            },
+            {
+              "filename": "ChIJp3CpTsWIGGARfdumxbD_dpc_3.jpg",
+              "attribution": "亀戸沖縄ダイニング居酒屋いさたこ"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=10914191881674349437&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "route_url": "https://www.google.com/maps/dir/?api=1&origin=35.692555,139.831743&destination=35.6992646,139.8243676&travelmode=bicycling&destination_place_id=ChIJp3CpTsWIGGARfdumxbD_dpc",
+          "website": "https://isataco.com/",
+          "phone": "03-5858-6088",
+          "primary_type": "japanese_izakaya_restaurant",
+          "genre": "居酒屋",
+          "nearest_station": "亀戸駅",
+          "recommended_menu": "今宵の宴は亀戸で。\n路地裏に灯る明かりがとても楽しそう。木の温もりを感じる手づくりの店内。\nテーブルに座ればまるでホームに帰ってきたような居心地の良さ。\n\n先ずは( ^^)Y☆Y(^^ ) 乾杯！\n・オリオンビール\n・A&Wルートビア\n\nお通し\n・里芋とイカとレンコンの煮物\n\nとりあえず\n・海ぶどう\n沖縄料理と聞けば頼...",
+          "recommended_menu_rating": 5,
+          "payment_methods": {
+            "credit_card": true,
+            "debit_card": null,
+            "cash_only": false,
+            "nfc": null
+          }
+        },
+        {
+          "place_id": "ChIJudbgAFyPGGARgqnwAEomL6A",
+          "name": "国丸食堂とアカネコ",
+          "rating": 4.5,
+          "user_rating_count": 96,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒111-0052 東京都台東区柳橋１丁目３２−５",
+          "travel_time_minutes": 26,
+          "travel_cost_yen": 230,
+          "travel_bicycle_minutes": null,
+          "travel_summary": "公共交通機関 約26分（5km）",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 18時00分～0時00分",
+            "火曜日: 18時00分～0時00分",
+            "水曜日: 18時00分～0時00分",
+            "木曜日: 18時00分～0時00分",
+            "金曜日: 18時00分～0時00分",
+            "土曜日: 18時00分～23時00分",
+            "日曜日: 定休日"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJudbgAFyPGGARgqnwAEomL6A_0.jpg",
+              "attribution": "国丸食堂とアカネコ"
+            },
+            {
+              "filename": "ChIJudbgAFyPGGARgqnwAEomL6A_1.jpg",
+              "attribution": "国丸食堂とアカネコ"
+            },
+            {
+              "filename": "ChIJudbgAFyPGGARgqnwAEomL6A_2.jpg",
+              "attribution": "iidapan"
+            },
+            {
+              "filename": "ChIJudbgAFyPGGARgqnwAEomL6A_3.jpg",
+              "attribution": "Kaser Luke"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=11542486469259078018&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "route_url": "https://www.google.com/maps/dir/?api=1&origin=35.692555,139.831743&destination=35.6981229,139.787619&travelmode=transit&destination_place_id=ChIJudbgAFyPGGARgqnwAEomL6A",
+          "website": "https://tabelog.com/tokyo/A1311/A131103/13227034/",
+          "phone": "03-5809-3618",
+          "primary_type": "restaurant",
+          "genre": "レストラン",
+          "nearest_station": "浅草橋駅",
+          "recommended_menu": "カード決済可能\nとても美味しいイタリアンバル 、品質最高です。\n\n小さなお店なので常連も多いようでした。\n客質が良く落ちついて食事が楽しめます。",
+          "recommended_menu_rating": 5,
+          "payment_methods": {
+            "credit_card": null,
+            "debit_card": true,
+            "cash_only": false,
+            "nfc": true
+          }
+        },
+        {
+          "place_id": "ChIJQwOPDqmNGGARXHsPruII6Ws",
+          "name": "CITRUS BAR TOKYO｜表参道・外苑前・居酒屋・ディナー・おでん",
+          "rating": 5,
+          "user_rating_count": 84,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒107-0062 東京都港区南青山３丁目２−６ セントラル第五青山 2F-A",
+          "travel_time_minutes": 41,
+          "travel_cost_yen": 380,
+          "travel_bicycle_minutes": null,
+          "travel_summary": "公共交通機関 約41分（15km）",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 15時00分～3時00分",
+            "火曜日: 15時00分～3時00分",
+            "水曜日: 15時00分～3時00分",
+            "木曜日: 15時00分～3時00分",
+            "金曜日: 15時00分～3時00分",
+            "土曜日: 15時00分～1時00分",
+            "日曜日: 15時00分～1時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJQwOPDqmNGGARXHsPruII6Ws_0.jpg",
+              "attribution": "CITRUS BAR TOKYO｜表参道・外苑前・居酒屋・ディナー・おでん"
+            },
+            {
+              "filename": "ChIJQwOPDqmNGGARXHsPruII6Ws_1.jpg",
+              "attribution": "CITRUS BAR TOKYO｜表参道・外苑前・居酒屋・ディナー・おでん"
+            },
+            {
+              "filename": "ChIJQwOPDqmNGGARXHsPruII6Ws_2.jpg",
+              "attribution": "CITRUS BAR TOKYO｜表参道・外苑前・居酒屋・ディナー・おでん"
+            },
+            {
+              "filename": "ChIJQwOPDqmNGGARXHsPruII6Ws_3.jpg",
+              "attribution": "CITRUS BAR TOKYO｜表参道・外苑前・居酒屋・ディナー・おでん"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=7775756001307753308&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "route_url": "https://www.google.com/maps/dir/?api=1&origin=35.692555,139.831743&destination=35.6676469,139.7175781&travelmode=transit&destination_place_id=ChIJQwOPDqmNGGARXHsPruII6Ws",
+          "website": "https://8207-d2fefd97681-93718f97e4e8edb91da22a3cdf7462c9d99075e5.production.preview.ccmphp.com/",
+          "phone": "03-4400-9131",
+          "primary_type": "japanese_izakaya_restaurant",
+          "genre": "居酒屋",
+          "nearest_station": "外苑前駅",
+          "recommended_menu": "店内は落ち着いた雰囲気でゆったり過ごすことができるよ☺️\n\nシーシャのフレーム豊富！\n初心者の方でも吸いやすいフレーバーを\nスタッフの方が丁寧に教えてくれるから\n挑戦しやすいよ😊\n\nノンアルドリンクやノンアルカクテルもあるからお酒なしでも楽しむことが出来る♫\n\n遅くまでやってるから２軒目におすすめ‪🫶\n\n外苑前や表参道...",
+          "recommended_menu_rating": 5,
+          "payment_methods": {
+            "credit_card": true,
+            "debit_card": true,
+            "cash_only": false,
+            "nfc": true
+          }
+        },
+        {
+          "place_id": "ChIJUaJR8NaOGGARbaGu0XYUkl4",
+          "name": "Sky Restaurant 634",
+          "rating": 4.1,
+          "user_rating_count": 753,
+          "budget_tier": "premium",
+          "budget_label": "高級",
+          "budget_icon": "💰💰💰",
+          "budget_morning_lunch": {
+            "tier": "premium",
+            "label": "高級",
+            "icon": "💰💰💰"
+          },
+          "budget_dinner": {
+            "tier": "premium",
+            "label": "高級",
+            "icon": "💰💰💰"
+          },
+          "price_range": "¥3,000〜",
+          "price_range_dinner": "¥6,000〜",
+          "address": "日本、〒131-0045 東京都墨田区押上１丁目１−２ 東京スカイツリー天望デッキフロア345",
+          "travel_time_minutes": 21,
+          "travel_cost_yen": 180,
+          "travel_bicycle_minutes": 16,
+          "travel_summary": "公共交通機関 約21分（4km）／自転車 約16分",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 12時00分～16時00分, 17時30分～22時00分",
+            "火曜日: 12時00分～16時00分, 17時30分～22時00分",
+            "水曜日: 12時00分～16時00分, 17時30分～22時00分",
+            "木曜日: 12時00分～16時00分, 17時30分～22時00分",
+            "金曜日: 12時00分～16時00分, 17時30分～22時00分",
+            "土曜日: 11時30分～16時00分, 17時30分～22時00分",
+            "日曜日: 11時30分～16時00分, 17時30分～22時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJUaJR8NaOGGARbaGu0XYUkl4_0.jpg",
+              "attribution": "Sky Restaurant 634"
+            },
+            {
+              "filename": "ChIJUaJR8NaOGGARbaGu0XYUkl4_1.jpg",
+              "attribution": "Sky Restaurant 634"
+            },
+            {
+              "filename": "ChIJUaJR8NaOGGARbaGu0XYUkl4_2.jpg",
+              "attribution": "Berk Ron"
+            },
+            {
+              "filename": "ChIJUaJR8NaOGGARbaGu0XYUkl4_3.jpg",
+              "attribution": "ZEROX"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=6814531686721560941&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "route_url": "https://www.google.com/maps/dir/?api=1&origin=35.692555,139.831743&destination=35.710256,139.81079459999998&travelmode=bicycling&destination_place_id=ChIJUaJR8NaOGGARbaGu0XYUkl4",
+          "website": "https://www.tobuhotel.co.jp/skyrestaurant634/",
+          "phone": "03-3623-0634",
+          "primary_type": "restaurant",
+          "genre": "レストラン",
+          "nearest_station": "とうきょうスカイツリー駅",
+          "recommended_menu": "東京スカイツリー展望デッキ内にある、まさに「天空のレストラン」。\n今回はランチの「雅（MIYABI）」コースをいただきましたが、記念日や大切な人を迎える場としてこれ以上の場所はありません。\n\n「江戸の粋」を感じる料理\nフランス料理の技法をベースにしつつ、江戸味噌や和の調味料、東京の地野菜を巧みに取り入れた料理は、どれも...",
+          "recommended_menu_rating": 5,
+          "payment_methods": {
+            "credit_card": true,
+            "debit_card": true,
+            "cash_only": false,
+            "nfc": null
+          }
+        },
+        {
+          "place_id": "ChIJWwt7jcOIGGARRbVZpSOY0QU",
+          "name": "DECARY",
+          "rating": 4.1,
+          "user_rating_count": 261,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒136-0071 東京都江東区亀戸６丁目２９−７",
+          "travel_time_minutes": 7,
+          "travel_cost_yen": 0,
+          "travel_bicycle_minutes": 2,
+          "travel_summary": "徒歩 7分／自転車 約2分",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 定休日",
+            "火曜日: 11時30分～14時00分, 17時30分～21時00分",
+            "水曜日: 11時30分～14時00分, 17時30分～21時00分",
+            "木曜日: 11時30分～14時00分, 17時30分～21時00分",
+            "金曜日: 11時30分～14時00分, 17時30分～21時00分",
+            "土曜日: 11時30分～14時00分, 17時30分～21時00分",
+            "日曜日: 11時30分～14時00分, 17時30分～21時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJWwt7jcOIGGARRbVZpSOY0QU_0.jpg",
+              "attribution": "かれすぱ"
+            },
+            {
+              "filename": "ChIJWwt7jcOIGGARRbVZpSOY0QU_1.jpg",
+              "attribution": "mayorin"
+            },
+            {
+              "filename": "ChIJWwt7jcOIGGARRbVZpSOY0QU_2.jpg",
+              "attribution": "028 mno"
+            },
+            {
+              "filename": "ChIJWwt7jcOIGGARRbVZpSOY0QU_3.jpg",
+              "attribution": "Gallant"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=419283519187563845&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "route_url": "https://www.google.com/maps/dir/?api=1&origin=35.692555,139.831743&destination=35.6963426,139.8277281&travelmode=bicycling&destination_place_id=ChIJWwt7jcOIGGARRbVZpSOY0QU",
+          "website": "http://www.decary.jp/",
+          "phone": "03-3685-8080",
+          "primary_type": "french_restaurant",
+          "genre": "フランス料理店",
+          "nearest_station": "亀戸駅",
+          "recommended_menu": "亀戸東口からカメクロ横にあるDECARYさんで平日ランチをいただきました。10年以上前に来たことがあり、久しぶりの訪問でしたが、変わらず落ち着いた素敵な雰囲気で安心感があります。黄色の外壁が目印のお店です。\n\n周りのお客さんはサーロインステーキランチを頼んでいる方が多く、人気メニューのようでした。今回はワンプレートのカ...",
+          "recommended_menu_rating": 5,
+          "payment_methods": {
+            "credit_card": true,
+            "debit_card": null,
+            "cash_only": false,
+            "nfc": null
+          }
+        },
+        {
+          "place_id": "ChIJVZRyhlCJGGARBqiouKILmqQ",
+          "name": "Ringraziamento レストランリングラツィアメント",
+          "rating": 4.2,
+          "user_rating_count": 114,
+          "budget_tier": "premium",
+          "budget_label": "高級",
+          "budget_icon": "💰💰💰",
+          "budget_morning_lunch": {
+            "tier": "premium",
+            "label": "高級",
+            "icon": "💰💰💰"
+          },
+          "budget_dinner": {
+            "tier": "premium",
+            "label": "高級",
+            "icon": "💰💰💰"
+          },
+          "price_range": "¥3,000〜",
+          "price_range_dinner": "¥6,000〜",
+          "address": "日本、〒103-0016 東京都中央区日本橋小網町９−６ ＮＳＴ小網町ビル 地下1階",
+          "travel_time_minutes": 24,
+          "travel_cost_yen": 250,
+          "travel_bicycle_minutes": null,
+          "travel_summary": "公共交通機関 約24分（7km）",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 12時00分～15時00分, 18時00分～22時00分",
+            "火曜日: 12時00分～15時00分, 18時00分～22時00分",
+            "水曜日: 12時00分～15時00分, 18時00分～22時00分",
+            "木曜日: 12時00分～15時00分, 18時00分～22時00分",
+            "金曜日: 12時00分～15時00分, 18時00分～22時00分",
+            "土曜日: 11時30分～15時00分, 18時00分～22時00分",
+            "日曜日: 11時30分～15時00分, 18時00分～22時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJVZRyhlCJGGARBqiouKILmqQ_0.jpg",
+              "attribution": "Ringraziamento レストランリングラツィアメント"
+            },
+            {
+              "filename": "ChIJVZRyhlCJGGARBqiouKILmqQ_1.jpg",
+              "attribution": "Ringraziamento レストランリングラツィアメント"
+            },
+            {
+              "filename": "ChIJVZRyhlCJGGARBqiouKILmqQ_2.jpg",
+              "attribution": "Ringraziamento レストランリングラツィアメント"
+            },
+            {
+              "filename": "ChIJVZRyhlCJGGARBqiouKILmqQ_3.jpg",
+              "attribution": "Ringraziamento レストランリングラツィアメント"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=11860805362144290822&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "route_url": "https://www.google.com/maps/dir/?api=1&origin=35.692555,139.831743&destination=35.6829768,139.7802596&travelmode=transit&destination_place_id=ChIJVZRyhlCJGGARBqiouKILmqQ",
+          "website": "https://ringraziamento.com/",
+          "phone": "03-6231-0578",
+          "primary_type": "italian_restaurant",
+          "genre": "イタリア料理店",
+          "nearest_station": "茅場町駅",
+          "recommended_menu": "前回クリスマスに伺った時、\nとても美味しく、特にトリュフの香りが良かったので結婚記念日のディナーに伺いました。\n今回はトリュフコースにしました。\n予約時もお電話やメールで丁寧に対応いただきありがとうございました。\n\n前菜からデザートまでトリュフが使われており、とても大満足です☺️\nワインやお料理の説明もしてくださり、と...",
+          "recommended_menu_rating": 5,
+          "payment_methods": {
+            "credit_card": true,
+            "debit_card": true,
+            "cash_only": false,
+            "nfc": null
+          }
+        }
+      ]
+    },
+    {
       "generated_at": "2026-08-21T12:40:33.200241+09:00",
       "week_label": "2026年8月21日（金）",
       "restaurants": [
