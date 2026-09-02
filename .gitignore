@@ -10,6 +10,9 @@ node_modules/
 frontend/dist/
 
 # Credentials (NEVER commit)
+# 実体は .secrets/ に隔離してある（ISS-426）。名前による除外は改名で破れるので、
+# ディレクトリごと除外する側を主とする。以下の3行は保険。
+.secrets/
 token.json
 gmail_token.json
 credentials.json
