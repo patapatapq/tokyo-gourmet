@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-09-04T16:28:27.817734+09:00",
+      "week_label": "2026年9月4日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJX-Xo1kmJGGARupXVPdkxkD4",
+          "name": "鮨 さの夢",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJXchZIQCJGGARNNW4Y-RiRdE",
+          "name": "ヒマラヤキッチン",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJF-rgXKaJGGARzORMOWFKw3o",
+          "name": "タイレストランバンプー【BANG PU】",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJ63XJmcOIGGARhA-7m2b9vwM",
+          "name": "和洋創作DINING新家",
+          "rating": 4.6
+        },
+        {
+          "place_id": "ChIJsSA6DOSGImARWoFGMl-HmC0",
+          "name": "うまいものkitchen 勝田台バル",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJ2zmld4-EImAR3zAtijRWY_k",
+          "name": "お食事処 い志い",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJA7oH4N6HGGARDeJlZCqKaxM",
+          "name": "Cuore",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJ3S5-AymJGGARwMNXpQHKJMA",
+          "name": "簾",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJFc4l7BGJGGARhFOixSP-wEc",
+          "name": "ジンゴゲ029",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJad-woMSIGGARF3xDfGTdypQ",
+          "name": "Kamenohe かめのへ",
+          "rating": 4.3
+        }
+      ]
+    },
+    {
       "generated_at": "2026-08-28T23:39:06.208768+09:00",
       "week_label": "2026年8月28日（金）",
       "restaurants": [
