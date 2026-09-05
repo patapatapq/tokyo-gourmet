@@ -6,7 +6,10 @@ interface Props {
 }
 
 const { title = 'Tokyo Gourmet Recommender' } = Astro.props;
-const base = import.meta.env.BASE_URL;
+// BASE_URL は astro.config.mjs の base をそのまま返す（末尾スラッシュの有無は設定次第）。
+// 連結側で必ず `/` を書けるよう、ここで末尾スラッシュを剥がして正規化しておく。
+// （剥がさずに `${base}archive` と書いていたため /tokyo-gourmetarchive になっていた・ISS-476）
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <!doctype html>
@@ -25,7 +28,7 @@ const base = import.meta.env.BASE_URL;
     <header class="glass-header sticky top-0 z-50">
       <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
         <!-- Logo -->
-        <a href={`${base}`} class="no-underline flex items-center gap-2.5">
+        <a href={`${base}/`} class="no-underline flex items-center gap-2.5">
           <div class="w-8 h-8 rounded-[10px] bg-primary flex items-center justify-center shrink-0">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/>
@@ -38,13 +41,13 @@ const base = import.meta.env.BASE_URL;
 
         <!-- Nav -->
         <nav class="flex gap-0.5 text-sm" aria-label="メインナビゲーション">
-          <a href={`${base}`} class="px-3 py-1.5 rounded-[8px] text-text-muted hover:text-white hover:bg-white/10 transition-colors no-underline">
+          <a href={`${base}/`} class="px-3 py-1.5 rounded-[8px] text-text-muted hover:text-white hover:bg-white/10 transition-colors no-underline">
             今週
           </a>
-          <a href={`${base}archive`} class="px-3 py-1.5 rounded-[8px] text-text-muted hover:text-white hover:bg-white/10 transition-colors no-underline">
+          <a href={`${base}/archive`} class="px-3 py-1.5 rounded-[8px] text-text-muted hover:text-white hover:bg-white/10 transition-colors no-underline">
             アーカイブ
           </a>
-          <a href={`${base}manage`} class="px-3 py-1.5 rounded-[8px] text-text-muted hover:text-white hover:bg-white/10 transition-colors no-underline">
+          <a href={`${base}/manage`} class="px-3 py-1.5 rounded-[8px] text-text-muted hover:text-white hover:bg-white/10 transition-colors no-underline">
             管理
           </a>
         </nav>
