@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-09-11T16:32:35.273164+09:00",
+      "week_label": "2026年9月11日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJF2aPQk2JGGAR7wZtL2rjpkQ",
+          "name": "三景(サンケイ)",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJozQ8re6IGGARDFdE8paqRbY",
+          "name": "ハビビ",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJm_6zIOmIGGAREOU5H1RS9G4",
+          "name": "鮨千登勢",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJE-__7sCIGGAReYbHpEX18qE",
+          "name": "洋食中華 エチゴヤ",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJpQ_PrKqOGGARHqNqcsk3ioc",
+          "name": "ムロマチカフェ ハチ",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJaxP9U8SIGGARF-JmLqjdMHk",
+          "name": "洋風居酒屋 民酒党",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJETU4kteIGGARJHv3Q56HSxE",
+          "name": "レストラン シラツユ",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJFS_DkFyJGGARt_Sn447sR7w",
+          "name": "鉄板処 麦",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJgcCtEY2IGGARqDfbJ0xvSCs",
+          "name": "ラ・フェーデ",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJR4zCe3qJGGARqMdwRjW84Z0",
+          "name": "Café Accha（カフェ・アチャ）",
+          "rating": 4.7
+        }
+      ]
+    },
+    {
       "generated_at": "2026-09-04T16:28:27.817734+09:00",
       "week_label": "2026年9月4日（金）",
       "restaurants": [
