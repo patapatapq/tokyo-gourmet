@@ -37,6 +37,8 @@ jobs:
           GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
           GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
           SHEETS_TOKEN_JSON: ${{ secrets.SHEETS_TOKEN_JSON }}
+          # メールのリンクに付ける目隠しトークン（ISS-518）と、除外リストを読む GAS（ISS-475）
+          SITE_GATE_TOKEN: ${{ secrets.SITE_GATE_TOKEN }}
         run: python -m backend.run_weekly
 
       - name: Commit updated data and photos
@@ -47,36 +49,14 @@ jobs:
           git diff --staged --quiet || git commit -m "chore: weekly recommendation $(date +%Y-%m-%d)"
           git push
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '24'
-          cache: 'npm'
-          cache-dependency-path: frontend/package-lock.json
-
-      - name: Install frontend dependencies
-        working-directory: frontend
-        run: npm ci
-
-      - name: Build Astro site
-        working-directory: frontend
-        run: npm run build
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: frontend/dist
-
+  # ビルドとデプロイは deploy_pages.yml に一本化した（ISS-478）。
+  # 上の push は GITHUB_TOKEN なので deploy_pages.yml の push トリガーは発火しない。
+  # そのためここから明示的に呼ぶ。
   deploy:
     needs: recommend
-    runs-on: ubuntu-latest
     permissions:
+      contents: read
       pages: write
       id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+    uses: ./.github/workflows/deploy_pages.yml
+    secrets: inherit

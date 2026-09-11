@@ -1,0 +1,76 @@
+name: Deploy Pages
+
+# フロントを直しただけで公開サイトへ出すためのデプロイ専用ワークフロー（ISS-478）。
+# 以前は週次ワークフローの中にしかデプロイが無く、Places API を含む全体を再実行しないと出せなかった。
+#
+# 週次（weekly_recommend.yml）からは workflow_call で呼ぶ。
+# 週次のデータコミットは GITHUB_TOKEN で push されるため、push トリガーでは
+# このワークフローは起動しない（GitHub の仕様）。push 発火を当てにして週次側の
+# デプロイを落とすと、週次の更新が黙って公開されなくなる。
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'frontend/**'
+      - '.github/workflows/deploy_pages.yml'
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Pages の同時デプロイは後発が失敗するので直列にする。
+# 実行中のデプロイは途中で止めない（止めると中途半端な状態で終わる）。
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      # workflow_call のときの github.sha は「週次が起動した時点」のコミットで、
+      # 週次が直前に push したデータコミットを含まない。ブランチ先頭を取り直す。
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: 'npm'
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install frontend dependencies
+        working-directory: frontend
+        run: npm ci
+
+      - name: Build Astro site
+        working-directory: frontend
+        env:
+          # 目隠し用トークン（ISS-518）。ビルドはハッシュだけをページに埋め込む。
+          SITE_GATE_TOKEN: ${{ secrets.SITE_GATE_TOKEN }}
+        run: npm run build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: frontend/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
