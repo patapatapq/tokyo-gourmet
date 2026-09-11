@@ -12,6 +12,8 @@ on:
     branches: [main]
     paths:
       - 'frontend/**'
+      # フロントがビルド時に読む（状態APIの URL・ISS-475）。frontend/ の外なので明示する
+      - 'status_api.json'
       - '.github/workflows/deploy_pages.yml'
   workflow_dispatch:
   workflow_call:
