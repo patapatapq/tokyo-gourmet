@@ -1,5 +1,5 @@
 """Google Sheets クライアント（訪問済みレストラン管理）"""
-import json
+
 import logging
 import os
 import pickle
@@ -10,12 +10,21 @@ from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 
-from backend.config import CREDENTIALS_FILE, TOKEN_FILE, SCOPES, VISITED_FILE
+from backend.config import CREDENTIALS_FILE, TOKEN_FILE, SCOPES
+from backend.recommender import is_excluded_record, load_visited_ids
 
 logger = logging.getLogger(__name__)
 
+# status / status_date は ISS-475 で末尾に足した（既存の5列の位置は変えない）。
+# 書き込みは GAS（gas/Code.gs）が行い、visited 列も status に合わせて更新する。
 SHEET_HEADERS = [
-    "place_id", "name", "date_recommended", "visited", "visited_date"
+    "place_id",
+    "name",
+    "date_recommended",
+    "visited",
+    "visited_date",
+    "status",
+    "status_date",
 ]
 
 
@@ -27,6 +36,7 @@ def authenticate() -> gspread.Client:
     token_json = os.environ.get("SHEETS_TOKEN_JSON", "")
     if token_json:
         import base64
+
         token_data = base64.b64decode(token_json)
         creds = pickle.loads(token_data)
     elif TOKEN_FILE.exists():
@@ -37,11 +47,11 @@ def authenticate() -> gspread.Client:
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
         else:
-            creds_file = os.environ.get("GOOGLE_CREDENTIALS_FILE", str(CREDENTIALS_FILE))
+            creds_file = os.environ.get(
+                "GOOGLE_CREDENTIALS_FILE", str(CREDENTIALS_FILE)
+            )
             if not Path(creds_file).exists():
-                raise FileNotFoundError(
-                    f"認証ファイルが見つかりません: {creds_file}"
-                )
+                raise FileNotFoundError(f"認証ファイルが見つかりません: {creds_file}")
             flow = InstalledAppFlow.from_client_secrets_file(creds_file, SCOPES)
             creds = flow.run_local_server(port=0)
 
@@ -51,7 +61,9 @@ def authenticate() -> gspread.Client:
     return gspread.authorize(creds)
 
 
-def get_visited_from_sheet(spreadsheet_id: str, worksheet_name: str = "visited") -> set[str]:
+def get_visited_from_sheet(
+    spreadsheet_id: str, worksheet_name: str = "visited"
+) -> set[str]:
     """Google Sheets から訪問済み place_id を取得する。"""
     try:
         client = authenticate()
@@ -59,12 +71,14 @@ def get_visited_from_sheet(spreadsheet_id: str, worksheet_name: str = "visited")
         worksheet = spreadsheet.worksheet(worksheet_name)
         records = worksheet.get_all_records()
 
-        visited_ids = set()
-        for row in records:
-            if str(row.get("visited", "")).upper() in ("TRUE", "YES", "1", "○"):
-                visited_ids.add(str(row["place_id"]))
+        # status 列がある行はそれで、無い行は visited 列で判定する（ISS-475）
+        visited_ids = {
+            str(row["place_id"])
+            for row in records
+            if row.get("place_id") and is_excluded_record(row)
+        }
 
-        logger.info(f"Sheets から訪問済み {len(visited_ids)} 件を取得")
+        logger.info(f"Sheets から除外対象 {len(visited_ids)} 件を取得")
         return visited_ids
 
     except Exception as e:
@@ -97,13 +111,15 @@ def sync_recommendations_to_sheet(
         new_rows = []
         for r in restaurants:
             if r["place_id"] not in existing_ids:
-                new_rows.append([
-                    r["place_id"],
-                    r["name"],
-                    generated_date,
-                    "FALSE",
-                    "",
-                ])
+                new_rows.append(
+                    [
+                        r["place_id"],
+                        r["name"],
+                        generated_date,
+                        "FALSE",
+                        "",
+                    ]
+                )
 
         if new_rows:
             worksheet.append_rows(new_rows)
@@ -119,24 +135,27 @@ def merge_visited_sources(
     spreadsheet_id: str,
     worksheet_name: str = "visited",
 ) -> set[str]:
-    """ローカルの visited.json と Google Sheets の両方から訪問済みを統合する。"""
-    # ローカル
-    local_ids = set()
-    try:
-        with open(VISITED_FILE, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        local_ids = {v["place_id"] for v in data.get("visited", [])}
-    except (FileNotFoundError, json.JSONDecodeError):
-        pass
+    """推薦から除外する place_id を3つの源から統合する。
 
-    # Sheets
+    - ローカルの data/visited.json
+    - 状態API（GAS 経由の Sheets）… 画面の「行った/たぶん行かない」はここに入る。主の経路
+    - gspread で直接読む Sheets … 旧来の経路。OAuth が失効していると空になる
+    """
+    from backend.gas_client import fetch_excluded_ids
+
+    local_ids = load_visited_ids()
+
+    gas_ids = fetch_excluded_ids()
+    if gas_ids is None:
+        gas_ids = set()
+
     sheet_ids = set()
     if spreadsheet_id:
         sheet_ids = get_visited_from_sheet(spreadsheet_id, worksheet_name)
 
-    merged = local_ids | sheet_ids
+    merged = local_ids | gas_ids | sheet_ids
     logger.info(
-        f"訪問済み統合: ローカル {len(local_ids)}件 + Sheets {len(sheet_ids)}件 "
-        f"= {len(merged)}件（重複除去済み）"
+        f"除外対象統合: ローカル {len(local_ids)}件 + 状態API {len(gas_ids)}件 "
+        f"+ Sheets直読み {len(sheet_ids)}件 = {len(merged)}件（重複除去済み）"
     )
     return merged

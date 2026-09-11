@@ -1,0 +1,27 @@
+---
+// 「行った」「たぶん行かない」の2ボタン（ISS-475）。挙動は src/scripts/status.ts。
+// どちらかが付いた店は次回の週次から推薦に出なくなる。同じボタンをもう一度押すと解除。
+interface Props {
+  placeId: string;
+  name: string;
+  compact?: boolean;
+}
+
+const { placeId, name, compact = false } = Astro.props;
+---
+
+<div class:list={['tg-status', compact && 'tg-status-compact']} data-place-id={placeId} data-name={name} data-status="none">
+  <button type="button" class="tg-status-btn" data-status="visited" aria-pressed="false" title="行った（今後の推薦から外す）">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+    <span>行った</span>
+  </button>
+  <button type="button" class="tg-status-btn" data-status="skipped" aria-pressed="false" title="たぶん行かない（今後の推薦から外す）">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    <span>たぶん行かない</span>
+  </button>
+</div>
+
+<script>
+  import { initStatusButtons } from '../scripts/status';
+  initStatusButtons();
+</script>

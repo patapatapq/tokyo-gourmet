@@ -1,4 +1,5 @@
 """レストラン選定ロジック: フィルタリング・予算分類・重み付きランダム選定"""
+
 import json
 import logging
 import random
@@ -20,14 +21,39 @@ PRICE_LEVEL_MAP = {
 }
 
 
+# 推薦から外す状態（ISS-475）。visited=行った / skipped=たぶん行かない。
+# どちらも「今後出さない」点は同じで、理由の区別として持つ。未押下は none。
+EXCLUDED_STATUSES = frozenset({"visited", "skipped"})
+_TRUTHY = ("TRUE", "YES", "1", "○")
+
+
+def is_excluded_record(record: dict) -> bool:
+    """visited.json の1件、または Sheets の1行が「推薦から除外」を意味するかを返す。
+
+    status 列が入っていればそれが正。空なら旧来の visited 列（TRUE/○ 等）で判定する。
+    status 列を足す前の既存行と、手で Sheets の visited に印を付けた行を壊さないため。
+    visited.json の旧形式（status を持たない {"place_id": ...}）は「行った」とみなす。
+    """
+    status = str(record.get("status") or "").strip().lower()
+    if status:
+        return status in EXCLUDED_STATUSES
+    if "visited" not in record:
+        return True
+    return str(record.get("visited", "")).strip().upper() in _TRUTHY
+
+
 def load_visited_ids() -> set[str]:
-    """訪問済みレストランの place_id セットを読み込む。"""
+    """推薦から除外する place_id（行った/たぶん行かない）をローカルの visited.json から読む。"""
     try:
         with open(VISITED_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
-        return {v["place_id"] for v in data.get("visited", [])}
     except (FileNotFoundError, json.JSONDecodeError):
         return set()
+    return {
+        str(v["place_id"])
+        for v in data.get("visited", [])
+        if v.get("place_id") and is_excluded_record(v)
+    }
 
 
 def load_recent_history(weeks: int = 4) -> set[str]:
@@ -117,7 +143,7 @@ def filter_candidates(
 
     Args:
         places: 検索結果のレストラン一覧
-        visited_ids: 訪問済み place_id
+        visited_ids: 推薦から除外する place_id（行った/たぶん行かない の両方・ISS-475）
         recent_ids: 直近推薦済み place_id
         min_reviews: 最低レビュー数
         max_travel_minutes: 最大移動時間（分）
@@ -132,7 +158,7 @@ def filter_candidates(
     for place in places:
         place_id = place.get("id", "")
 
-        # 訪問済みを除外
+        # 行った/たぶん行かない を除外
         if place_id in visited_ids:
             continue
 
@@ -172,7 +198,7 @@ def weighted_random_pick(candidates: list[dict], count: int) -> list[dict]:
     weights = []
     for c in candidates:
         rating = c.get("rating", 4.0)
-        weights.append(rating ** 2)
+        weights.append(rating**2)
 
     selected = []
     remaining = list(range(len(candidates)))
@@ -181,9 +207,7 @@ def weighted_random_pick(candidates: list[dict], count: int) -> list[dict]:
     for _ in range(count):
         if not remaining:
             break
-        chosen_idx = random.choices(
-            remaining, weights=remaining_weights, k=1
-        )[0]
+        chosen_idx = random.choices(remaining, weights=remaining_weights, k=1)[0]
         pos = remaining.index(chosen_idx)
         selected.append(candidates[chosen_idx])
         remaining.pop(pos)

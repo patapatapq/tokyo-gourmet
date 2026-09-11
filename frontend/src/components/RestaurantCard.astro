@@ -1,6 +1,7 @@
 ---
 import BudgetBadge from './BudgetBadge.astro';
 import TravelInfo from './TravelInfo.astro';
+import StatusButtons from './StatusButtons.astro';
 
 interface Props {
   restaurant: {
@@ -64,9 +65,9 @@ function formatHours(h: string): string {
 }
 ---
 
-<article class="glass-card rounded-[16px] overflow-hidden group">
+<article class="glass-card rounded-[16px] overflow-hidden group" data-tg-card>
   <!-- Photo Hero -->
-  <div class="relative h-64 md:h-72 overflow-hidden">
+  <div class="tg-card-photo relative h-64 md:h-72 overflow-hidden transition-[opacity,filter] duration-300">
 
     {hasQuadPhotos ? (
       <!-- 4分割: 左(縦長) / 右上に小2枚 + 右下に横長1枚 -->
@@ -341,5 +342,8 @@ function formatHours(h: string): string {
         </a>
       )}
     </div>
+
+    <!-- 行った / たぶん行かない（ISS-475） -->
+    <StatusButtons placeId={r.place_id} name={r.name} />
   </div>
 </article>
