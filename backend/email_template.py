@@ -1,14 +1,31 @@
 """メール用HTMLテンプレート"""
 
+from urllib.parse import quote
+
+
+def build_gate_link(site_url: str, gate_token: str) -> str:
+    """サイトURLに目隠しトークンを付けたリンクを返す（ISS-518）。
+
+    `?t=` ではなく `#t=` にする。フラグメントはサーバーへ送られないので、
+    アクセスログやリファラにトークンが残らない。トークンが空ならURLをそのまま返す。
+    """
+    base = site_url.rstrip("/") + "/"
+    if not gate_token:
+        return base
+    return f"{base}#t={quote(gate_token, safe='')}"
+
 
 def render_email(
     restaurants: list[dict],
     week_label: str,
     site_url: str,
+    gate_token: str = "",
 ) -> str:
     """推薦レストランのHTMLメールを生成する。"""
 
     count = len(restaurants)
+    # リンク先はトークン付き、画面に出す文字列は素のURL（トークンを本文に晒さない）
+    link_url = build_gate_link(site_url, gate_token)
 
     return f"""<!DOCTYPE html>
 <html lang="ja">
@@ -49,7 +66,7 @@ def render_email(
           1週間おつかれさま！<br>
           今週の {count} 件をピックアップしました。
         </div>
-        <a href="{site_url}"
+        <a href="{link_url}"
            style="display: inline-block;
                   background: linear-gradient(135deg, #f97316, #ea580c);
                   color: #ffffff;
@@ -76,7 +93,7 @@ def render_email(
       <td style="background-color: #0D0D1A; padding: 20px 24px; text-align: center;">
         <div style="font-size: 11px; color: #94A3B8; line-height: 1.8;">
           Tokyo Patashī Gourmet<br>
-          <a href="{site_url}" style="color: #f97316; text-decoration: none;">
+          <a href="{link_url}" style="color: #f97316; text-decoration: none;">
             {site_url}
           </a>
         </div>

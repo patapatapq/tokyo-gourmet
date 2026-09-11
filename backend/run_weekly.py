@@ -3,7 +3,9 @@
 毎週金曜日に GitHub Actions から実行される。
 手動実行: python -m backend.run_weekly
 """
+
 import logging
+import os
 import sys
 import time
 from datetime import datetime, timedelta, timezone
@@ -222,7 +224,11 @@ def main() -> int:
         recommended_menu_rating = menu_info["rating"] if menu_info else None
 
         display_name = details.get("displayName", {})
-        name = display_name.get("text", "") if isinstance(display_name, dict) else str(display_name)
+        name = (
+            display_name.get("text", "")
+            if isinstance(display_name, dict)
+            else str(display_name)
+        )
 
         # ジャンル: primaryTypeDisplayName（日本語） → PRIMARY_TYPE_JA マッピング の順で取得
         primary_type_display = details.get("primaryTypeDisplayName", {})
@@ -241,7 +247,8 @@ def main() -> int:
         if r_lat and r_lng:
             try:
                 nearest_station = get_nearest_station(
-                    r_lat, r_lng,
+                    r_lat,
+                    r_lng,
                     cache_expiry_days=cache_cfg.get("travel_time_expiry_days", 90),
                 )
             except Exception as e:
@@ -313,7 +320,13 @@ def main() -> int:
     if recipients:
         site_url = site_cfg.get("base_url", "")
         subject = email_cfg["subject_template"].format(date=week_label)
-        html_body = render_email(restaurants, week_label, site_url)
+        # 目隠しトークン（ISS-518）。未設定だとリンクから開いてもサイトが隠れたままになる
+        gate_token = os.environ.get("SITE_GATE_TOKEN", "").strip()
+        if not gate_token:
+            logger.warning(
+                "SITE_GATE_TOKEN が未設定です。メールのリンクにトークンが付きません"
+            )
+        html_body = render_email(restaurants, week_label, site_url, gate_token)
         for recipient in recipients:
             success = send_email(
                 to=recipient,

@@ -1,5 +1,8 @@
 ---
 import '../styles/global.css';
+import { createHash } from 'node:crypto';
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
 
 interface Props {
   title?: string;
@@ -10,6 +13,25 @@ const { title = 'Tokyo Gourmet Recommender' } = Astro.props;
 // 連結側で必ず `/` を書けるよう、ここで末尾スラッシュを剥がして正規化しておく。
 // （剥がさずに `${base}archive` と書いていたため /tokyo-gourmetarchive になっていた・ISS-476）
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+// ── 目隠し（ISS-518）──
+// 週次メールのリンク（#t=トークン）から1回開いた端末だけに本文を見せる。
+// 静的サイトなので鍵ではなく目隠し。ソース・data/*.json・公開リポジトリからは見える（承知の上）。
+// 公開HTMLに平文を書かないよう、ビルド時に SHA-256 のハッシュだけを埋め込む。
+// ローカル（CI 以外）でトークンが無いときは "dev" を使う（開発時の迂回手段: #t=dev）。
+// CI で未設定のまま出すと目隠しの無いサイトが公開されるので、ビルドを落とす。
+const gateTokenEnv = (process.env.SITE_GATE_TOKEN ?? '').trim();
+if (!gateTokenEnv && process.env.CI) {
+  throw new Error('SITE_GATE_TOKEN が未設定です（GitHub の Secrets に登録する。README 参照）');
+}
+const gateHash = createHash('sha256').update(gateTokenEnv || 'dev', 'utf8').digest('hex');
+const isDevToken = !gateTokenEnv;
+
+// 状態API（GAS）の URL（ISS-475）。バックエンドと同じ status_api.json を読む
+let statusApiUrl = '';
+try {
+  statusApiUrl = String(JSON.parse(readFileSync(join(process.cwd(), '..', 'status_api.json'), 'utf-8')).url ?? '');
+} catch {}
 ---
 
 <!doctype html>
@@ -18,12 +40,88 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="毎週厳選された東京のグルメ情報" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="tg-status-api" content={statusApiUrl} />
+    <!-- 描画前に判定する。本文を先に出してから隠すとチラつくため、html のクラスで CSS から隠す -->
+    <style is:inline>
+      html:not(.gate-ok) body > :not(#gate-notice) { display: none !important; }
+      #gate-notice { display: none; }
+      html.gate-locked #gate-notice { display: flex; }
+    </style>
+    <script is:inline define:vars={{ gateHash }}>
+      var KEY_HASH = 'tg-gate';
+      var KEY_TOKEN = 'tg-token';
+      var root = document.documentElement;
+      // localStorage はプライベートブラウズ等で例外を投げる。落ちずに案内表示へ倒す
+      function load(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+      function save(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+      function unlock(token) {
+        if (token) window.__tgToken = token;
+        root.classList.remove('gate-locked');
+        root.classList.add('gate-ok');
+        document.dispatchEvent(new Event('tg-gate-unlocked'));
+      }
+      function lock() {
+        if (!root.classList.contains('gate-ok')) root.classList.add('gate-locked');
+      }
+
+      if (load(KEY_HASH) === gateHash) unlock(load(KEY_TOKEN));
+      checkHash();
+      // 開いたままのタブにリンクを貼り直すと再読込されず hash だけ変わる。それも拾う
+      window.addEventListener('hashchange', checkHash);
+
+      function checkHash() {
+        var m = /(?:^#|&)t=([^&]*)/.exec(location.hash);
+        if (!m) {
+          lock();
+        } else {
+          var token = '';
+          try { token = decodeURIComponent(m[1]); } catch (e) {}
+          // URL からトークンを消す（ブックマーク・スクショ・共有に残さない）
+          var rest = location.hash.replace(/(^#|&)t=[^&]*/, '$1').replace(/^#&/, '#');
+          if (rest === '#') rest = '';
+          history.replaceState(null, '', location.pathname + location.search + rest);
+
+          if (!token || !(window.crypto && crypto.subtle && window.TextEncoder)) {
+            lock();
+          } else {
+            crypto.subtle.digest('SHA-256', new TextEncoder().encode(token)).then(function (buf) {
+              var hex = Array.prototype.map.call(new Uint8Array(buf), function (b) {
+                return ('0' + b.toString(16)).slice(-2);
+              }).join('');
+              if (hex === gateHash) {
+                save(KEY_HASH, hex);
+                save(KEY_TOKEN, token);
+                unlock(token);
+              } else {
+                lock();
+              }
+            }, lock);
+          }
+        }
+      }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
     <title>{title}</title>
   </head>
   <body class="min-h-screen flex flex-col">
+    <!-- 目隠し中の案内（印の無い端末に出る） -->
+    <div id="gate-notice" class="min-h-screen flex-col items-center justify-center px-6 text-center">
+      <div class="w-14 h-14 rounded-[16px] bg-primary/10 border border-primary/20 flex items-center justify-center mb-5">
+        <svg class="w-7 h-7 text-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="2" y="4" width="20" height="16" rx="2"/>
+          <path d="m22 7-10 6L2 7"/>
+        </svg>
+      </div>
+      <p class="text-white font-bold text-lg mb-2">メールのリンクから開いてください</p>
+      <p class="text-text-muted text-sm">週次メールの「写真付き詳細をみる」から1回開くと、この端末で見られるようになります。</p>
+      {isDevToken && (
+        <p class="text-text-light text-xs mt-6">開発用: URL の末尾に <code>#t=dev</code> を付けて開く</p>
+      )}
+    </div>
+
     <!-- Header: sticky glass -->
     <header class="glass-header sticky top-0 z-50">
       <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
