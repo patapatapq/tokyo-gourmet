@@ -174,7 +174,10 @@ function findRow_(sheet, cols, placeId) {
 }
 
 function fmtDate_(v) {
-  if (v instanceof Date) return Utilities.formatDate(v, 'Asia/Tokyo', 'yyyy-MM-dd');
+  // Sheets が "2026-09-11" を日付に変換して返す。その値は instanceof Date が false になることがある
+  if (Object.prototype.toString.call(v) === '[object Date]') {
+    return Utilities.formatDate(v, 'Asia/Tokyo', 'yyyy-MM-dd');
+  }
   return String(v || '');
 }
 
