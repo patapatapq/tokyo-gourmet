@@ -20,7 +20,7 @@
 var SHEET_NAME = 'visited';
 var LOG_SHEET_NAME = 'status_log';
 var STATUSES = ['visited', 'skipped', 'none'];
-// 既存の5列の後ろに足す。既存行の位置は変えない（Python の gspread 側が列名で読むため互換）
+// 既存の5列の後ろに足す。既存行の位置は変えない（手で開いたときに列がずれないように）
 var REQUIRED_HEADERS = ['place_id', 'name', 'date_recommended', 'visited', 'visited_date', 'status', 'status_date'];
 
 function doPost(e) {
@@ -108,7 +108,7 @@ function set_(req) {
     var row = sheet.getRange(rowIndex, 1, 1, width).getValues()[0];
     row[cols.status] = status;
     row[cols.status_date] = status === 'none' ? '' : today;
-    // 旧来の visited 列も揃える（gspread 側・手作業の読み手が迷わないように）
+    // 旧来の visited 列も揃える（手作業の読み手が迷わないように）
     if (status === 'visited') {
       row[cols.visited] = 'TRUE';
       row[cols.visited_date] = today;

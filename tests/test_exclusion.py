@@ -90,6 +90,16 @@ def test_fetch_excluded_ids_applies_status(monkeypatch, tmp_path) -> None:
     assert seen["args"] == ("https://example.invalid/exec", "secret")
 
 
+def test_merge_visited_sources_survives_gas_failure(monkeypatch) -> None:
+    """GAS が失敗（None）してもローカル分だけで除外を続ける。gspread 撤去（ISS-519）後の2源統合。"""
+    monkeypatch.setattr(gas_client, "load_visited_ids", lambda: {"local"})
+    monkeypatch.setattr(gas_client, "fetch_excluded_ids", lambda: None)
+    assert gas_client.merge_visited_sources() == {"local"}
+
+    monkeypatch.setattr(gas_client, "fetch_excluded_ids", lambda: {"gas", "local"})
+    assert gas_client.merge_visited_sources() == {"local", "gas"}
+
+
 def test_gate_link_uses_fragment() -> None:
     """トークンは ?t= ではなく #t=（サーバーのログ・リファラに残さない）。"""
     url = build_gate_link("https://example.github.io/tokyo-gourmet", "abc123")

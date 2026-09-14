@@ -60,7 +60,8 @@ email:
   sender: "ptptppptptp@gmail.com"
   subject_template: "今週のグルメおすすめ 🍽️ {date}"
 
-# Google Sheets（訪問済み管理）
+# Google Sheets（「行った/たぶん行かない」の保存先）。Python は読まない。
+# 読み書きは GAS（gas/Code.gs）だけが行う。どのシートに紐づけたかの控え（ISS-519）
 sheets:
   spreadsheet_id: "1PfNtU5p4IWD-3X-cDWsQs1qsZrM0dJE4VCDOhwGBBEI"
   worksheet_name: "visited"

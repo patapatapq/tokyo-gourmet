@@ -72,7 +72,7 @@ python -c "import secrets; print(secrets.token_hex(16))"
 - 保存先は Google Sheets（GAS 経由）。合言葉は目隠しトークンと同じ値で、目隠しを通った端末だけが持つ。
 - 画面を開くと GAS から全店の状態を取り直すので、別の端末で押した分も反映される。
 - 失敗したら画面下に赤いメッセージが出て、ボタンの見た目は元に戻る。
-- 週次の除外は `data/visited.json`・状態API・gspread 直読み の和集合（`backend/sheets_client.py` の `merge_visited_sources`）。
+- 週次の除外は `data/visited.json` と状態API の和集合（`backend/gas_client.py` の `merge_visited_sources`）。Python から Sheets を直接読み書きする経路（gspread）は ISS-519 で撤去した。
 
 ## テスト
 

@@ -32,15 +32,8 @@ CREDENTIALS_DIR = Path(
 )
 CREDENTIALS_FILE = CREDENTIALS_DIR / "credentials.json"
 # gmail_token.json は TOKEN_FILE.parent から組み立てられる（gmail_client.py / setup_auth.py）。
-# ここを .secrets/ に向ければ両方まとめて付いてくる。
+# token.json 自体は gspread 用だったが ISS-519 で撤去した。置き場の基準として名前だけ残す。
 TOKEN_FILE = SECRETS_DIR / "token.json"
-
-# Google API スコープ
-SCOPES = [
-    "https://www.googleapis.com/auth/gmail.send",
-    "https://www.googleapis.com/auth/spreadsheets",
-    "https://www.googleapis.com/auth/drive",
-]
 
 
 def load_config() -> dict:

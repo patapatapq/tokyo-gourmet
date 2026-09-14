@@ -3,9 +3,9 @@
 「行った」「たぶん行かない」の真実の源は Google Sheets で、書き込みも読み取りも
 GAS の Web App（`gas/Code.gs`）を経由する。
 
-Python から gspread で直接読む経路もあるが、OAuth トークン（SHEETS_TOKEN_JSON）が
-クライアントシークレットの更新で失効しており、2026-09 時点で毎週黙って空を返していた。
-GAS 経由なら合言葉トークン1つで読めるので、週次の除外リストはこちらを主にする。
+以前は Python から gspread で直接読み書きする経路もあったが、OAuth トークン
+（SHEETS_TOKEN_JSON）がクライアントシークレットの更新で失効し、2026-09 時点で毎週
+黙って失敗していた。GAS なら合言葉トークン1つで読めるので、ISS-519 で gspread を撤去した。
 """
 
 from __future__ import annotations
@@ -17,7 +17,7 @@ import urllib.error
 import urllib.request
 
 from backend.config import PROJECT_ROOT
-from backend.recommender import is_excluded_record
+from backend.recommender import is_excluded_record, load_visited_ids
 
 logger = logging.getLogger(__name__)
 
@@ -86,3 +86,26 @@ def fetch_excluded_ids() -> set[str] | None:
         for r in records
         if r.get("place_id") and is_excluded_record(r)
     }
+
+
+def merge_visited_sources() -> set[str]:
+    """推薦から除外する place_id を2つの源から統合する。
+
+    - ローカルの data/visited.json
+    - 状態API（GAS 経由の Sheets）… 画面の「行った/たぶん行かない」はここに入る
+
+    以前は gspread で Sheets を直接読む3つ目の源があったが、OAuth 失効で毎週空を
+    返していたので ISS-519 で撤去した。Sheets を読むのは GAS だけにする。
+    """
+    local_ids = load_visited_ids()
+
+    gas_ids = fetch_excluded_ids()
+    if gas_ids is None:
+        gas_ids = set()
+
+    merged = local_ids | gas_ids
+    logger.info(
+        f"除外対象統合: ローカル {len(local_ids)}件 + 状態API {len(gas_ids)}件 "
+        f"= {len(merged)}件（重複除去済み）"
+    )
+    return merged

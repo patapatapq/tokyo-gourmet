@@ -30,7 +30,7 @@ from backend.site_generator import (
 )
 from backend.gmail_client import send_email
 from backend.email_template import render_email
-from backend.sheets_client import merge_visited_sources, sync_recommendations_to_sheet
+from backend.gas_client import merge_visited_sources
 
 logging.basicConfig(
     level=logging.INFO,
@@ -91,13 +91,12 @@ def main() -> int:
     logger.info("=" * 60)
 
     # Step 1: 設定読み込み
-    logger.info("[Step 1/10] 設定読み込み")
+    logger.info("[Step 1/9] 設定読み込み")
     config = load_config()
     origin = config["origin"]
     search_cfg = config["search"]
     budget_cfg = config["budget"]
     email_cfg = config["email"]
-    sheets_cfg = config["sheets"]
     site_cfg = config["site"]
     cache_cfg = config["cache"]
     photos_cfg = config["photos"]
@@ -106,19 +105,15 @@ def main() -> int:
     # 曜日の日本語マッピング
     weekday_ja = ["月", "火", "水", "木", "金", "土", "日"]
     week_label = f"{now.year}年{now.month}月{now.day}日（{weekday_ja[now.weekday()]}）"
-    generated_date = now.strftime("%Y-%m-%d")
 
     # Step 2: 訪問済みレストランの読み込み
-    logger.info("[Step 2/10] 訪問済みレストラン読み込み")
-    visited_ids = merge_visited_sources(
-        spreadsheet_id=sheets_cfg.get("spreadsheet_id", ""),
-        worksheet_name=sheets_cfg.get("worksheet_name", "visited"),
-    )
+    logger.info("[Step 2/9] 訪問済みレストラン読み込み")
+    visited_ids = merge_visited_sources()
     recent_ids = load_recent_history(weeks=4)
     logger.info(f"  訪問済み: {len(visited_ids)}件, 直近推薦済み: {len(recent_ids)}件")
 
     # Step 3: レストラン検索
-    logger.info("[Step 3/10] レストラン検索 (Places API)")
+    logger.info("[Step 3/9] レストラン検索 (Places API)")
     candidates = search_all_restaurants(
         queries=search_cfg["queries"],
         lat=origin["lat"],
@@ -133,7 +128,7 @@ def main() -> int:
         return 1
 
     # Step 4: 移動時間の計算
-    logger.info("[Step 4/10] 移動時間計算 (Routes API)")
+    logger.info("[Step 4/9] 移動時間計算 (Routes API)")
     travel_data = {}
     for place in candidates:
         place_id = place.get("id", "")
@@ -163,7 +158,7 @@ def main() -> int:
     logger.info(f"  移動時間取得: {len(travel_data)}件")
 
     # Step 5: フィルタリング
-    logger.info("[Step 5/10] 候補フィルタリング")
+    logger.info("[Step 5/9] 候補フィルタリング")
     filtered = filter_candidates(
         places=candidates,
         visited_ids=visited_ids,
@@ -178,12 +173,12 @@ def main() -> int:
         return 1
 
     # Step 6: ランダム選定
-    logger.info("[Step 6/10] ランダム選定")
+    logger.info("[Step 6/9] ランダム選定")
     selected = weighted_random_pick(filtered, search_cfg["pick_count"])
     logger.info(f"  選定: {len(selected)}件")
 
     # Step 7: 詳細情報取得 + 予算分類
-    logger.info("[Step 7/10] 詳細情報取得 (Place Details)")
+    logger.info("[Step 7/9] 詳細情報取得 (Place Details)")
     restaurants = []
     for place in selected:
         place_id = place.get("id", "")
@@ -306,14 +301,14 @@ def main() -> int:
     logger.info(f"  レストラン情報構築完了: {len(restaurants)}件")
 
     # Step 8: JSON生成
-    logger.info("[Step 8/10] JSONデータ生成")
+    logger.info("[Step 8/9] JSONデータ生成")
     current_data = generate_current_json(restaurants, week_label)
     update_archive(current_data)
     update_history(current_data)
     sync_visited_to_frontend()
 
     # Step 9: メール送信
-    logger.info("[Step 9/10] メール送信")
+    logger.info("[Step 9/9] メール送信")
     recipients = email_cfg.get("recipients") or []
     if isinstance(recipients, str):
         recipients = [recipients]
@@ -339,15 +334,8 @@ def main() -> int:
     else:
         logger.warning("メール送信先が未設定です (config.yaml: email.recipients)")
 
-    # Step 10: Sheets同期
-    logger.info("[Step 10/10] Google Sheets 同期")
-    if sheets_cfg.get("spreadsheet_id"):
-        sync_recommendations_to_sheet(
-            spreadsheet_id=sheets_cfg["spreadsheet_id"],
-            restaurants=restaurants,
-            generated_date=generated_date,
-            worksheet_name=sheets_cfg.get("worksheet_name", "visited"),
-        )
+    # 以前の Step 10（推薦を Sheets へ追記）は ISS-519 で撤去した。
+    # Sheets の行は画面のボタンを押したときに GAS が作る。
 
     logger.info("=" * 60)
     logger.info("パイプライン完了!")

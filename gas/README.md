@@ -5,11 +5,13 @@ GitHub Pages は静的サイトなので、書き込み口はここにしか置�
 
 ## なぜ GAS 経由なのか
 
-Python（gspread）から Sheets を直接読む経路もあるが、OAuth トークン `SHEETS_TOKEN_JSON` が
-クライアントシークレットの更新で失効している（2026-09-11 の週次ログで `invalid_client`）。
+以前は Python（gspread）から Sheets を直接読み書きする経路もあったが、OAuth トークン `SHEETS_TOKEN_JSON` が
+クライアントシークレットの更新で失効した（2026-09-11 の週次ログで `invalid_client`）。
 その結果、毎週「Sheets 読み込み失敗」の警告だけ出して除外0件で素通りしていた。
 GAS なら合言葉トークン1つで読み書きでき、Google の OAuth を再取得しなくて済む。
 週次（`backend/gas_client.py`）もこの Web App から除外リストを読む。
+gspread の経路は ISS-519 で撤去した。**Sheets に触るのはこの GAS だけ**。
+そのため Sheets の行は、画面のボタンを初めて押したときに GAS が作る（推薦しただけの店の行は無い）。
 
 ## 初回の手順
 
