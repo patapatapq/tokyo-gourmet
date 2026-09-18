@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-09-18T16:40:38.203865+09:00",
+      "week_label": "2026年9月18日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJdXBXTsGNGGARTIKfzy4cdI4",
+          "name": "食事処ときわ",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJ5aCIW9eIGGAR2MtgNxonx-c",
+          "name": "San Jacopino",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJPeHC0vaIGGARNAaEEgp0mFU",
+          "name": "永らく",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJa8khddqHGGARk0wTNfh4Gdw",
+          "name": "バー&レストラン プレリュード",
+          "rating": 4.8
+        },
+        {
+          "place_id": "ChIJi38phlmJGGARRMq1STbrlQ0",
+          "name": "中華そばと酒 彩華",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJyeO7vtaIGGARB9p20H99SIU",
+          "name": "やき鳥信玄東京本店",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJBQkIx9ONGGARUR_W5TmYYlU",
+          "name": "お食事処 谷中 大使館",
+          "rating": 4.6
+        },
+        {
+          "place_id": "ChIJ58XNh-qJGGARD_XpsPvumJw",
+          "name": "本気メシBAR 赤龜",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJgzEHd9eOGGARpL2tq6bMP74",
+          "name": "ステーキ アランド",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJ05HYsuqOGGARky_87UjNmqA",
+          "name": "タイレストラン イサーン",
+          "rating": 4
+        }
+      ]
+    },
+    {
       "generated_at": "2026-09-11T16:32:35.273164+09:00",
       "week_label": "2026年9月11日（金）",
       "restaurants": [
