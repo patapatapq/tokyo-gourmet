@@ -1,3 +1,3 @@
 @echo off
-cd /d D:\Claude\東京ぱたしーグルメ\frontend
+cd /d "%~dp0"
 npm run dev

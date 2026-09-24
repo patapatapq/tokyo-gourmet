@@ -36,3 +36,6 @@ frontend/public/photos_backup_*/
 # ログ・作業ファイル
 *.log
 .astro/
+
+# Claude Code のプレビュー設定（開発者ローカル・ISS-585）
+.claude/
