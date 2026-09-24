@@ -22,14 +22,10 @@ STATION_CACHE_FILE = DATA_DIR / "station_cache.json"
 # 認証
 # 機密はディレクトリごと隔離する（プロジェクト構成規約 3章）。
 # 名前による .gitignore は改名した瞬間に破れるため .secrets/ を主とする。
-# OAuth クライアントの credentials.json は Excel-spreadsheets と共用しており、
-# 向こうも ISS-426 で .secrets/ へ移した。片方だけ直すと認証が落ちる。
+# OAuth クライアントの credentials.json は以前 Excel-spreadsheets と共用していたが、
+# 向こうを没にしたので自分の .secrets/ に持つ（ISS-583）。
 SECRETS_DIR = PROJECT_ROOT / ".secrets"
-CREDENTIALS_DIR = Path(
-    os.environ.get(
-        "CREDENTIALS_DIR", str(Path(r"D:\Claude\Excel-spreadsheets\.secrets"))
-    )
-)
+CREDENTIALS_DIR = Path(os.environ.get("CREDENTIALS_DIR", str(SECRETS_DIR)))
 CREDENTIALS_FILE = CREDENTIALS_DIR / "credentials.json"
 # gmail_token.json は TOKEN_FILE.parent から組み立てられる（gmail_client.py / setup_auth.py）。
 # token.json 自体は gspread 用だったが ISS-519 で撤去した。置き場の基準として名前だけ残す。
