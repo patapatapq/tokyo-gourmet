@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-09-25T17:15:27.437855+09:00",
+      "week_label": "2026年9月25日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJZ_NJQbuJGGAR9EIt35WCxVQ",
+          "name": "cafe&wine Philip",
+          "rating": 4.6
+        },
+        {
+          "place_id": "ChIJrTU4UpOIGGAR_euX2iH9cZk",
+          "name": "大衆酒場 泥亀 大島店",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJB5xlixyNGGAR4EMQdYnRHHE",
+          "name": "お食事処たかはし",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJd9r665p9GGAR_757Ocn0U5Y",
+          "name": "海鮮お食事処 卯兵衛 アトレ新浦安店",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJg0De4VWJGGARe0wTHUEN-uA",
+          "name": "富山はま作",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJw17m_8aIGGARLeLO_r9qcsY",
+          "name": "ファームイン",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJpYaZhjuJGGARMWEL9kJUmEI",
+          "name": "はやふね食堂",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJx_vdcQKNGGAR2NlIvwnTTDY",
+          "name": "ホンデポチャ 池袋店",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJO85w7gCJGGAR78_wBNugkog",
+          "name": "クレメンティア",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJg3F0FZiJGGARbTRFMeX1U6M",
+          "name": "Farside ファーサイド",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
       "generated_at": "2026-09-18T16:40:38.203865+09:00",
       "week_label": "2026年9月18日（金）",
       "restaurants": [
