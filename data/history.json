@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-10-09T18:43:07.711749+09:00",
+      "week_label": "2026年10月9日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJVa9vH8GIGGAR7wG8IUFVtFE",
+          "name": "まつば寿司",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJbeg9xA-DImARcoVvsDLrZw0",
+          "name": "喫茶モーニング",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJL-Rokr-OGGARMOtRXantd_0",
+          "name": "浅草うな鐵 国際通り店",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJ27vdO8KIGGAR-k1TEU-BO-o",
+          "name": "もんじゃ小町東京亀戸 ( 鉄板焼き&居酒屋)",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJAYqJGdaIGGARJ_d6R7LijAQ",
+          "name": "BORABORA",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJ6eI2twOJGGAR4sTC4-m5CDM",
+          "name": "トラットリア イ・ビスケロ",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJdXQ2RemIGGARtsc0iQ4fTRg",
+          "name": "ステーキハウスブル",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJ93tEPRmJGGAR7KAQ-3vOuX4",
+          "name": "心らん",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJF6QM4oiPGGARJfjxXN0LboE",
+          "name": "BRISKSTAND TOKYO mizumachi",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJu-DeSAGJGGARYLPQT52vqhw",
+          "name": "炭火焼肉 仙柳 亀戸",
+          "rating": 4.6
+        }
+      ]
+    },
+    {
       "generated_at": "2026-10-02T18:05:25.624666+09:00",
       "week_label": "2026年10月2日（金）",
       "restaurants": [

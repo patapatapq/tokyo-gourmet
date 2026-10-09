@@ -1,6 +1,697 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-10-09T18:43:07.711749+09:00",
+      "week_label": "2026年10月9日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJVa9vH8GIGGAR7wG8IUFVtFE",
+          "name": "まつば寿司",
+          "rating": 4,
+          "user_rating_count": 152,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒136-0071 東京都江東区亀戸６丁目５５−５５−２０ まつばビル 1F",
+          "travel_time_minutes": 6,
+          "travel_cost_yen": 0,
+          "travel_bicycle_minutes": 2,
+          "travel_summary": "徒歩 6分／自転車 約2分",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 11時00分～14時00分, 17時00分～21時30分",
+            "火曜日: 定休日",
+            "水曜日: 11時00分～14時00分, 17時00分～21時30分",
+            "木曜日: 11時00分～14時00分, 17時00分～21時30分",
+            "金曜日: 11時00分～14時00分, 17時00分～22時00分",
+            "土曜日: 11時00分～14時00分, 17時00分～22時00分",
+            "日曜日: 11時00分～14時00分, 17時00分～21時30分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJVa9vH8GIGGAR7wG8IUFVtFE_0.jpg",
+              "attribution": "まつば寿司"
+            },
+            {
+              "filename": "ChIJVa9vH8GIGGAR7wG8IUFVtFE_1.jpg",
+              "attribution": "まつば寿司"
+            },
+            {
+              "filename": "ChIJVa9vH8GIGGAR7wG8IUFVtFE_2.jpg",
+              "attribution": "takako mm"
+            },
+            {
+              "filename": "ChIJVa9vH8GIGGAR7wG8IUFVtFE_3.jpg",
+              "attribution": "イサオ"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=5887424351107285487&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "route_url": "https://www.google.com/maps/dir/?api=1&origin=35.692555,139.831743&destination=35.697209,139.831483&travelmode=bicycling&destination_place_id=ChIJVa9vH8GIGGAR7wG8IUFVtFE",
+          "website": "http://www.sushi-matsuba.com/",
+          "phone": "03-3681-7836",
+          "primary_type": "sushi_restaurant",
+          "genre": "寿司店",
+          "nearest_station": "亀戸水神駅",
+          "recommended_menu": "ランチで家族でいきました。カウンターの奥に個室があり、小さな子供連れでしたが気兼ねなく食事させていただきました。\n\n職人の腕が光る寿司、その場で作ってくれる名物の豆腐など全てが最高。皆さん親切で温かで粋なこれぞ江戸を感じられるお店。\n\nまたいきます。",
+          "recommended_menu_rating": 5,
+          "payment_methods": {
+            "credit_card": true,
+            "debit_card": null,
+            "cash_only": false,
+            "nfc": null
+          }
+        },
+        {
+          "place_id": "ChIJbeg9xA-DImARcoVvsDLrZw0",
+          "name": "喫茶モーニング",
+          "rating": 4.2,
+          "user_rating_count": 80,
+          "budget_tier": "kosupa",
+          "budget_label": "コスパ重視",
+          "budget_icon": "💰",
+          "budget_morning_lunch": {
+            "tier": "kosupa",
+            "label": "コスパ重視",
+            "icon": "💰"
+          },
+          "budget_dinner": {
+            "tier": "kosupa",
+            "label": "コスパ重視",
+            "icon": "💰"
+          },
+          "price_range": "¥0〜¥1,500",
+          "price_range_dinner": "¥0〜¥3,000",
+          "address": "日本、〒261-0003 千葉県千葉市美浜区高浜２丁目２−１",
+          "travel_time_minutes": 61,
+          "travel_cost_yen": 570,
+          "travel_bicycle_minutes": null,
+          "travel_summary": "公共交通機関 約61分（32km）",
+          "reservable": null,
+          "opening_hours": [
+            "月曜日: 7時00分～13時30分",
+            "火曜日: 7時00分～13時30分",
+            "水曜日: 定休日",
+            "木曜日: 7時00分～13時30分",
+            "金曜日: 7時00分～13時30分",
+            "土曜日: 7時00分～13時30分",
+            "日曜日: 定休日"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJbeg9xA-DImARcoVvsDLrZw0_0.jpg",
+              "attribution": "若松稔"
+            },
+            {
+              "filename": "ChIJbeg9xA-DImARcoVvsDLrZw0_1.jpg",
+              "attribution": "一番搾り"
+            },
+            {
+              "filename": "ChIJbeg9xA-DImARcoVvsDLrZw0_2.jpg",
+              "attribution": "PO"
+            },
+            {
+              "filename": "ChIJbeg9xA-DImARcoVvsDLrZw0_3.jpg",
+              "attribution": "一番搾り"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=965999248035251570&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "route_url": "https://www.google.com/maps/dir/?api=1&origin=35.692555,139.831743&destination=35.6160521,140.0691578&travelmode=transit&destination_place_id=ChIJbeg9xA-DImARcoVvsDLrZw0",
+          "website": "",
+          "phone": "043-248-3382",
+          "primary_type": "western_restaurant",
+          "genre": "洋食レストラン",
+          "nearest_station": "",
+          "recommended_menu": "こんなにコスパ最高だとは思わずびっくりしました！\nお値段以上の食事体験です。\n食べれば質の高さが分かります！\nピラフと日替わり弁当最高でした！",
+          "recommended_menu_rating": 5,
+          "payment_methods": {
+            "credit_card": null,
+            "debit_card": null,
+            "cash_only": true,
+            "nfc": null
+          }
+        },
+        {
+          "place_id": "ChIJL-Rokr-OGGARMOtRXantd_0",
+          "name": "浅草うな鐵 国際通り店",
+          "rating": 4.1,
+          "user_rating_count": 1043,
+          "budget_tier": "premium",
+          "budget_label": "高級",
+          "budget_icon": "💰💰💰",
+          "budget_morning_lunch": {
+            "tier": "premium",
+            "label": "高級",
+            "icon": "💰💰💰"
+          },
+          "budget_dinner": {
+            "tier": "premium",
+            "label": "高級",
+            "icon": "💰💰💰"
+          },
+          "price_range": "¥3,000〜",
+          "price_range_dinner": "¥6,000〜",
+          "address": "日本、〒111-0032 東京都台東区浅草１丁目４３−７",
+          "travel_time_minutes": 32,
+          "travel_cost_yen": 230,
+          "travel_bicycle_minutes": null,
+          "travel_summary": "公共交通機関 約32分（6km）",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 11時30分～22時00分",
+            "火曜日: 11時30分～22時00分",
+            "水曜日: 11時30分～22時00分",
+            "木曜日: 11時30分～22時00分",
+            "金曜日: 11時30分～22時00分",
+            "土曜日: 11時30分～22時00分",
+            "日曜日: 11時30分～22時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJL-Rokr-OGGARMOtRXantd_0_0.jpg",
+              "attribution": "浅草うな鐵 国際通り店"
+            },
+            {
+              "filename": "ChIJL-Rokr-OGGARMOtRXantd_0_1.jpg",
+              "attribution": "浅草うな鐵 国際通り店"
+            },
+            {
+              "filename": "ChIJL-Rokr-OGGARMOtRXantd_0_2.jpg",
+              "attribution": "Betty Tang"
+            },
+            {
+              "filename": "ChIJL-Rokr-OGGARMOtRXantd_0_3.jpg",
+              "attribution": "Ka Fai Leung"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=18264328125495241520&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "route_url": "https://www.google.com/maps/dir/?api=1&origin=35.692555,139.831743&destination=35.713650799999996,139.7925969&travelmode=transit&destination_place_id=ChIJL-Rokr-OGGARMOtRXantd_0",
+          "website": "https://www.hitsumabushi.com/",
+          "phone": "03-3841-1360",
+          "primary_type": "japanese_restaurant",
+          "genre": "和食店",
+          "nearest_station": "浅草駅",
+          "recommended_menu": "活きのいい鰻を厳選して、\n職人さんが“割き・串打ち・焼き”まで全部担当。\nこの時点でクオリティ高いの確定。\n\nここは鰻を“頭から尻尾まで”余すことなく楽しめるのが特徴で、\n✔︎ 鰻串でいろんな部位を食べ比べ\n✔︎ 蒸さずに焼く「塩ひつまぶし」は香ばしさ抜群\n✔︎ 蒸しありの「うな重」はふわっふわ食感\n\n今回食べたのは👇...",
+          "recommended_menu_rating": 5,
+          "payment_methods": {
+            "credit_card": true,
+            "debit_card": true,
+            "cash_only": false,
+            "nfc": true
+          }
+        },
+        {
+          "place_id": "ChIJ27vdO8KIGGAR-k1TEU-BO-o",
+          "name": "もんじゃ小町東京亀戸 ( 鉄板焼き&居酒屋)",
+          "rating": 4.2,
+          "user_rating_count": 96,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒136-0071 東京都江東区亀戸６丁目１−１５−１０２",
+          "travel_time_minutes": 4,
+          "travel_cost_yen": 0,
+          "travel_bicycle_minutes": 1,
+          "travel_summary": "徒歩 4分／自転車 約1分",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 定休日",
+            "火曜日: 17時00分～23時30分",
+            "水曜日: 17時00分～23時30分",
+            "木曜日: 17時00分～23時30分",
+            "金曜日: 17時00分～23時30分",
+            "土曜日: 17時00分～23時30分",
+            "日曜日: 17時00分～23時30分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJ27vdO8KIGGAR-k1TEU-BO-o_0.jpg",
+              "attribution": "もんじゃ小町東京亀戸 ( 鉄板焼き&居酒屋)"
+            },
+            {
+              "filename": "ChIJ27vdO8KIGGAR-k1TEU-BO-o_1.jpg",
+              "attribution": "もんじゃ小町東京亀戸 ( 鉄板焼き&居酒屋)"
+            },
+            {
+              "filename": "ChIJ27vdO8KIGGAR-k1TEU-BO-o_2.jpg",
+              "attribution": "Kate C"
+            },
+            {
+              "filename": "ChIJ27vdO8KIGGAR-k1TEU-BO-o_3.jpg",
+              "attribution": "Joy"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=16878226205094137338&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "route_url": "https://www.google.com/maps/dir/?api=1&origin=35.692555,139.831743&destination=35.6939742,139.8281932&travelmode=bicycling&destination_place_id=ChIJ27vdO8KIGGAR-k1TEU-BO-o",
+          "website": "https://monja-komachi-tokyokameido.jp/?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP",
+          "phone": "03-3683-5156",
+          "primary_type": "japanese_restaurant",
+          "genre": "和食店",
+          "nearest_station": "亀戸駅",
+          "recommended_menu": "何度か食べに来ていますが、もんじゃもお好み焼きもとても美味しかったです！店内の雰囲気も良く、友達と楽しく過ごせました。店員さんも親切で、また行きたいと思えるお店でした！",
+          "recommended_menu_rating": 5,
+          "payment_methods": {
+            "credit_card": true,
+            "debit_card": false,
+            "cash_only": false,
+            "nfc": true
+          }
+        },
+        {
+          "place_id": "ChIJAYqJGdaIGGARJ_d6R7LijAQ",
+          "name": "BORABORA",
+          "rating": 4.1,
+          "user_rating_count": 183,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒130-0012 東京都墨田区太平３丁目３−４",
+          "travel_time_minutes": 15,
+          "travel_cost_yen": 180,
+          "travel_bicycle_minutes": 10,
+          "travel_summary": "公共交通機関 約15分（2km）／自転車 約10分",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 11時30分～14時30分, 17時30分～22時00分",
+            "火曜日: 11時30分～14時30分, 17時30分～22時00分",
+            "水曜日: 11時30分～14時30分",
+            "木曜日: 11時30分～14時30分, 17時30分～22時00分",
+            "金曜日: 11時30分～14時30分, 17時30分～22時00分",
+            "土曜日: 11時30分～14時30分, 17時30分～21時00分",
+            "日曜日: 定休日"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJAYqJGdaIGGARJ_d6R7LijAQ_0.jpg",
+              "attribution": "Kazuhiko Kokaji"
+            },
+            {
+              "filename": "ChIJAYqJGdaIGGARJ_d6R7LijAQ_1.jpg",
+              "attribution": "keykeykeyty"
+            },
+            {
+              "filename": "ChIJAYqJGdaIGGARJ_d6R7LijAQ_2.jpg",
+              "attribution": "Kazuhiko Kokaji"
+            },
+            {
+              "filename": "ChIJAYqJGdaIGGARJ_d6R7LijAQ_3.jpg",
+              "attribution": "むい"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=327886128222500647&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "route_url": "https://www.google.com/maps/dir/?api=1&origin=35.692555,139.831743&destination=35.6998989,139.8143479&travelmode=bicycling&destination_place_id=ChIJAYqJGdaIGGARJ_d6R7LijAQ",
+          "website": "http://kitchenandbarborab.wix.com/borabora",
+          "phone": "03-5608-9630",
+          "primary_type": "italian_restaurant",
+          "genre": "イタリア料理店",
+          "nearest_station": "錦糸町駅",
+          "recommended_menu": "自家製生パスタが美味しすぎて、歯が喜んでる！！！アンチョビポテトも美味すぎてオススメです……カレー気になるのでまた来ます！！前菜盛り合わせも食べたい〜",
+          "recommended_menu_rating": 5,
+          "payment_methods": {
+            "credit_card": null,
+            "debit_card": null,
+            "cash_only": false,
+            "nfc": null
+          }
+        },
+        {
+          "place_id": "ChIJ6eI2twOJGGAR4sTC4-m5CDM",
+          "name": "トラットリア イ・ビスケロ",
+          "rating": 4.5,
+          "user_rating_count": 98,
+          "budget_tier": "premium",
+          "budget_label": "高級",
+          "budget_icon": "💰💰💰",
+          "budget_morning_lunch": {
+            "tier": "premium",
+            "label": "高級",
+            "icon": "💰💰💰"
+          },
+          "budget_dinner": {
+            "tier": "premium",
+            "label": "高級",
+            "icon": "💰💰💰"
+          },
+          "price_range": "¥3,000〜",
+          "price_range_dinner": "¥6,000〜",
+          "address": "日本、〒135-0016 東京都江東区東陽５丁目１１−２ ルミナス木場公園 2F",
+          "travel_time_minutes": 21,
+          "travel_cost_yen": 180,
+          "travel_bicycle_minutes": 18,
+          "travel_summary": "公共交通機関 約21分（4km）／自転車 約18分",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 18時00分～23時00分",
+            "火曜日: 18時00分～23時00分",
+            "水曜日: 定休日",
+            "木曜日: 定休日",
+            "金曜日: 18時00分～23時00分",
+            "土曜日: 17時00分～23時00分",
+            "日曜日: 17時00分～23時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJ6eI2twOJGGAR4sTC4-m5CDM_0.jpg",
+              "attribution": "Naoya Nakagawa"
+            },
+            {
+              "filename": "ChIJ6eI2twOJGGAR4sTC4-m5CDM_1.jpg",
+              "attribution": "トラットリア イ・ビスケロ"
+            },
+            {
+              "filename": "ChIJ6eI2twOJGGAR4sTC4-m5CDM_2.jpg",
+              "attribution": "吉田正彦（めんすき）"
+            },
+            {
+              "filename": "ChIJ6eI2twOJGGAR4sTC4-m5CDM_3.jpg",
+              "attribution": "弾丸ライナー"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=3677393509947720930&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "route_url": "https://www.google.com/maps/dir/?api=1&origin=35.692555,139.831743&destination=35.6731007,139.8106549&travelmode=bicycling&destination_place_id=ChIJ6eI2twOJGGAR4sTC4-m5CDM",
+          "website": "http://facebook.com/bischero.kiba",
+          "phone": "03-5635-5077",
+          "primary_type": "italian_restaurant",
+          "genre": "イタリア料理店",
+          "nearest_station": "木場駅",
+          "recommended_menu": "イビスケロ（木場）は、静かなエリアに佇む隠れ家のようなイタリアンで、落ち着いた雰囲気の中で上質な料理とワインを楽しめる一軒だ。店内は温かみのある空間で、肩肘張らずに過ごせる心地よさが魅力。料理はシンプルながら完成度が高く、素材の良さを丁寧に引き出した一皿が続く。奇をてらわず、まっすぐに美味しさを追求した味わいは、食べ進...",
+          "recommended_menu_rating": 5,
+          "payment_methods": {
+            "credit_card": true,
+            "debit_card": false,
+            "cash_only": false,
+            "nfc": false
+          }
+        },
+        {
+          "place_id": "ChIJdXQ2RemIGGARtsc0iQ4fTRg",
+          "name": "ステーキハウスブル",
+          "rating": 4,
+          "user_rating_count": 185,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒136-0072 東京都江東区大島４丁目６−２１ 西大島ビューハイツ",
+          "travel_time_minutes": 7,
+          "travel_cost_yen": 0,
+          "travel_bicycle_minutes": 2,
+          "travel_summary": "徒歩 7分／自転車 約2分",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 11時30分～14時30分, 17時30分～22時30分",
+            "火曜日: 定休日",
+            "水曜日: 11時30分～14時30分, 17時30分～22時30分",
+            "木曜日: 11時30分～14時30分, 17時30分～22時30分",
+            "金曜日: 11時30分～14時30分, 17時30分～22時30分",
+            "土曜日: 11時30分～14時30分, 17時30分～22時30分",
+            "日曜日: 11時30分～14時30分, 17時30分～22時30分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJdXQ2RemIGGARtsc0iQ4fTRg_0.jpg",
+              "attribution": "ステーキハウスブル"
+            },
+            {
+              "filename": "ChIJdXQ2RemIGGARtsc0iQ4fTRg_1.jpg",
+              "attribution": "高野はやと"
+            },
+            {
+              "filename": "ChIJdXQ2RemIGGARtsc0iQ4fTRg_2.jpg",
+              "attribution": "ステーキハウスブル"
+            },
+            {
+              "filename": "ChIJdXQ2RemIGGARtsc0iQ4fTRg_3.jpg",
+              "attribution": "ステーキハウスブル"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=1751089977408931766&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "route_url": "https://www.google.com/maps/dir/?api=1&origin=35.692555,139.831743&destination=35.6885074,139.82844359999999&travelmode=bicycling&destination_place_id=ChIJdXQ2RemIGGARtsc0iQ4fTRg",
+          "website": "https://buru.owst.jp/",
+          "phone": "03-5626-6529",
+          "primary_type": "steak_house",
+          "genre": "ステーキハウス",
+          "nearest_station": "西大島駅",
+          "recommended_menu": "東京メトロ西大島駅。ステーキハウス BULLの牛肉ともやし炒めの鉄板焼き1,120円with目玉焼き130円をご紹介。ランチからステーキ！と思っていましたが、ランチメニューはリーズナブル。4種類あるメニューからお願いしたのは牛肉ともやし炒めの鉄板焼き。トッピングで目玉焼きを付け、無料の大盛ライスでお願いします。サラダと...",
+          "recommended_menu_rating": 5,
+          "payment_methods": {
+            "credit_card": false,
+            "debit_card": false,
+            "cash_only": false,
+            "nfc": false
+          }
+        },
+        {
+          "place_id": "ChIJ93tEPRmJGGAR7KAQ-3vOuX4",
+          "name": "心らん",
+          "rating": 4.2,
+          "user_rating_count": 97,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒135-0022 東京都江東区三好４丁目９−８ 第２伊藤ビル",
+          "travel_time_minutes": 17,
+          "travel_cost_yen": 180,
+          "travel_bicycle_minutes": 15,
+          "travel_summary": "公共交通機関 約17分（4km）／自転車 約15分",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 11時30分～14時30分, 17時30分～20時00分",
+            "火曜日: 11時30分～14時30分",
+            "水曜日: 定休日",
+            "木曜日: 11時30分～14時30分, 17時30分～20時00分",
+            "金曜日: 11時30分～14時30分, 17時30分～20時00分",
+            "土曜日: 11時30分～14時30分, 17時30分～20時00分",
+            "日曜日: 11時30分～14時30分, 17時30分～20時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJ93tEPRmJGGAR7KAQ-3vOuX4_0.jpg",
+              "attribution": "akimustang"
+            },
+            {
+              "filename": "ChIJ93tEPRmJGGAR7KAQ-3vOuX4_1.jpg",
+              "attribution": "Hotaru Umi"
+            },
+            {
+              "filename": "ChIJ93tEPRmJGGAR7KAQ-3vOuX4_2.jpg",
+              "attribution": "Goro Kuma"
+            },
+            {
+              "filename": "ChIJ93tEPRmJGGAR7KAQ-3vOuX4_3.jpg",
+              "attribution": "Takahiro Kosaka"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=9131556751358861548&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "route_url": "https://www.google.com/maps/dir/?api=1&origin=35.692555,139.831743&destination=35.681329399999996,139.80753679999998&travelmode=bicycling&destination_place_id=ChIJ93tEPRmJGGAR7KAQ-3vOuX4",
+          "website": "http://www.fukagawa-shinran.com/",
+          "phone": "03-5875-8793",
+          "primary_type": "japanese_restaurant",
+          "genre": "和食店",
+          "nearest_station": "菊川駅",
+          "recommended_menu": "東京メトロや都営大江戸線の清澄白河駅B2出口から徒歩約10分の「心らん」へ土曜の昼の11:50頃に1人で行って来ました♪\n\n店内は薄暗いながらも上質で席の構成は以下でしたね。\n\n・入って右側カウンター6席\n・入って左側2人テーブル席5(4〜8人席可能)\n\n一番手前のテーブル席に案内され、店内BGMは無しでかなり静かでし...",
+          "recommended_menu_rating": 5,
+          "payment_methods": null
+        },
+        {
+          "place_id": "ChIJF6QM4oiPGGARJfjxXN0LboE",
+          "name": "BRISKSTAND TOKYO mizumachi",
+          "rating": 4.7,
+          "user_rating_count": 135,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒131-0033 東京都墨田区向島１丁目２３−１１ 東京ミズマチ E06",
+          "travel_time_minutes": 21,
+          "travel_cost_yen": 180,
+          "travel_bicycle_minutes": 17,
+          "travel_summary": "公共交通機関 約21分（4km）／自転車 約17分",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 8時00分～21時00分",
+            "火曜日: 8時00分～21時00分",
+            "水曜日: 8時00分～20時00分",
+            "木曜日: 8時00分～21時00分",
+            "金曜日: 8時00分～21時00分",
+            "土曜日: 8時00分～21時00分",
+            "日曜日: 8時00分～21時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJF6QM4oiPGGARJfjxXN0LboE_0.jpg",
+              "attribution": "Chuanyao"
+            },
+            {
+              "filename": "ChIJF6QM4oiPGGARJfjxXN0LboE_1.jpg",
+              "attribution": "sabai e"
+            },
+            {
+              "filename": "ChIJF6QM4oiPGGARJfjxXN0LboE_2.jpg",
+              "attribution": "S S"
+            },
+            {
+              "filename": "ChIJF6QM4oiPGGARJfjxXN0LboE_3.jpg",
+              "attribution": "saki"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=9326404923705915429&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "route_url": "https://www.google.com/maps/dir/?api=1&origin=35.692555,139.831743&destination=35.710343099999996,139.806109&travelmode=bicycling&destination_place_id=ChIJF6QM4oiPGGARJfjxXN0LboE",
+          "website": "https://www.brisk-stand.com/",
+          "phone": "03-5637-8460",
+          "primary_type": "hamburger_restaurant",
+          "genre": "ハンバーガー店",
+          "nearest_station": "本所吾妻橋駅",
+          "recommended_menu": "東京ミズマチにある「BRISKSTAND 」🍔✨\n\n「JAPAN BURGER CHAMPIONSHIP 2025」で優勝したBRISK STANDのハンバーガーが東京ミズマチにNEWOPEN\n\n今回いただいたのは、名物の「切ったやつ」🍔\n\nただ半分に切っているだけではなく、切った断面にパティから出た熱々の肉汁を吸わせ...",
+          "recommended_menu_rating": 5,
+          "payment_methods": {
+            "credit_card": true,
+            "debit_card": true,
+            "cash_only": false,
+            "nfc": true
+          }
+        },
+        {
+          "place_id": "ChIJu-DeSAGJGGARYLPQT52vqhw",
+          "name": "炭火焼肉 仙柳 亀戸",
+          "rating": 4.6,
+          "user_rating_count": 76,
+          "budget_tier": "average",
+          "budget_label": "平均的",
+          "budget_icon": "💰💰",
+          "budget_morning_lunch": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "budget_dinner": {
+            "tier": "average",
+            "label": "平均的",
+            "icon": "💰💰"
+          },
+          "price_range": "¥1,500〜¥3,000",
+          "price_range_dinner": "¥3,000〜¥6,000",
+          "address": "日本、〒136-0071 東京都江東区亀戸６丁目２−２ 司明治通りビル 1階",
+          "travel_time_minutes": 7,
+          "travel_cost_yen": 0,
+          "travel_bicycle_minutes": 2,
+          "travel_summary": "徒歩 7分／自転車 約2分",
+          "reservable": true,
+          "opening_hours": [
+            "月曜日: 定休日",
+            "火曜日: 17時00分～23時00分",
+            "水曜日: 17時00分～23時00分",
+            "木曜日: 17時00分～23時00分",
+            "金曜日: 17時00分～23時00分",
+            "土曜日: 17時00分～23時00分",
+            "日曜日: 17時00分～23時00分"
+          ],
+          "photos": [
+            {
+              "filename": "ChIJu-DeSAGJGGARYLPQT52vqhw_0.jpg",
+              "attribution": "炭火焼肉 仙柳 亀戸"
+            },
+            {
+              "filename": "ChIJu-DeSAGJGGARYLPQT52vqhw_1.jpg",
+              "attribution": "炭火焼肉 仙柳 亀戸"
+            },
+            {
+              "filename": "ChIJu-DeSAGJGGARYLPQT52vqhw_2.jpg",
+              "attribution": "なんでも やるお mmuurroo"
+            },
+            {
+              "filename": "ChIJu-DeSAGJGGARYLPQT52vqhw_3.jpg",
+              "attribution": "Chihiro i"
+            }
+          ],
+          "google_maps_url": "https://maps.google.com/?cid=2065656469286597472&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+          "route_url": "https://www.google.com/maps/dir/?api=1&origin=35.692555,139.831743&destination=35.694171499999996,139.82612520000004&travelmode=bicycling&destination_place_id=ChIJu-DeSAGJGGARYLPQT52vqhw",
+          "website": "https://29senryu.com/",
+          "phone": "03-6807-0792",
+          "primary_type": "yakiniku_restaurant",
+          "genre": "焼肉店",
+          "nearest_station": "亀戸駅",
+          "recommended_menu": "オーナーさんが仙台出身で、本場\"仙台の牛タン\"が東京で食べられるお店『仙柳』さんへ行ってきました♪\n\n注文したもの∶\n・自家製レモンサワー\n・焼酎　銀座のすずめ琥珀\n・本場仙台流　牛タン焼き\n・和牛　ハラミとサガリの食べ比べ\n・ゆで牛たん\n・ライス（中）\n\nまずは、本場仙台流の牛タン！\n\"仙台流\"って書いてあるけど、こ...",
+          "recommended_menu_rating": 5,
+          "payment_methods": {
+            "credit_card": true,
+            "debit_card": true,
+            "cash_only": false,
+            "nfc": null
+          }
+        }
+      ]
+    },
+    {
       "generated_at": "2026-10-02T18:05:25.624666+09:00",
       "week_label": "2026年10月2日（金）",
       "restaurants": [
