@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-10-16T16:35:21.622167+09:00",
+      "week_label": "2026年10月16日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJMfGTYemJGGAR2XIdKgRyha8",
+          "name": "沖縄居酒屋 ２階のはりく",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJP58oCNiIGGARt6nv8cHKkT0",
+          "name": "今日和 丸井錦糸町店",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJmXd-z8-JGGARkvRM1iHCE9A",
+          "name": "ダイナーヴァン",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJETU4kteIGGARJHv3Q56HSxE",
+          "name": "レストラン シラツユ",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJ8zKOv8OIGGARL0VJWSFTKHc",
+          "name": "シエル",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJ2fSkUk6JGGARv4wJBoySvGs",
+          "name": "ふうれん",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJFZ-icrqIGGAR0cMU2bW-QsA",
+          "name": "コバヤシ",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJqTKkIgCHGGARJexLnQ6-CGc",
+          "name": "Osman tadımトルコレストラン",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJU_fMik-JGGARrHJBzYB37Ss",
+          "name": "アジアンレストラン モニカ",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJsRR6HMOIGGARjHzMj92Ks54",
+          "name": "ラ·フォンテ",
+          "rating": 4
+        }
+      ]
+    },
+    {
       "generated_at": "2026-10-09T18:43:07.711749+09:00",
       "week_label": "2026年10月9日（金）",
       "restaurants": [
