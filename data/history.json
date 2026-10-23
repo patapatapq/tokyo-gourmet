@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-10-23T17:00:58.551459+09:00",
+      "week_label": "2026年10月23日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJVVVlMMeOGGARN6UiviJU4Q0",
+          "name": "R restaurant & bar",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJBV4myl2JGGAR04FUgWr6uIU",
+          "name": "お食事処 いち",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJ-buzXcWJGGARysZTwYGIWww",
+          "name": "焼肉 桃松苑",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJ4VAokmeJGGAROLUGmoNAVJg",
+          "name": "割烹 おみたま",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJKaZ--IKPGGARD5DfwiD-1rY",
+          "name": "GONIA KURAMAE",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJs3HleimPGGARIyymF8gYKhc",
+          "name": "emc",
+          "rating": 4.8
+        },
+        {
+          "place_id": "ChIJgctmFEWPGGARwRw8BzyrBA0",
+          "name": "インド・ネパールレストラン RARA KITCHEN",
+          "rating": 4.8
+        },
+        {
+          "place_id": "ChIJLcqIWoWHGGARdEYcuxqxlio",
+          "name": "マリーナレストラン トリム",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJR3U9VMWIGGAR7lzahisreDw",
+          "name": "炭火焼鳥 亀戸 酉 ＴＯＲＩＹＡ",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJDdzCfKqMGGARhSIh8qUpNVM",
+          "name": "お食事処 まん福亭",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
       "generated_at": "2026-10-16T16:35:21.622167+09:00",
       "week_label": "2026年10月16日（金）",
       "restaurants": [
