@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-10-30T18:09:01.127508+09:00",
+      "week_label": "2026年10月30日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJzScEDguJGGARZPhzM-ng5SU",
+          "name": "アーマ レストラン",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJAQCBkMmIGGAR4Tq68PilJZk",
+          "name": "キッチン タニ",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJd6kOtsOIGGARdKJZ62irNjU",
+          "name": "トーン・ハー（５５５）",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJA7oH4N6HGGARDeJlZCqKaxM",
+          "name": "Cuore",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJP29WkCSJGGARpe9AEOvpbdY",
+          "name": "お好み焼き 味三",
+          "rating": 4.7
+        },
+        {
+          "place_id": "ChIJ3WQh0QWJGGARzTBlCa5-hV8",
+          "name": "ビストロ・ド・リヨン",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJh_qh_laPGGARAxf7EuhQtFU",
+          "name": "オムの細道",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJj7EBO3uLGGARqWK-zoqTYgI",
+          "name": "& Ovo（アンド オーヴォ）",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJ72ghyiiBImARYG7wBP42bVY",
+          "name": "はしで食べるフレンチ ぐるめや",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJnQlbTi2PGGARyMpQ7grls7g",
+          "name": "やきとり おくしり",
+          "rating": 4.3
+        }
+      ]
+    },
+    {
       "generated_at": "2026-10-23T17:00:58.551459+09:00",
       "week_label": "2026年10月23日（金）",
       "restaurants": [
