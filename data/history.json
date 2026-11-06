@@ -1,6 +1,62 @@
 {
   "weeks": [
     {
+      "generated_at": "2026-11-06T19:00:22.048932+09:00",
+      "week_label": "2026年11月6日（金）",
+      "restaurants": [
+        {
+          "place_id": "ChIJ3V3WT-iIGGARQExEUAW_ovc",
+          "name": "クチーナ シゲ",
+          "rating": 4.3
+        },
+        {
+          "place_id": "ChIJE-__7sCIGGAReYbHpEX18qE",
+          "name": "洋食中華 エチゴヤ",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJG5ho8ieJGGARx-0WzP_0AeI",
+          "name": "亀戸ぎょうざ 錦糸町店",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJ63XJmcOIGGARhA-7m2b9vwM",
+          "name": "和洋創作DINING新家",
+          "rating": 4.6
+        },
+        {
+          "place_id": "ChIJCVwsUNiIGGARHvD-XTPjln0",
+          "name": "コシャリ専門 コシャリ屋コーピー 錦糸町店",
+          "rating": 4.2
+        },
+        {
+          "place_id": "ChIJo7DLaJGJGGARmOR5xWC84b4",
+          "name": "うず食堂",
+          "rating": 4.5
+        },
+        {
+          "place_id": "ChIJh20q_gSJGGARj2THUy1jy8A",
+          "name": "アタゴール",
+          "rating": 4.4
+        },
+        {
+          "place_id": "ChIJxfl-IGyNGGARwRKZe69ay2g",
+          "name": "DEPOT",
+          "rating": 4.1
+        },
+        {
+          "place_id": "ChIJdXQ2RemIGGARtsc0iQ4fTRg",
+          "name": "ステーキハウスブル",
+          "rating": 4
+        },
+        {
+          "place_id": "ChIJGSNTzDGJGGAR4fM1jEIiAHw",
+          "name": "東大島河童軒",
+          "rating": 4.1
+        }
+      ]
+    },
+    {
       "generated_at": "2026-10-30T18:09:01.127508+09:00",
       "week_label": "2026年10月30日（金）",
       "restaurants": [
